@@ -77,17 +77,7 @@ Metalsmith(__dirname)
   .use(md)
   .use(permalinks({
     pattern: ':date-:title',
-    date: 'YYYY-MM-DD',
-    linksets: [
-      {
-        match: { collection: 'pages' },
-        pattern: ':title'
-      },
-      {
-        match: { collection: 'drafts' },
-        pattern: 'drafts/:title'
-      }
-    ]
+    date: 'YYYY-MM-DD'
   }))
   .use(feed({
     collection: 'posts',
@@ -95,7 +85,7 @@ Metalsmith(__dirname)
   }))
   .use(pagination({
     'collections.posts': {
-      perPage: 5,
+      perPage: 9,
       layout: 'index.html',
       first: 'index.html',
       noPageOne: true,

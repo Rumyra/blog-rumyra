@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: Chaining CSS :not()
 date: '2015-01-19'
 category: craft-code
 tags: craft-code
 status: published
+layout: post.html
+image: null
+summary: "I found myself using the CSS psuedo class :not() the other day. It proved superbly useful."
 ---
 
 I found myself using the CSS psuedo class <code>:not()</code> the other day. It proved superbly useful. For those that are unaware, by adding it to your CSS, you can choose <b>not</b> to affect a set of elements.

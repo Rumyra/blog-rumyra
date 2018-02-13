@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: 'Firefox OS: What is it?'
 date: '2013-05-30'
 category: craft-code
@@ -6,6 +7,9 @@ tags:
 - firefoxos
 - craft-code
 status: published
+layout: post.html
+image: null
+summary: "So you may have caught wind of some phones that were released recently - namely the Geeksphone"
 ---
 
 So you may have caught wind of some phones that were released recently - namely the <a target="_blank" href="http://www.geeksphone.com/" title="http://www.geeksphone.com/">Geeksphone</a> - running new software, Firefox OS. But what the hell is it all about?
@@ -14,7 +18,7 @@ Some time last year, Mozilla - the web company probably best known for its brows
 
 ![Firefox OS phones](/media/phonesOS1.jpg)
 
-READMOREThese Geeksphones you've been hearing about are an initial release of handsets, running Firefox OS, which are aimed at developers so they can start developing and testing apps on them. There is the <a target="_blank" href="http://shop.geeksphone.com/en/phones/1-keon.html" title="http://shop.geeksphone.com/en/phones/1-keon.html">Keon</a> which is more affordable, but not quite as powerful as the <a target="_blank" href="http://shop.geeksphone.com/en/phones/5-peak.html" title="http://shop.geeksphone.com/en/phones/5-peak.html">Peak</a>. It looks like consumer phones will be available later this year in selected markets such as Brazil, Columbia and Hungary to name a few (<a target="_blank" href="http://blog.mozilla.org/blog/2013/02/24/mozilla-unlocks-the-power-of-the-web-on-mobile-with-firefox-os/" title="Mozilla unlocks the power of the web on mobile - Mozilla.org blog">more here</a>). Mozilla are being supported in this venture by <a rel="external" href="http://blog.mozilla.org/blog/2013/02/24/mozilla-unlocks-the-power-of-the-web-on-mobile-with-firefox-os/" title="Mozilla unlocks the power of the web on mobile - Mozilla.org blog">18 mobile operators</a>, including Telefónica.
+These Geeksphones you've been hearing about are an initial release of handsets, running Firefox OS, which are aimed at developers so they can start developing and testing apps on them. There is the <a target="_blank" href="http://shop.geeksphone.com/en/phones/1-keon.html" title="http://shop.geeksphone.com/en/phones/1-keon.html">Keon</a> which is more affordable, but not quite as powerful as the <a target="_blank" href="http://shop.geeksphone.com/en/phones/5-peak.html" title="http://shop.geeksphone.com/en/phones/5-peak.html">Peak</a>. It looks like consumer phones will be available later this year in selected markets such as Brazil, Columbia and Hungary to name a few (<a target="_blank" href="http://blog.mozilla.org/blog/2013/02/24/mozilla-unlocks-the-power-of-the-web-on-mobile-with-firefox-os/" title="Mozilla unlocks the power of the web on mobile - Mozilla.org blog">more here</a>). Mozilla are being supported in this venture by <a rel="external" href="http://blog.mozilla.org/blog/2013/02/24/mozilla-unlocks-the-power-of-the-web-on-mobile-with-firefox-os/" title="Mozilla unlocks the power of the web on mobile - Mozilla.org blog">18 mobile operators</a>, including Telefónica.
 
 So "why bother?" I hear you ask - we've already got iPhones, a million androids (some of which are <a rel="external" href="https://www.o2.co.uk/shop/phones/htc/desire-c-black/" title="HTC Desire on O2.co.uk">quite affordable</a>) and <a target="_blank" href="http://www.canonical.com/" title="http://www.canonical.com/">Canonical Ltd</a> just released a mobile version of their free Linux distribution, (a free desktop operating system), <a target="_blank" href="http://www.ubuntu.com/phone" title="http://www.ubuntu.com/phone">Ubuntu</a>.
 

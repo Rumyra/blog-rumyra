@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Today I was given a web page design...
 date: '2015-02-06'
 category: craft-code
@@ -10,6 +11,9 @@ tags:
 - markup
 - craft-code
 status: published
+layout: post.html
+image: null
+summary: "This isn't my typical way of working these days. User experience & flow, UI & wireframing, design, mark up, styling and interactivity are all very iterative to me..."
 ---
 
 This isn't my typical way of working these days. User experience & flow, UI & wireframing, design, mark up, styling and interactivity are all very iterative to me. They don't come in a waterfall sequential order anymore. Working in a lab team, I concentrate on seeing whether an idea, product or technology to solve a problem is useful, before it goes into production, so I usually prioritise content, UX flow and interactivity, before a finished perfectly styled site or app.
@@ -17,8 +21,6 @@ This isn't my typical way of working these days. User experience & flow, UI & wi
 Don't get me wrong, I do think styling is important, I just have to weigh up priorities with time constraints. I also built some <a href="http://white-paper.herokuapp.com/" rel="external">starter files</a> (more about these later) to help me along the way with styling, so it doesn't fall by the wayside entirely.
 
 Sorry I'm getting side tracked...
-
-READMORE
 
 ...back to the design handed to me. It's a lovely design, it will probably go into production and be released. I'm ok (in this instance) with being given it and asked to turn it into a web page. It has reminded me of my workflow in this situation and something I advise people when they ask 'where so you start with a design like that'. It's a rich design. There's a big interactive hero piece.
 

@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: 📢 Announcement Emoji&#58; Weekly Cool Links!*
 date: '2016-05-08'
 category: brain-dribble
@@ -9,6 +10,9 @@ tags:
 - cool
 - things
 status: published
+layout: post.html
+image: null
+summary: "People have shared with me a number of cool things this week, along side the other cool things I've seen, I thought that's all we really needed this week!"
 ---
 
 ### This week there's just cool links!
@@ -16,8 +20,6 @@ status: published
 People have shared with me a number of cool things this week, along side the other cool things I've seen, I thought that's all we really needed this week!
 
 [Colour changing thread with electrical current](http://www.sciencealert.com/new-smart-threads-can-change-the-colour-of-your-clothes-instantly) I think tops the list - I think. Having worked with conductive thread it's not too nice, so I'm guessing there's a long way to go really. But the video *does* feature crochet, so I was sold from the start.
-
-READMORE
 
 Google's [Tilt Brush for the Vive](http://www.tiltbrush.com/) is here. 3D painting in virtual reality - which actually is about the first thing that makes me want one of these VR headsets. But for the £700 price tag(!) this girl's gettin a new pooter first.
 

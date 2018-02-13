@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: I got a Physical Web Beacon!
 date: '2016-06-13'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - ble
 - physical web
 status: published
+layout: post.html
+image: beacon.jpg
+summary: "Dan gave me a beacon! (Well Paul gave him some beacons and then he gave me one, so thanks both)."
 ---
 
 <figure>
@@ -21,8 +25,6 @@ Yay
 Super hyped about this. I managed to get one through work and then the wonderful [Terence](https://twitter.com/edent) took it back and [hacked a la Terence stylee](https://shkspr.mobi/blog/2016/02/inside-a-physical-web-ble-beacon/) (he found out some cool things, I’m not bitter).
 
 But this one is my very own. However looking on [the Google Physical website](https://google.github.io/physical-web/), or doing a search, there’s no simple instructions to just change a URL on a beacon, so here’s some things I found out whilst doing it:
-
-READMORE
 
 All I want to do is alter the URL which is being emitted by the device, that’s it, no fuss, simples (well mostly)…
 

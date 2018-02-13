@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: ✨ Rumyra's Cool Links! ✨
 date: '2016-07-20'
 category: cool-links
@@ -9,6 +10,9 @@ tags:
 - cool
 - things
 status: published
+layout: post.html
+image: null
+summary: "Well then, I guess it’s time for another instalment of ‘Rumyra’s Cool Links’ (the time will come when this has it’s own space)."
 ---
 
 Phew, isn’t it warm 🌞🔥☀️*
@@ -17,13 +21,11 @@ Well then, I guess it’s time for another instalment of ‘Rumyra’s Cool Link
 
 _*For those viewing outside the UK it was 35 degrees yesterday and the country melted, we are currently trying to reanimate ourselves._
 
-Easily and undoubtably top of my cool links this time is [Jake Albaugh’s arpeggiator](https://codepen.io/jakealbaugh/full/qNrZyw). I just can *not* get enough of this. What an inspired, solid, clever and useful piece of engineering. It basically sums up everything ever about ‘why do we have the audio api again?’.
+Easily and undoubtedly top of my cool links this time is [Jake Albaugh’s arpeggiator](https://codepen.io/jakealbaugh/full/qNrZyw). I just can *not* get enough of this. What an inspired, solid, clever and useful piece of engineering. It basically sums up everything ever about ‘why do we have the audio api again?’.
 
 This. That is all. Thanks [Mr. Albaugh](https://twitter.com/jake_albaugh)
 
 There is also [Superlooper](http://superlooper.universlabs.co.uk/) from [Univers Labs](http://www.universlabs.co.uk/) which not only contains beautiful loops but also visuals which are just simple but inspirational. (Very close to my own doodles around A/V so they’ll be more like this I’m sure).
-
-READMORE
 
 If you want a hand with your audio visual creations [Chris Dolphin](https://twitter.com/likethemammal) has created [visualizer-micro.js](https://github.com/likethemammal/visualizer-micro) a teeny library wrapping just the analysis parts of the audio API, inspired by the methods from that ol’ dancer.js (man that feels like a decade ago right?).
 

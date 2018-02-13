@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number One
 date: '2016-11-01'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - simple-html-css
 - audio-api
 status: published
+layout: post.html
+image: bridgetBook.jpg
+summary: "Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser."
 ---
 
 Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser. I’ve written and spoken about this a number of times, as well as made a few codepens every now and again, but I thought I would take this month to go over creating audio triggered visuals from the ground up.
@@ -18,8 +22,6 @@ Not only do I hope this be a learning journey for you, but one for me as well, t
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 We’re going to start vanilla, from the very basics, just using the very minimal we can from the web audio API and some DOM elements, then slowly I’ll start trying some different techniques. By the end we would have covered audio analysing, new css techniques, d3.js which I find is so suited to audio-vis, bringing in some svgs and hopefully some canvas too.
-
-READMORE
 
 And along with each technique I’ll be taking influence from somewhere different, be that an artist, a book from the [stepshelf](https://www.instagram.com/p/BLWXiGdDDmo/?taken-by=rumyra) or some tumblr somewhere.
 
@@ -167,12 +169,12 @@ For simplicity, I’m going to jump.
 <pre><code class="language-javascript">function animateStuff() {
   requestAnimationFrame(animateStuff);
   analyserNode.getByteFrequencyData(frequencyData);
-  
+
   for (let i=0; i&lt;totalEls; i++) {
     var freqVol = frequencyData[i*32]/2;
     allRepeatedEls[i].style.width = freqVol+'vw';
   }
-  
+
 }
 </code></pre>
 

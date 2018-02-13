@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: 📢 Announcement Emoji&#58; Weekly Highlights!*
 date: '2016-04-08'
 category: craft-code
@@ -10,6 +11,9 @@ tags:
 - articles
 - conference
 status: published
+layout: post.html
+image: null
+summary: "Probably my personal highlight for the week: The MediaRecorder API is now available in Chrome 49 stable and Firefox 25+."
 ---
 
 ### Demos & Sites
@@ -26,8 +30,6 @@ Paul Kinlan put together a [site to showcase Web Apps](http://mobilewebappsftw.t
 ### Articles
 
 Andy Budd wrote a [great article about design thinking](http://www.andybudd.com/archives/2016/04/what_the_hell_is_design_thinking_anyway/), with great references to other types of thinking, just to make you way less confused.
-
-READMORE
 
 Steve Workman wrote about implementing https at Yell: [Https is Hard](https://blog.yell.com/2016/03/https-is-hard/)
 

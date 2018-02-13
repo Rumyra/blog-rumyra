@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number Eleven And Twelve
 date: '2016-11-20'
 category: craft-code
@@ -8,9 +9,12 @@ tags:
 - new-css-thangs
 - audio-api
 status: published
+layout: post.html
+image: null
+summary: "This is an experiment in symmetry. An effect that would be great in the final audio vis software."
 ---
 
-This is an experiement in symmetry. An effect that would be great in the final audio vis software.
+This is an experiment in symmetry. An effect that would be great in the final audio vis software.
 
 <p data-height="300" data-theme-id="1345" data-slug-hash="bBqbBX" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #11" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/bBqbBX/">Codevember AudioVis #11</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

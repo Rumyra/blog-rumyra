@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number Nine And Ten
 date: '2016-11-19'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - new-css-thangs
 - audio-api
 status: published
+layout: post.html
+image: null
+summary: "Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do..."
 ---
 
 Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do and that's try and do *two* codevembers for the next few days to make up for it.
@@ -21,8 +25,6 @@ NB This one comes with a warning. The way I coded this is highly UNRECOMMENDED. 
 So today I’m going to expand a little on yesterday and take influence from [this crazy gif](http://intothecontinuum.tumblr.com/post/119241330868/maihudson-mathematica-codesn-t-sinn3)
 
 But in my version, I want a shape for each of the low frequencies, the mid frequencies and the high frequencies, that change depending on the level we get back from the analysis.
-
-READMORE
 
 I'm setting a load more custom properties than the previous [codevember](https://codepen.io/Rumyra/pen/yVeoJo), so I'm looping over them in the JS. Things I learnt include:
 

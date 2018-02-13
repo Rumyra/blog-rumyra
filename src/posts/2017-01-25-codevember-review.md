@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Review
 date: '2017-01-25'
 category: craft-code
@@ -8,9 +9,12 @@ tags:
 - review
 - audio-api
 status: published
+layout: post.html
+image: superConcen.jpg
+summary: "I wrote this back in December, then hopped in a campervan and travelled round Australia and barely opened my laptop."
 ---
 
-_I wrote this back in December, then hopped in a campervan and trvelled round Australia and barely opened my laptop. It's probably still worth releasing tho_ 👉
+_I wrote this back in December, then hopped in a campervan and travelled round Australia and barely opened my laptop. It's probably still worth releasing tho_ 👉
 
 Firstly let's go over the last few - here's the inspiration:
 
@@ -20,8 +24,6 @@ Firstly let's go over the last few - here's the inspiration:
   <img src="media/superConcen.jpg" />
   <figcaption>Concentric Circles</figcaption>
 </figure>
-
-READMORE
 
 <p data-height="300" data-theme-id="1345" data-slug-hash="QGMyXm" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #16" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/QGMyXm/">AudioVis Codevember #16</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -89,9 +91,9 @@ All using the d3 technique, which I'm super enjoying for a number of reasons:
 ### Summary
 
 I actually think this is the start of something. I've been meaning to release audio-vis into the wild for a while and it was a great excuse to get started.
- 
+
  My VJ software Vizra has also got off the ground. There's an original hack version of the software which I've been experimenting with, performing with and generally messing around with for the past 18 months or so - but it's great to get a proper build off the ground.
- 
+
 #### Note from December
 I'm taking a break for the rest of December - I'm in Australia for JSconfAU and will be travelling around once this is over, until Christmas. But there will be more, I can guarantee that, so just [follow me](https://twitter.com/Rumyra) to keep up to date :)
 

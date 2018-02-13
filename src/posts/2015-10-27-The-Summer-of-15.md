@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: The Summer of '15
 date: '2015-10-27'
 category: brain-dribble
@@ -8,13 +9,14 @@ tags:
 - geek-mental-health-week
 - illness
 status: published
+layout: post.html
+image: null
+summary: "You may have noticed it’s been a bit quiet around here lately. You’d be right, I haven’t written much for a while now."
 ---
 
 You may have noticed it’s been a bit quiet around here lately. You’d be right, I haven’t written much for a while now, there’s a reason for that. The reason, I've been sick.
 
 It’s hard to put it like that, mental health illnesses are invisible illnesses to so many, with no physical signs, most people (even those close) would probably not even suggest I was sick. For me to even put that label on it is hard and kinda weird, but looking back over this summer, looking back at all the assessments, doctors appointments, occupational health phone calls and talks with my councillor, yes I was most definitely not well.
-
-READMORE
 
 ### Where did it all start?
 

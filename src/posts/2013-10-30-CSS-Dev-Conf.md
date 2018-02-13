@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: CSS Dev Conf
 date: '2013-10-30'
 tags: brain-dribble
 category: brain-dribble
 status: published
+layout: post.html
+image: null
+summary: "Recently I was lucky enough to have an awe inspiring holiday to Colorado, but I managed to plant CSS Dev Conference within it."
 ---
 
 <figure class="media-feature">
@@ -14,8 +18,6 @@ status: published
 <p>Recently I was lucky enough to have an awe inspiring holiday to Colorado, but I managed to plant <a href="http://2013.cssdevconf.com/" title="http://2013.cssdevconf.com/">CSS Dev Conference</a> within it. The location was amazing - set in the <a href="http://www.stanleyhotel.com/" title="http://www.stanleyhotel.com/">Stanley Hotel</a>, right bang smack in the middle of the Rockies. The same hotel that Steven King was inspired by to write The Shining #truefact.</p>
 
 <p>It felt like the first time in an age where I was just attending a conference and not speaking. But this one was definitely the conference for me. CSS is probably my favourite thing and I got to talk about it non stop - with such great people!</p>
-
-READMORE
 
 <p>I learnt so much from all the talks I saw. <a href="https://twitter.com/zomigi" title="https://twitter.com/zomigi">Zoe Gillenwater</a> taught us it's ok to make mistakes (and forget to put our pants on). My favourite talk was from <a href="https://twitter.com/tabatkins" title="https://twitter.com/tabatkins">Tab Atkins</a>, who gave us a huge run down of whats in store for the CSS spec - so many awesome things coming I think it's going to require a few more blog posts. I finally got to see <a href="https://twitter.com/snookca" title="https://twitter.com/snookca">Jonathan Snook</a> talk about <a href="http://smacss.com/" title="http://smacss.com/">SMACSS</a>, something I've wanted to do for a number of years now - and yes I felt enlightened :)</p>
 

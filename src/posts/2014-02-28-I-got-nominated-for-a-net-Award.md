@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: I got nominated for a net Award!
 date: '2014-02-28'
 tags: brain-dribble
 category: brain-dribble
 status: published
+layout: post.html
+image: null
+summary: "I was nominated for a net award - isn't that amazing!"
 ---
 
 <figure>

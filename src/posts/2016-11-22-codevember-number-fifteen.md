@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number Fifteen
 date: '2016-11-22'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - d3
 - audio-api
 status: published
+layout: post.html
+image: superSun.jpg
+summary: "Today's is a little bit trickier as we have to create arc elements drawn in a circle that increase their outer arc with our data."
 ---
 
 ### Super Sun

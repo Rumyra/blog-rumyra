@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: How To Be On Fire
 date: '2017-05-17'
 category: brain-dribble
@@ -8,6 +9,9 @@ tags:
 - fire
 - vienna
 status: published
+layout: post.html
+image: hair.jpg
+summary: "So the other day I shared a relatively crazy experience I had in Vienna last week."
 ---
 
 So the other day I shared a relatively crazy experience I had in Vienna last week.
@@ -18,8 +22,6 @@ So the other day I shared a relatively crazy experience I had in Vienna last wee
 Anyway, thanks very much for everyone's concern and questions. I thought it probably deserved a little more explanation.
 
 I set my hair on fire, well I say *I* it was completely by accident and totally random.
-
-READMORE
 
 I had just met up with Harry for a natter and a couple of drinks. We found a lovely bar to sit down in, ordered a couple of glasses of local viennese wine and with that Harry takes one look at me, eyes widening with what I can only describe as fear and the unfortunate words 'Ruth, I think your hair is on fire'.
 

@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: I Will Never...
 date: '2013-09-25'
 tags:
@@ -6,6 +7,9 @@ tags:
 - brain-dribble
 category: brain-dribble
 status: published
+layout: post.html
+image: null
+summary: "I was sitting at breakfast when my Mum entered the room, rushing around in a flurry, explaining to both me and my Dad why she was running late."
 ---
 
 The theme for today seems to be 'never'.
@@ -16,7 +20,6 @@ My Dad suddenly exclaimed "I wouldn't worry, no one looks at the photos anyway."
 
 My brow furrowed and I became slightly puzzled, "I probably would" I replied, imagining myself walking into a school reception and as I was waiting, (cos there will inevitably be a moment of pause), scanning over the photos on the wall.
 
-READMORE
 
 <p data-pullquote-top="You are not your user">I instantly said "You are not your user Dad". This was something my friend and colleague friend Terence Eden <a href="https://thelab.o2.com/2012/12/you-are-not-your-user/" rel="external">wrote about earlier this year</a>. (And he's not the only one: <a href="http://52weeksofux.com/post/385981879/you-are-not-your-user" rel="external">52 Weeks of UX</a>, <a href="http://whitneyhess.com/blog/2012/05/04/the-user-is-not-like-me/">UX expert Whitney Hess</a> and <a href="http://my.safaribooksonline.com/book/-/9781457174230/killer-ux-design/ch01_html">O'Reilly's <i>Killer UX Design</i></a> all mention this mantra). I've maybe taken it on board as a motto. To me I am saying: "Just because you do or don't, doesn't mean others are the same, don't assume things about the behaviour and thoughts of other people. Assuming makes an <i>ass</i> out of <i>u</i> and <i>me</i>."</p>
 

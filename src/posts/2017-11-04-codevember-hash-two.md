@@ -1,6 +1,7 @@
 ---
+layout: post.html
 title: Codevember Hash Two
-date: '2017-11-04'
+date: 2017-11-04
 category: craft-code
 tags:
 - codevember
@@ -8,6 +9,8 @@ tags:
 - audio
 - audio-vis
 status: published
+image: null
+summary: "It's Sapphire subject today so here's a little audio vis instead of a grid practice, as it seemed to fit a little betterer."
 ---
 
 ### Codevember Hash Two

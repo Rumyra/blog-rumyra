@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Font Awesome SVGs
 date: '2016-07-25'
 category: craft-code
@@ -8,13 +9,14 @@ tags:
 - svg
 - web-code
 status: published
+layout: post.html
+image: null
+summary: "Doing a lot of prototyping in the past, having Font Awesome as part of my front end starter files was always really handy for quickly adding icons when I was building a UI."
 ---
 
 Doing a lot of prototyping in the past, having [Font Awesome](http://fontawesome.io/) as part of my front end starter files was always really handy for quickly adding icons when I was building a UI.
 
 Nowadays we are more aware that using a font to represent icons isn’t necessarily the most accessible thing to do for everyone, [as Serend explains here](https://www.youtube.com/watch?v=9xXBYcWgCHA).
-
-READMORE
 
 So as I’m whipping up a website right at this moment I thought it a good opportunity to take the first steps to swap out the font for svgs. So…
 

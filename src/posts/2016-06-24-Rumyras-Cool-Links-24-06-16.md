@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: ✨ Rumyra's Cool Links! ✨
 date: '2016-06-24'
 category: cool-links
@@ -9,6 +10,9 @@ tags:
 - cool
 - things
 status: published
+layout: post.html
+image: null
+summary: null
 ---
 
 ### I know, everything is crazy today!
@@ -18,8 +22,6 @@ Everyone in the UK woke up and thought they were in some parallel evil universe.
 So here are my cool links to give you a few minutes of web mindfulness, which now appear at just random intervals, sometimes weekly, sometimes bi-weekly, sometimes monthly. Mostly when cool links happen.
 
 Top of the weird day list is the weird and wonderful (ok stretching it a little here, just wonderful will do) [Phil Nash](https://philna.sh/) who wrote a [great article on a problem he had using body-parser with the formData object](https://medium.com/@philnash/the-surprise-multipart-form-data-332846989913#.k0s1bwwv2). Not only because of the subject matter and it makes a good read, but really because he openly and honestly *shared a problem he had* which I find a lot of us would be nervous in doing.
-
-READMORE
 
 We all feel a bit imposter syndrome at times and so when we do this problem solving thing that programming ultimately entails, we feel that sense of relief that we fixed it and we're good programmers and not to say anything and that we never had a problem in the first place and we're super cool. It's ok that sometimes we problem solve, or just skim read the docs or whatever. Let's share all the things and pat everyone on the back for it and it'll save loads of time in the future! Cool 😎
 

@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Compressing images
 date: '2015-05-12'
 category: craft-code
@@ -9,6 +10,9 @@ tags:
 - wordpress
 - craft-code
 status: published
+layout: post.html
+image: null
+summary: "I'm currently doing a Wordpress ->Middleman shuffle for our team blog at work."
 ---
 
 I'm currently doing a <a href="https://wordpress.org/">Wordpress</a> -> <a href="https://middlemanapp.com/">Middleman</a> shuffle for our team blog at work. This came from a review of all our infrastructure and where we could do some cost cutting. We decided to decommission the Wordpress site, as the content was primarily flat, (just blog posts), and we could host that for free on <a href="https://pages.github.com/">Github pages</a>.
@@ -17,7 +21,6 @@ Most of the build was pretty straight forward. As a quick run down I chose to us
 
 When it came to transferring over the media it became important to me to keep the size of the images down to a minimum. Page weights are getting heavier these days (imo) unnecessarily. So when asking in the wonderful <a href="">Front End London Slack</a> about what I could use for batch image compression I received the following responses:
 
-READMORE
 <ul>
 <li><a href="https://imageoptim.com/">ImageOptim (Software/GUI)</a></li>
 <li><a href="https://github.com/JamieMason/ImageOptim-CLI">ImageOptim CLI</a></li>

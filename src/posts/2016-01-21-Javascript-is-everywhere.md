@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Javascript is Everywhere
 date: '2016-01-21'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - art
 - everywhere
 status: published
+layout: post.html
+image: null
+summary: "So back just before Christmas, I was doing a little research for an article and I tweeted:"
 ---
 
 So back just before Christmas, I was doing a little research [for an article](https://24ways.org/2015/bringing-your-code-to-the-streets), and [I tweeted](https://twitter.com/Rumyra/status/670587879882625024):
@@ -15,8 +19,6 @@ So back just before Christmas, I was doing a little research [for an article](ht
 >Looking for examples of JavaScript being used in extraordinary situations (e.g. art installations) - send me links :) (RTs super welcome 😊)
 
 The response was phenomenal - thank you to everyone who (...eyes up douche term...) *engaged*. Because there was such an incredible response I thought I should put a list of links right here.
-
-READMORE
 
 ### This is javascript everybody. Isn’t is cool:
 

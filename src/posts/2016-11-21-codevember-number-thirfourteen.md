@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number Thirteen and Fourteen
 date: '2016-11-21'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - d3
 - audio-api
 status: published
+layout: post.html
+image: superGraphic.jpg
+summary: Before I start I want to give a big shout out to Ben (@benjaminbenben) who was helping me with some performance stuff I having trouble with.
 ---
 
 ## Part Three: d3.js
@@ -15,8 +19,6 @@ status: published
 Before I start I want to give a big shout out to [Ben (@benjaminbenben)](https://twitter.com/benjaminbenben) who was helping me with some performance stuff I having trouble with. In doing so he really opened my eyes to how powerful d3 is and actually how suited a library it is to help with what we are doing here.
 
 It’s dubbed a ‘visualisation library’, however I think it’s relationship with data has given it a reputation that makes people who haven't discovered it, assume it’s just for pie charts. That’s changing now, and don’t get me wrong it’s good for displaying data, but that’s just it it’s good with displaying *and* it’s good with data. So anything you want to do with the DOM or anything you want to do with data and d3 has you covered.
-
-READMORE
 
 I’ve noticed a lot of the things I’m building use a great deal of DOM manipulation and data manipulation, so it felt like a great thing to start playing with. It’s also worth noting here I’m using version 3, version 4 was recently released with a great deal of updates and changes, but as I’m learning and pretty much all the tutorials still use version 3, I’m going to stick with that. When I’m more comfortable with the library I can start to look at the update documentation.
 
@@ -59,7 +61,7 @@ function drawCircles() {
   analyserNode.getByteFrequencyData(frequencyData);
 
   circle = circle.data(frequencyData);
-  
+
   circle
     .enter().append('circle')
     .attr("cy", function(d, i) {
@@ -68,7 +70,7 @@ function drawCircles() {
     .attr("cx", function(d, i) {
       return Math.round(window.innerWidth/2 + (radius*Math.cos((2*i*Math.PI)/16)) );
     });
-  
+
   circle
     .attr("r", function(d) { return d/2; })
     .attr("fill", "hsla(200,50%,80%,0.7)")
@@ -78,7 +80,7 @@ function drawCircles() {
 
 Here we’re creating a circle for each item in the `frequencyData` array, then positioning them in a circle with a bit of maths. The params `d` and `i` being passed into the function are the data itself and the item number. So further below when we set the radius of the circle we can use the data, which as we know is the frequency velocity.
 
-This all seems a little more succinct than how we were going about it before. In the final example I’m also creating a line, just to add a bit more 🤗 
+This all seems a little more succinct than how we were going about it before. In the final example I’m also creating a line, just to add a bit more 🤗
 
 <p data-height="300" data-theme-id="1345" data-slug-hash="ENWLzK" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #13" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/ENWLzK/">Codevember AudioVis #13</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

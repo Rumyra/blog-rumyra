@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Animation code snippet
 date: '2014-10-10'
 category: craft-code
@@ -9,6 +10,9 @@ tags:
 - sass
 - craft-code
 status: published
+layout: post.html
+image: null
+summary: "This is the Sass I use for declaring CSS animations."
 ---
 
 Because I keep referring back to it:

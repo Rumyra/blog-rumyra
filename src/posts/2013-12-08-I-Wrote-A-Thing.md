@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: I Wrote A Thing!
 date: '2013-12-08'
 tags: speak-write-mentor
 category: speak-write-mentor
 status: published
+layout: post.html
+image: null
+summary: "I was super honoured to be asked to write for 24 Ways this year. I thought I'd write a little something reflecting my 'Make Your Browser Dance' talk."
 ---
 
 <p>I was super honoured to be asked to write for <a href="http://24ways.org/" rel="external">24 Ways</a> this year.</p>

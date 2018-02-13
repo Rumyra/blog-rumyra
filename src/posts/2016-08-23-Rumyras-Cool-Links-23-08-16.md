@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: ✨ Rumyra's Cool Links! ✨
 date: '2016-08-23'
 category: cool-links
@@ -9,6 +10,9 @@ tags:
 - cool
 - things
 status: published
+layout: post.html
+image: null
+summary: "I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all."
 ---
 
 I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all. In fact you might even be reading this in an airport. It's not a long one, I've been a bit out of touch with the travelling, but there's still some gems 💎
@@ -16,8 +20,6 @@ I wrote this two days ago when I was stuck in an airport. I'm sure each one of y
 [Adam's](https://twitter.com/onishiweb) been doing some great writing recently, check out [his blog](http://adamonishi.com/) if you don't already. [This article about Web Components and progressive enhancements](http://adamonishi.com/2016/08/web-components-and-progressive-enhancement/) is especially cool.
 
 Something also super helpful for me recently was [this blog post from Daniel Mies](https://blog.codecentric.de/en/2016/07/getting-started-webpack/) about getting started with webpack. I was postCSS/cssnext-ing and not only was [Daniel](https://twitter.com/danielmies) extremely helpful (super cool person to follow), but so was his post.
-
-READMORE
 
 [Generate your own map](http://mewo2.com/notes/terrain/) using a really well thought out process and well documented. In face check out [Martin's homepage](http://mewo2.com/) it appears everything he does is a pretty cool link.
 

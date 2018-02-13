@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: A Little Thing About Blends
 date: '2016-10-20'
 category: craft-code
@@ -6,6 +7,9 @@ tags:
 - css
 - blend-modes
 status: published
+layout: post.html
+image: visualPlain.jpg
+summary: "I learnt a little thing whilst playing around with CSS blend modes this morning which I thought I should share."
 ---
 
 I learnt a little thing whilst playing around with [CSS blend modes](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) this morning which I thought I should share.
@@ -17,7 +21,7 @@ I was just making a little visual:
   <figcaption>Visual without blend modes</figcaption>
 </figure>
 
-And I thought, wouldn't it be lovely to have some CSS blend modes to add some 🤗 
+And I thought, wouldn't it be lovely to have some CSS blend modes to add some 🤗
 
 So I wrote a little Sass @each to try them out. Firstly here's the HTML of one _flower_, of which I have nine.
 
@@ -34,20 +38,20 @@ So I wrote a little Sass @each to try them out. Firstly here's the HTML of one _
   &lt;div>&lt;i>&lt;/i>&lt;/div>
   &lt;div>&lt;i>&lt;/i>&lt;/div>
   &lt;div>&lt;i>&lt;/i>&lt;/div>
-&lt;/section>  
+&lt;/section>
 </code></pre>
 
 
 A bit gumphy, but rotating and sizing and well yeh... Then the @each
 
-<pre><code class="language-css">@each $num, $blendMode in 
+<pre><code class="language-css">@each $num, $blendMode in
   ( 1:overlay, 2:darken, 3:color-dodge, 4:color-burn, 5:hard-light, 6:difference, 7:hue, 8:saturation, 9:luminosity ) {
   #ohFour #screen section:nth-of-type(#{$num}) i {
     mix-blend-mode: $blendMode;
   }
 }
 </code></pre>
-  
+
 
 There are more modes than this, but I've only got 9 sections and we can subsitute.
 
@@ -62,7 +66,7 @@ So let's back up and put it on the `section`. Phew, there we go that's better.
   <figcaption>Visual with first blend modes</figcaption>
 </figure>
 
-<hr />  
+<hr />
 
 ## Slow rendering and FPS Monitor
 

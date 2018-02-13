@@ -1,37 +1,36 @@
 <html lang="en">
 {{> head }}
-<body>
-  {{> header }}
+<body><div class="wrapper">
+  {{> nav }}
 
-  <div class="container">
-    <section>
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-        <a href="/" class="back-to-blog" title="Return to all posts">←</a>
+  <header class="site__header">
+    <h1>Rumyra's Head</h1>
+    <p>Personal Blog of Ruth John</p>
+  </header>
 
-        <h2 class="post-title" itemprop="name headline">
-          <a class="post-link" href="/{{ path }}">{{ title }}</a>
-        </h2>
+  <!-- <nav class="nav__back">
+    <a href="/" title="Return to all posts">←</a>
+  </nav> -->
 
-        <div class="post-meta feather_type">
-          <span>
-            <time datetime="{{moment this.date 'YYYY-MM-DD' }}">
-              {{moment this.date 'dddd, Do MMMM YYYY' }}
-            </time>
-          </span>
-        </div>
+  <article class="blog-article" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <div class="post-body" itemprop="articleBody">
-          {{{ contents }}}
-        </div>
+    <header class="article__header">
+      <h2 class="article__title" itemprop="name headline">{{ title }}</h2>
 
-      </article>
-      <div class="center">
-        {{> share shareText='Share this post'}}
-      </div>
+      <p class="article__date"><time datetime="{{moment this.date 'YYYY-MM-DD' }}">{{moment this.date 'dddd, Do MMMM YYYY' }}</time></p>
+    </header>
+
+    <section class="article__body" itemprop="articleBody">
+      {{{ contents }}}
     </section>
 
-    {{> footer }}
-  </div>
+    <section class="article__share">
+      {{> share shareText='Share this post'}}
+    </section>
+  </article>
+
+  {{> footer }}
+  </div><!--wrapper-->
 
   <link rel="stylesheet" href="/css/zenburn.css" async defer>
   <script type="text/javascript" src="/js/highlight.pack.js"></script>

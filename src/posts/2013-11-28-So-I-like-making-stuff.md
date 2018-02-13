@@ -1,14 +1,17 @@
 ---
+layout: post.html
 title: So I like making stuff...
 date: '2013-11-28'
 tags: brain-dribble
 category: brain-dribble
 status: published
+layout: post.html
+image: null
+summary: "I got into crochet a couple of years ago. I was bought a book on how to do it, by my then housemates, cos they knew I liked making stuff."
 ---
 
 <p>I got into crochet a couple of years ago. I was bought a book on how to do it, by my then housemates, cos they knew I liked making stuff. And so I sat there and taught myself how to do it. (If you're unsure what crochet is <a href="http://en.wikipedia.org/wiki/Crochet" rel="external">it's a bit like knitting but instead of two needles you have one hook</a>).</p>
 <p>I really liked it a lot, one of the main reasons was it was so portable. All you needed was a hook and some sort of yarn. It meant I could take it anywhere and if I was sat on a train, waiting for a bus, sitting in front of the telly, I could still be making something.</p>
-READMORE
 <p>Awesome.</p>
 <p>I like making crochet stuff for other people too.</p>
 <p>Something happened this morning where I received a really lovely email thanking me for something I had made.</p>

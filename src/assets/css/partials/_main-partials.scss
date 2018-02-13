@@ -1,0 +1,17 @@
+body {
+	background-color: $offWhite;
+  font-family: $font;
+  font-size: 100%;
+  color: $black;
+	font-variant-ligatures: normal;
+	-webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings:    "liga" 1;
+  -ms-font-feature-settings:     "liga" 1;
+  font-feature-settings:         "liga" 1;
+  @include at-least($screenXlarge) { font-size: 112%; }
+  @include until($screenMedium) { font-size: 90%; }
+  @include until($screenSmall) { font-size: 80%; }
+}
+
+// remember to define focus styles!
+:focus { outline: 0; }

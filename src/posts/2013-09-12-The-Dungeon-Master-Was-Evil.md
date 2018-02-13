@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: The Dungeon Master Was Evil?
 date: '2013-09-12'
 category: brain-dribble
@@ -8,6 +9,9 @@ tags:
 - mysterious-cities-of-gold
 - brain-dribble
 status: published
+layout: post.html
+image: dungeonmaster.jpg
+summary: "Mention The Dungeon Master to anyone of a certain age and it instantly conjures up a cartoon image of a sweet, little guy..."
 ---
 
 <figure>
@@ -20,8 +24,6 @@ Mention <a href="http://www.dungeonsdragonscartoon.com/2009/08/dungeon-master.ht
 See, look, pretty innocent looking.
 
 <p style="margin-bottom:80px;">I, on the other hand, spent most of my adult life thinking he was evil...</p>
-
-READMORE
 
 <h3>And it's all because of this guy:</h3>
 

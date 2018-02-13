@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Choosing a colour scheme
 date: '2014-08-18'
 tags:
@@ -9,6 +10,9 @@ tags:
 - craft-code
 category: craft-code
 status: published
+layout: post.html
+image: Screen-Shot-2014-08-17-at-17.15.07.png
+summary: "I thought I'd document how I usually go about deciding on colours for a new website design."
 ---
 
 I thought I'd document how I usually go about deciding on colours for a new website design.
@@ -25,8 +29,6 @@ For this project I only have the subject matter for inspiration. Usually I would
 The first thing I do is turn to <a href="http://www.colourlovers.com/" rel="external">Colour Lovers</a> and have a browse through the palettes on there, searching with keywords as I see fit. I screen shot any palettes or colours I am drawn to. I then put all these into one file in Photoshop.
 
 From there I can start to see common colours, what I like, what I don't like, things I have maybe been drawn to before (for instance the third palette down looks a lot like the colours for this site!).
-
-READMORE
 
 The next step is to use the <i>shape tool (U)</i> to draw rectangles which will make up my palette. The shape tool is a good choice as you can edit the colours easily via the <i>Layers Palette</i>. The size of the rectangles is relevant too. As I am going for a <b>light</b> look (with a pale background) rather than a dark look, I will make the dominant light coloured rectangle larger.
 

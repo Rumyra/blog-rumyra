@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: CSS Grid Layout Module
 date: '2014-07-07'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - grid
 - craft-code
 status: published
+layout: post.html
+image: null
+summary: "So I had a chance recently to play around with the CSS Grid Layout Module"
 ---
 
 So I had a chance recently to play around with the <a href="http://www.w3.org/TR/css-grid-1/">CSS Grid Layout Module</a>. It has up until recently only been supported by IE (I know, don't worry I felt a bit weird typing that). I personally don't have a very accessible way to develop in IE, so was pleased to discover it is now supported by Chrome if you enabled the 'Experimental Web Platform' flag.
@@ -17,8 +21,6 @@ The best resource for using it in Chrome is <a href="http://www.rachelandrew.co.
 ## Some things to share
 
 I discovered I don't need vendor prefixes, I was originally using `-webkit-`, once I removed this I had that 'Yes' moment when I refreshed my page.
-
-READMORE
 
 The initial setting up of your grid seemed pretty straight forward. Declare your display type to be grid on the container and then specify your columns and rows via their sizes (Rachel's article above explains this much better than me :) ).
 

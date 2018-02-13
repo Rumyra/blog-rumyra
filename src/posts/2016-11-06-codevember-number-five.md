@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: Codevember Number Five
 date: '2016-11-06'
 category: craft-code
@@ -8,6 +9,9 @@ tags:
 - simple-html-css
 - audio-api
 status: published
+layout: post.html
+image: bridgetStatic.jpg
+summary: "Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow..."
 ---
 
 Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow...
@@ -18,8 +22,6 @@ Today is Bridget Riley's Static 4:
   <img src="/media/bridgetStatic.jpg" />
   <figcaption>Bridget Riley : Static 4</figcaption>
 </figure>
-
-READMORE
 
 This harks back to day three really, but it’s just a nice easy one. Albeit getting the circles to grow from the centre. Again nothing too special here, but it’ll look super good laid over a video I’m sure :)
 

@@ -3,49 +3,44 @@
 
   {{>head title=site.title summary=site.description}}
 
-  <body>
-    {{> header }}
+  <body><div class="wrapper">
+    {{> nav }}
 
-    <div class="container">
-      <div class="home">
+    <header class="site__header">
+      <h1>Rumyra's Head</h1>
+      <p>Personal Blog of Ruth John</p>
+    </header>
 
-        <ul class="post-list">
-          {{#each pagination.files }}
-            <li>
-              <article class="post">
-                <h2 class="post-title">
-                  <a class="post-link" href="/{{ this.path }}">{{ this.title }}</a>
-                </h2>
+    <div class="section__posts">
+      <ul class="posts__list">
+        {{#each pagination.files }}
+        <li class="post-link__container">
+          <a class="post-link" href="/{{ this.path }}">
+            <h2 class="post-link__title">{{ this.title }}</h2>
 
-                <div class="post-meta feather_type">
-                  <span>
-                    <time datetime="{{moment this.date 'YYYY-MM-DD' }}">
-                      {{moment this.date 'dddd, Do MMMM YYYY' }}
-                    </time>
-                  </span>
-                </div>
+            <p class="post-link__date"><time datetime="{{moment this.date 'YYYY-MM-DD' }}">{{moment this.date 'dddd, Do MMMM YYYY' }}</time></p>
 
-                <div class="post-preview">{{{ markdown this.summary }}}</div>
-              </article>
-            </li>
-          {{/each}}
-        </ul>
-
-        <div class="pagination">
-          {{#if pagination.previous}}
-            <a href="/{{pagination.previous.path}}">&larr; Newer Posts</a>
-
-            {{#if pagination.next}}
-              |
-            {{/if}}
-          {{/if}}
-          {{#if pagination.next}}
-            <a href="/{{pagination.next.path}}">Older Posts &rarr;</a>
-          {{/if}}
-        </div>
-
-      </div>
-      {{> footer }}
+            <section class="post-link__preview">{{{ markdown this.summary }}}</section>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
     </div>
-  </body>
+
+    <div class="pagination">
+      {{#if pagination.previous}}
+        <a href="/{{pagination.previous.path}}">&larr; Newer Posts</a>
+
+        {{#if pagination.next}}
+          |
+        {{/if}}
+      {{/if}}
+      {{#if pagination.next}}
+        <a href="/{{pagination.next.path}}">Older Posts &rarr;</a>
+      {{/if}}
+    </div>
+
+    {{> footer }}
+
+  </div></body><!-- wrapper -->
 </html>

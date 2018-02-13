@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: So I Was Thinking About Preprocessors...
 date: '2013-10-22'
 category: craft-code
 tags: craft-code
 status: published
+layout: post.html
+image: null
+summary: "I woke up this morning, bleary eyed, slightly hungover from the first (amaze) day at CSS Dev Conference and really really felt compelled to write this."
 ---
 
 <p>I woke up this morning, bleary eyed, slightly hungover from the first (amaze) day at <a href="http://2013.cssdevconf.com/"  rel="external">CSS Dev Conference</a> and really really felt compelled to write this.</p>
@@ -15,8 +19,6 @@ status: published
 <p>Please.</p>
 
 <p>Just try them, just once.</p>
-
-READMORE
 
 <p>Just spend half an hour reading about the added functionality of using a CSS preprocessor.</p>
 

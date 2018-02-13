@@ -1,4 +1,5 @@
 ---
+layout: post.html
 title: 📢 Announcement Emoji&#58; Weekly Cool Links!*
 date: '2016-05-27'
 category: brain-dribble
@@ -9,6 +10,9 @@ tags:
 - cool
 - things
 status: published
+layout: post.html
+image: null
+summary: "It's so nice of them - they just tweet me cool sh*t... along with the stuff I read or see and go all like 'wo'"
 ---
 
 ### People just keep sending me links!
@@ -26,8 +30,6 @@ I attended Google I/O Extended in London last week and only really caught the ke
 #### Typically here's some A/V
 
 It's great to see some more people [piping the audio from a mic into web visuals](https://codepen.io/Rumyra/pen/ojoGwb) - here's some [really gorgeous canvas ones](https://the-way-we-move.surge.sh/) from [Olivier Audard](https://twitter.com/_dhar)
-
-READMORE
 
 [Stuart](https://twitter.com/sil) pointed out someone's recreated [SFXR in javascript...](http://loov.io/jsfx/). Amazing.
 

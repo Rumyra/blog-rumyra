@@ -1,9 +1,13 @@
 ---
+layout: post.html
 title: Happy (belated) International Women's Day
 date: '2014-03-09'
 tags: brain-dribble
 category: brain-dribble
 status: published
+layout: post.html
+image: null
+summary: "Yesterday was International Women's Day, a celebration of being of the fairer sex all over the globe."
 ---
 
 <p>Yesterday was <a href="http://www.internationalwomensday.com/">International Women's Day, a celebration of being of the fairer sex all over the globe.</a></p>
