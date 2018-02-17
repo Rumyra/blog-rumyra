@@ -1,4 +1,13 @@
 .site__header {
-	h1 {}
-	p {}
+	padding: $verticalSpace 0px;
+	margin: 0px $gutter;
+	border-bottom: 1px solid $taupe;
+	text-align: right;
+	h1 {
+		@include partBorder(50%, 0%, $blue);
+	}
+	p {
+		padding-top: $verticalSpace; margin: 0px;
+		@extend %smallCaps;
+	}
 }

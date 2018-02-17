@@ -1,3 +1,4 @@
+// typography
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal ) {
   @font-face {
     font-family: $font-family;
@@ -9,10 +10,11 @@
 
 .hide-font {color:transparent; font-size:0px; text-transform:none; text-decoration:none;}
 
-@mixin word-wrap {
+%word-wrap {
   white-space:pre;
   white-space:pre-wrap;
   word-wrap:break-word;
+  overflow-wrap:break-word;
 }
 
 @mixin at-least($device-width) {
@@ -66,14 +68,17 @@
   ;
 }
 
-@mixin partBorder($start, $finish) {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: $start;
-  right: $finish;
-  height: 1px;
-  background-color: $white;
+@mixin partBorder($start, $finish, $colour, $orientation:bottom, $pseudo:before) {
+  position: relative;
+  &:#{$pseudo} {
+    content: "";
+    position: absolute;
+    #{$orientation}: 0;
+    left: $start;
+    right: $finish;
+    height: 1px;
+    background-color: $colour;
+  }
 }
 
 

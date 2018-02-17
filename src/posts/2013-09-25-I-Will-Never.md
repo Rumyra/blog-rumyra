@@ -1,13 +1,12 @@
 ---
 layout: post.html
-title: I Will Never...
-date: '2013-09-25'
+title: "I Will Never..."
+date: 2013-09-25
 tags:
 - ux
 - brain-dribble
 category: brain-dribble
 status: published
-layout: post.html
 image: null
 summary: "I was sitting at breakfast when my Mum entered the room, rushing around in a flurry, explaining to both me and my Dad why she was running late."
 ---

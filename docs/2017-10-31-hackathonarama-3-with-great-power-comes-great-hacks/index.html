@@ -6,12 +6,12 @@
 
   <title>&#x27;Hackathonarama 3: with great power comes great hacks&#x27; by Rumyra&#x27;s Blog</title>
 
-  <meta property="og:url" content="https://rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks"/>
+  <meta property="og:url" content="https://blog.rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks"/>
   <meta property="og:title" content="Hackathonarama 3: with great power comes great hacks"/>
   <meta property="og:description" content="For the third year running I attended Hackference again. Once again, a 1 day conference followed by a 24 hour hackathon and as always a really great weekend.
 "/>
   <meta property="og:site_name" content="Rumyra&#x27;s Blog"/>
-  <meta property="og:image" content="https://rumyra.com/images/rumyra.jpg" />
+  <meta property="og:image" content="https://blog.rumyra.com/images/rumyra.jpg" />
 
   <!-- Twitter Do Not Track -->
   <meta name="twitter:dnt" content="on">
@@ -31,7 +31,7 @@
   <meta name="theme-color" content="#B76380">
 
   <link rel="stylesheet" href="/assets/css/style.css?201710301710">
-  <link rel="alternate" type="application/rss+xml" title="Rumyra&#x27;s Blog" href="https://rumyra.com/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Rumyra&#x27;s Blog" href="https://blog.rumyra.com/feed.xml">
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -56,28 +56,26 @@
     <p>Personal Blog of Ruth John</p>
   </header>
 
-  <!-- <nav class="nav__back">
-    <a href="/" title="Return to all posts">←</a>
-  </nav> -->
 
-  <article class="blog-article" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <article class="blog-article " itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="article__header">
-      <h2 class="article__title" itemprop="name headline">Hackathonarama 3: with great power comes great hacks</h2>
-
       <p class="article__date"><time datetime="2017-10-30">Monday, 30th October 2017</time></p>
+
+      <h2 class="article__title" itemprop="name headline">Hackathonarama 3: with great power comes great hacks</h2>
     </header>
 
     <section class="article__body" itemprop="articleBody">
       <p>For the third year running I attended <a href="https://2017.hackference.co.uk/">Hackference</a> again. Once again, a 1 day conference followed by a 24 hour hackathon and as always a really great weekend.</p>
-<div class="tweet" tweetID="921291636486885377"></div>
+<div class="article__tweet" tweetID="921291636486885377"></div>
 <p>The conference was opened by <a href="https://twitter.com/JFKingsley">Jon Kingsley</a> talking about device hacking in a fetching cape.</p>
-<div class="tweet" tweetID="921294945125847040"></div>
+<div class="article__tweet" tweetID="921294945125847040"></div>
 <p>The day included a wide range of great talks including <a href="https://twitter.com/Lily_2point0/status/921305171338125312">an integer that you can't use in JS</a>, <a href="https://twitter.com/edent/status/921311892919943169">calls to Ben's mother</a>, <a href="https://twitter.com/jna_sh/status/921313320254222336">a promise of cake</a>, <a href="https://twitter.com/JamieTanna/status/921330784841228288">live coding a slide clicker</a>, <a href="https://twitter.com/cbetta/status/921342143393910789">tips for releasing your website on Mars</a> and <a href="https://twitter.com/bevishalperry/status/921400192447983617">a sobering look at privacy</a>.</p>
-<div class="tweet" tweetID="921403371860439041"></div>
+<div class="article__tweet" tweetID="921403371860439041"></div>
 <p>As always, the hackathon was great fun. While I didn't crank out my usual 4+ hacks this year (tiredness hit me hard) I did manage to tinker on a couple things. I managed to put together a fun little &quot;Virtual Stickers&quot; app that let you scan QR codes to unlock stickers that you could place on your screen and create a collage from. This could then be downloaded or shared with others. I also managed to put together a crude Alexa Flash Briefing to tell you what <a href="http://digitaloxford.com/">Digital Oxford</a> meetups were happening in the next week.</p>
 <p>Many great hacks came out of the weekend such as <a href="https://twitter.com/bevishalperry/status/922094521789435904">Tinder for GitHub</a>, <a href="https://twitter.com/bevishalperry/status/922083878889803776">GitHub contributions graph as music</a>, <a href="https://twitter.com/danielthepope/status/922097304999522310">Kudeliscope</a> and the ever useful <a href="https://twitter.com/danielthepope/status/922095102230753281">Is It a Bench?</a>.</p>
-<div class="tweet" tweetID="921326871056453632"></div>
+<div class="article__tweet" tweetID="921326871056453632"></div>
 <p>Every year I find more and more friends at Hackference, new and old, many whom I only see at these events. I have so much love for <a href="https://twitter.com/ukmadlz">Mike</a> for putting on this event and providing me with the chance to connect with so many amazing people.</p>
 
     </section>
@@ -135,12 +133,16 @@
     <p><span>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Designed and built by Ruth John.</span></p>
   </footer>  </div><!--wrapper-->
 
-  <link rel="stylesheet" href="/css/zenburn.css" async defer>
-  <script type="text/javascript" src="/js/highlight.pack.js"></script>
+  <!-- <nav class="nav__back">
+    <a href="/" title="Return to all posts">←</a>
+  </nav> -->
+
+  <link rel="stylesheet" href="/assets/css/tomorrow-night.css" async defer>
+  <script type="text/javascript" src="/assets/js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
   <script>
-    var tweets = document.querySelectorAll(".tweet");
+    var tweets = document.querySelectorAll(".article__tweet");
     for(var i=0; i<tweets.length; i++) {
       var tweet = tweets[i];
       var id = tweet.getAttribute("tweetID");
@@ -150,7 +152,7 @@
         {
           conversation : 'none',
           cards: 'visible',
-          linkColor: '#cc0000',
+          linkColor: '#B76380',
           theme: 'light',
           align: 'center'
         });

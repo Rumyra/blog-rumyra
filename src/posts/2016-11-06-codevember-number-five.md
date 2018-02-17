@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Five
-date: '2016-11-06'
+title: "Codevember Number Five"
+date: 2016-11-06
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - simple-html-css
 - audio-api
 status: published
-layout: post.html
-image: bridgetStatic.jpg
+image: media/bridgetStatic.jpg
 summary: "Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow..."
 ---
 

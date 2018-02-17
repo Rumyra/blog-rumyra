@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Finding your break
-date: '2014-09-21'
+title: "Finding your break"
+date: 2014-09-21
 tags:
 - break-points
 - design
@@ -10,8 +10,7 @@ tags:
 - craft-code
 category: craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "I remember someone stating a few months back: "I've only just realised the 'break' in break-points was referring to the design breaking, I thought it was device related"
 ---
 

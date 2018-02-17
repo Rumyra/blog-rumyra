@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Today I was given a web page design...
-date: '2015-02-06'
+title: "Today I was given a web page design..."
+date: 2015-02-06
 category: craft-code
 tags:
 - accessible
@@ -11,8 +11,7 @@ tags:
 - markup
 - craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "This isn't my typical way of working these days. User experience & flow, UI & wireframing, design, mark up, styling and interactivity are all very iterative to me..."
 ---
 

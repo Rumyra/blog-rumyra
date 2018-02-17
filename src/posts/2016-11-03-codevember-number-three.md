@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Three
-date: '2016-11-03'
+title: "Codevember Number Three"
+date: 2016-11-03
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - simple-html-css
 - audio-api
 status: published
-layout: post.html
-image: bridgetCentres.jpg
+image: media/bridgetCentres.jpg
 summary: "This is my inspiration for today’s pen: Bridget Riley's Dilated Centres."
 ---
 

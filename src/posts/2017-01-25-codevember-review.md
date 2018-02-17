@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Review
-date: '2017-01-25'
+title: "Codevember Review"
+date: 2017-01-25
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - review
 - audio-api
 status: published
-layout: post.html
-image: superConcen.jpg
+image: media/superConcen.jpg
 summary: "I wrote this back in December, then hopped in a campervan and travelled round Australia and barely opened my laptop."
 ---
 
@@ -21,7 +20,7 @@ Firstly let's go over the last few - here's the inspiration:
 ### Concentric Circles
 
 <figure>
-  <img src="media/superConcen.jpg" />
+  <img src="/media/superConcen.jpg" />
   <figcaption>Concentric Circles</figcaption>
 </figure>
 
@@ -33,7 +32,7 @@ This was an extension of the sunburst really, it's just the shapes are being ext
 ### Just Circles
 
 <figure>
-  <img src="media/superCircles.jpg" />
+  <img src="/media/superCircles.jpg" />
   <figcaption>Super Circles</figcaption>
 </figure>
 
@@ -49,14 +48,14 @@ It seems simple but you can have fun with this, lots of size and distribution fu
 This is Takashi Murakami. He's a crazy artist, I found this book at a random second hand sale at my mums old school:
 
 <figure>
-  <img src="media/takashiCover.jpg" />
+  <img src="/media/takashiCover.jpg" />
   <figcaption>Takashi Murakami book cover</figcaption>
 </figure>
 
 Then he had an exhibition when I was in London and I spot his work regularly at other exhibition. Suffice to say it's pretty awesome. Anyway super uber great for playing with a custom SVG:
 
 <figure>
-  <img src="media/takashiScene.jpg" />
+  <img src="/media/takashiScene.jpg" />
   <figcaption>Takashi Murakami scene</figcaption>
 </figure>
 

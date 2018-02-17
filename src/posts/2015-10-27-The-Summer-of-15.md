@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: The Summer of '15
-date: '2015-10-27'
+title: "The Summer of '15"
+date: 2015-10-27
 category: brain-dribble
 tags:
 - depression
@@ -9,8 +9,7 @@ tags:
 - geek-mental-health-week
 - illness
 status: published
-layout: post.html
-image: null
+
 summary: "You may have noticed it’s been a bit quiet around here lately. You’d be right, I haven’t written much for a while now."
 ---
 

@@ -1,13 +1,12 @@
 ---
 layout: post.html
-title: Shower Fail
+title: "Shower Fail"
 date: 2013-07-29
 category: brain-dribble
 tags:
 - shower
 - brain-dribble
 status: published
-layout: post.html
 image: null
 summary: "So I fell over in the shower this morning. I say in the shower, I ended up outside of it."
 ---

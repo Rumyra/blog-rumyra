@@ -1,41 +1,43 @@
 //1. HEADERS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 header {}
-h1, h2, h3, h4, h5, h6 {
+h1 {}
+h2, h3, h4, h5, h6 {
   margin-bottom: $verticalSpace/2;
-  font-family: $headerFont;
-  font-weight: bold; font-style: italic;
-  line-height: $headerLineHeight;
 }
 
-h1 { font-size: $fontSize*4.8; }
-h2 { font-size: $fontSize*3.2; }
-h3 { font-size:$fontSize*2.4; }
-h4 { font-size:$fontSize*1.8; }
-h5 { font-size:$fontSize*1.5; }
-h6 { font-size:$fontSize*1.2; }
+h1, h2, .header__main {@extend %bigHeader;}
+h3, h4, .header__sub {@extend %subHeader;}
+h5, h6, .header__caps {@extend %smallCaps;}
+
+// there's already a main header for posts, so make sure h1 & h2 look smaller
+.article__body h1, .article__body h2 {@extend %subHeader;}
 
 //2. PARAGRAPHS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-p {
+p, p.body__text {
 	margin: 0px 0px $verticalSpace;
-	font-size: $fontSize;
-  line-height: $lineHeight;
-  letter-spacing: $letterSpacing;
+	@extend %normalText;
 }
-.lede, p.lede {
-  font-size: $fontSize*1.2;
-}
+.article__text, .lede, .article__body p {@extend %readingText;}
+
+// legacy
 .feature-text {
   font-weight: bold;
   font-style: italic;
 }
 
+// .craft-code
+// .brain-dribble
+// .speak-write-mentor
+
 //3. INLINE FORMATTING~~~~~~~~~~~~~~~~~~~~~~~~
 strong, b { font-weight: bold; }
 em, i, dfn, var { font-style: italic; }
-dfn, abbr, abbr[title], ins, mark { border-bottom: 1px dotted;}
+dfn, abbr, abbr[title], ins, mark { border-bottom: 1px dotted $speakWrite; }
+.craft-code dfn, .craft-code abbr, .craft-code abbr[title], .craft-code ins, .craft-code mark { border-bottom-color: $craftCode;}
+.brain-dribble dfn, .brain-dribble abbr, .brain-dribble abbr[title], .brain-dribble ins, .brain-dribble mark { border-bottom-color: $brainDribble;}
 small { font-size: 84%; }
 del { text-decoration: line-through; }
-kbd, code, samp, pre { font-family: monospace; font-size: 120%; }
+kbd, code, samp, pre { font-family: monospace; font-size: 100%; }
 /*Prevents `sub` and `sup` affecting `line-height` in all browsers.*/
 sub, sup {
 	position: relative;
@@ -51,10 +53,13 @@ sub { bottom: -0.25em; }
 
 //4. LINKS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 a {
-  display:inline-block;
   font-weight:normal; font-size:$fontSize;
   text-decoration:underline; letter-spacing:$letterSpacing;
+  color: $speakWrite;
+  @extend %word-wrap;
 }
+.craft-code a {color: $craftCode;}
+.brain-dribble a {color: $brainDribble;}
 // normalise font size and remove underline for headers
 p a, address a, ul a, ol a, dl a, menu a { font-size: 100%; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-size: 100%; text-decoration:none;}
@@ -68,23 +73,26 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {}
 
 //5.1. lists, navs and menus
 ol, ul, dl, menu[type="list"] {margin:$verticalSpace $gutter*2;}
-ol {list-style:lower-roman;}
-li, dt, dd {font-size:$fontSize; line-height:$lineHeight; letter-spacing:$letterSpacing;}
+ul {list-style:circle inside;}
+ol {list-style-type:lower-roman; margin-left: $gutter*3;}
+li {margin:$verticalSpace/2 0px;}
+ol li {padding-left: $gutter/2;}
+
 dt { font-weight:bold; }
-li {margin:$verticalSpace/2 0px; padding-left: $gutter/2;}
 dl > dd {margin:0px 0px $verticalSpace;}
 
 //5.2. Address & Time
-address, time {display:block; margin:$verticalSpace 0px;}
+time {}
+address {display:block; margin:$verticalSpace 0px;}
 //5.3. Quotes
 q {}
 blockquote {
   margin: $verticalSpace $gutter;
-  padding: $verticalSpace $gutter;
-  background-color: transparentize($white, 0.5);
+  padding: 0px $gutter;
   quotes:'"';
   &:before {
   	float: left;
+    padding-right: $gutter/4;
   	content:'“';
     font-size: $fontSize*3;
   }
@@ -98,12 +106,13 @@ blockquote {
 
 //5.4. Basic styling, see _prism.scss for colours etc... Code -> NB see 3. for <code> */
 pre {
-	margin: $verticalSpace $gutter;
+	margin-bottom: $verticalSpace;
   padding: $verticalSpace $gutter;
-  background-color:$black;
+  background-color:#1d1f21;
   font-size: 100%;
 	color: $white;
   line-height: $lineHeight;
-  @include word-wrap;
-	code { background: none; }
+  text-shadow: none;
+  @extend %word-wrap;
+	code { background: none; font-size: $fontSize*$goldenRatio;}
 }

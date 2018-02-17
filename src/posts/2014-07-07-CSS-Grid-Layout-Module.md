@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: CSS Grid Layout Module
-date: '2014-07-07'
+title: "CSS Grid Layout Module"
+date: 2014-07-07
 category: craft-code
 tags:
 - code
@@ -9,8 +9,7 @@ tags:
 - grid
 - craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "So I had a chance recently to play around with the CSS Grid Layout Module"
 ---
 

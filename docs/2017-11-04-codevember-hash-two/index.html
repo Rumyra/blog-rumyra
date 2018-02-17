@@ -6,12 +6,12 @@
 
   <title>&#x27;Codevember Hash Two&#x27; by Rumyra&#x27;s Blog</title>
 
-  <meta property="og:url" content="https://rumyra.com/2017-11-04-codevember-hash-two"/>
+  <meta property="og:url" content="https://blog.rumyra.com/2017-11-04-codevember-hash-two"/>
   <meta property="og:title" content="Codevember Hash Two"/>
   <meta property="og:description" content="It&#x27;s Sapphire subject today so here&#x27;s a little audio vis instead of a grid practice, as it seemed to fit a little betterer.
 "/>
   <meta property="og:site_name" content="Rumyra&#x27;s Blog"/>
-  <meta property="og:image" content="https://rumyra.com/images/rumyra.jpg" />
+  <meta property="og:image" content="https://blog.rumyra.com/images/rumyra.jpg" />
 
   <!-- Twitter Do Not Track -->
   <meta name="twitter:dnt" content="on">
@@ -31,7 +31,7 @@
   <meta name="theme-color" content="#B76380">
 
   <link rel="stylesheet" href="/assets/css/style.css?201711031711">
-  <link rel="alternate" type="application/rss+xml" title="Rumyra&#x27;s Blog" href="https://rumyra.com/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Rumyra&#x27;s Blog" href="https://blog.rumyra.com/feed.xml">
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -56,16 +56,14 @@
     <p>Personal Blog of Ruth John</p>
   </header>
 
-  <!-- <nav class="nav__back">
-    <a href="/" title="Return to all posts">←</a>
-  </nav> -->
 
-  <article class="blog-article" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <article class="blog-article craft-code" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="article__header">
-      <h2 class="article__title" itemprop="name headline">Codevember Hash Two</h2>
-
       <p class="article__date"><time datetime="2017-11-03">Friday, 3rd November 2017</time></p>
+
+      <h2 class="article__title" itemprop="name headline">Codevember Hash Two</h2>
     </header>
 
     <section class="article__body" itemprop="articleBody">
@@ -131,12 +129,16 @@
     <p><span>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Designed and built by Ruth John.</span></p>
   </footer>  </div><!--wrapper-->
 
-  <link rel="stylesheet" href="/css/zenburn.css" async defer>
-  <script type="text/javascript" src="/js/highlight.pack.js"></script>
+  <!-- <nav class="nav__back">
+    <a href="/" title="Return to all posts">←</a>
+  </nav> -->
+
+  <link rel="stylesheet" href="/assets/css/tomorrow-night.css" async defer>
+  <script type="text/javascript" src="/assets/js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
   <script>
-    var tweets = document.querySelectorAll(".tweet");
+    var tweets = document.querySelectorAll(".article__tweet");
     for(var i=0; i<tweets.length; i++) {
       var tweet = tweets[i];
       var id = tweet.getAttribute("tweetID");
@@ -146,7 +148,7 @@
         {
           conversation : 'none',
           cards: 'visible',
-          linkColor: '#cc0000',
+          linkColor: '#B76380',
           theme: 'light',
           align: 'center'
         });

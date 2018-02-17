@@ -1,5 +1,89 @@
 .blog-article {
-	.blog-article__header {}
-	.blog-article__body {}
-	.blog-article__share {}
+	padding: $verticalSpace $gutter;
+	background-color: transparentize(white, 0.3);
+
+	.article__body {}
+	.article__share {}
 }
+
+// post header
+.article__header {}
+.article__date {
+	margin: 0px 0px $verticalSpace/2;
+	@extend %smallCaps;
+	line-height: $goldenRatio;
+	color: $speakWrite;
+	@include partBorder(0%, 80%, $speakWrite);
+}
+.article__title {
+}
+
+.brain-dribble {
+	.article__date {
+		color: $brainDribble;
+		@include partBorder(0%, 80%, $brainDribble);
+	}
+}
+
+.craft-code {
+	.article__date {
+		color: $craftCode;
+		@include partBorder(0%, 80%, $craftCode);
+	}
+}
+
+// article body content
+.article__body {
+	li, dt, dd {font-size:$fontSize*$goldenRatio; line-height:$lineHeight; letter-spacing:$letterSpacing;}
+	blockquote:before {color:$speakWrite;}
+	blockquote p {
+		margin: 0px; padding: $verticalSpace 0px;
+		@extend %smallCaps; line-height: $goldenRatio;
+		color: $speakWrite;
+		@include partBorder(0%, 80%, $speakWrite);
+		@include partBorder(0%, 80%, $speakWrite, top, after);
+	}
+}
+
+.brain-dribble .article__body {
+	blockquote:before {color:$brainDribble;}
+	blockquote p {
+		color: $brainDribble;
+		@include partBorder(0%, 80%, $brainDribble);
+		@include partBorder(0%, 80%, $brainDribble, top, after);
+	}
+}
+
+.craft-code .article__body {
+	blockquote:before {color:$craftCode;}
+	blockquote p {
+		color: $craftCode;
+		@include partBorder(0%, 80%, $craftCode);
+		@include partBorder(0%, 80%, $craftCode, top, after);
+	}
+}
+
+// tweets
+.article__tweet {
+	margin-bottom: $verticalSpace;
+	twitterwidget {
+		border: 1px solid transparentize($speakWrite,0.5);
+		border-radius: 6px;
+	}
+}
+
+.brain-dribble {
+	.article__tweet {
+		twitterwidget {border-color: transparentize($brainDribble,0.5);}
+	}
+}
+
+.craft-code {
+	.article__tweet {
+		twitterwidget {border-color: transparentize($craftCode,0.5);}
+	}
+}
+
+
+
+

@@ -1,12 +1,11 @@
 ---
 layout: post.html
-title: So I Was Thinking About Preprocessors...
-date: '2013-10-22'
+title: "So I Was Thinking About Preprocessors..."
+date: 2013-10-22
 category: craft-code
 tags: craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "I woke up this morning, bleary eyed, slightly hungover from the first (amaze) day at CSS Dev Conference and really really felt compelled to write this."
 ---
 

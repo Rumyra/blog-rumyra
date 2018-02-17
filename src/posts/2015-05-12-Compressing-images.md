@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Compressing images
-date: '2015-05-12'
+title: "Compressing images"
+date: 2015-05-12
 category: craft-code
 tags:
 - image
@@ -10,8 +10,7 @@ tags:
 - wordpress
 - craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "I'm currently doing a Wordpress ->Middleman shuffle for our team blog at work."
 ---
 

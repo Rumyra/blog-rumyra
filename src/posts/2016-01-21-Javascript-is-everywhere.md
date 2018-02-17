@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Javascript is Everywhere
-date: '2016-01-21'
+title: "Javascript is Everywhere"
+date: 2016-01-21
 category: craft-code
 tags:
 - javascript
@@ -9,8 +9,7 @@ tags:
 - art
 - everywhere
 status: published
-layout: post.html
-image: null
+
 summary: "So back just before Christmas, I was doing a little research for an article and I tweeted:"
 ---
 

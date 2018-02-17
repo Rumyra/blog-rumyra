@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: I Wrote Some Stuff Again
-date: '2016-01-11'
+title: "I Wrote Some Stuff Again"
+date: 2016-01-11
 category: speak-write-mentor
 tags:
 - article
@@ -11,8 +11,7 @@ tags:
 - VJing
 - MIDI
 status: published
-layout: post.html
-image: null
+
 summary: "I was a busy writing beaver the past month! I wrote an article for the wonderful 24ways..."
 ---
 

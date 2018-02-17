@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 13 Feb 2018 07:35:29 GMT</lastBuildDate><atom:link href="https://rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[My Journey of DevOps Discovery]]></title><description><![CDATA[<p>I'm going to take you on a journey. This is the journey of my career thus far and the discoveries that have made dealing with DevOps more pleasant.</p>
-<figure class="center " markdown="1">
-<a href="/images/journey.jpg" target="_blank">
-  <img src="/images/journey.jpg" alt="Photo by Tegan Mierle on Unsplash">
-</a>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Sat, 17 Feb 2018 00:46:45 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[This blogs styleguide]]></title><description><![CDATA[<h2>Main Header</h2>
+<h3>Sub Header</h3>
+<h5>Small caps</h5>
+<p class="body__text">This is a regular text size paragraph. Skate ipsum dolor sit amet, judo air boned out Christ air ollie impossible locals. Salad grind masonite indy grab bearings cess slide slappy. Dudesblood smith grind axle hang ten rail slide coper downhill. Tail boneless slide Omar Hassan coping chicken wing axle set.</p>
+<p class="article__text">This is a reading paragraph. Hang up rocket air hand rail Kevin Harris kick-nose dude grab. Powerslide opposite footed alley oop air nose-bump Kien Lieu Saran Wrap hip. No comply Neal Hendrix front foot impossible rocket air 1080 downhill hanger stoked.</p>
+<p class="article__text">Another reading paragraph, with link, bold/strong, italic/em etc... Pop <a href="#">shove-it powerslide nosegrind drop in gnar</a> bucket. Hand rail <strong>impossible hard flip</strong> skater Jeremy Klein Kevin Harris. Shoveit <em>crailtap grind</em> pressure flip nosegrind. Andrew Reynolds hurricane sketchy layback full-cab bearings. Pump nose camel back alley oop chicken wing.</p>
+<h5>Feature image</h5>
+<figure class="media__feature" markdown="1">
+<figcaption>Oh my god it's evil!</figcaption>
+<picture>
+	<source srcset="/media/almenac.jpg" media="(min-width: 660px)">
+	<img src="/media/almenac.jpg" alt="Description of image here" />
+</picture>
+</figure>
+<h5>Regular image</h5>
+<figure class="" markdown="1">
+<figcaption>Oh my god it's evil!</figcaption>
+<picture>
+	<source srcset="/media/almenac.jpg" media="(min-width: 660px)">
+	<img src="/media/almenac.jpg" alt="Description of image here" />
+</picture>
+</figure>
+<h5>Tweets</h5>
+<div class="article__tweet" tweetID="963924756373430274"></div>
+<h5>Code</h5>
+<pre><code class="language-javascript">// set up audio context
+var audioContext = (window.AudioContext || window.webkitAudioContext);
+// create audio class
+if (audioContext) {
+  // Web Audio API is available.
+  var audioAPI = new audioContext();
+  } else {
+  // Web Audio API is not available. Ask the user to use a supported browser.
+  alert("Oh nos! It appears your browser does not support the Web Audio API, please upgrade or use a different browser");
+}
+
+// variables
+var analyserNode,
+  frequencyData = new Uint8Array(256);
+const screen = document.querySelector('#screen'),
+  allRepeatedEls = document.querySelectorAll('#screen section'),
+  totalEls = allRepeatedEls.length;
+</code></pre>
+<h5>Blockquotes</h5>
+<blockquote>
+<p>You're decision might be 'Should I use SASS' well the answer to that one is yes but…</p>
+</blockquote>
+<h5>Lists</h5>
+<ul>
+<li>This is a learning experience for me too, so things may stay quite basic. The code will probably <em>be</em> basic, however this does mean it won’t be too complicated for entry level coders.</li>
+<li>I’ll be analysing audio from the microphone, which means I’ll be using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API">Media Streams API</a>, which only works over https, you’ll need to view the pens over https://codepen.io</li>
+<li>Things work best in Canary so I’ve noticed, please don’t expect pens to work cross browser. The main end game for me is to integrate them into my VJ software, which I run in a sandboxed environment (my machine, my choice of browser) sux I know!</li>
+<li>I’ll be cross posting all these articles to both my <a href="https://codepen.io/Rumyra/posts/published/">Codepen Blog</a> and <a href="http://rumyrashead.com/">my personal blog</a>.</li>
+<li>There's a high chance I won't make every single day, but I will try 🙃</li>
+</ul>
+<ol>
+<li>Raspberry</li>
+<li>Rambutan</li>
+<li>Redcurrant</li>
+<li>Salak</li>
+<li>Satsuma</li>
+<li>Soursop</li>
+<li>Star fruit</li>
+</ol>
+]]></description><link>https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</link><guid isPermaLink="true">https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</guid><pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[My Journey of DevOps Discovery]]></title><description><![CDATA[<p>I'm going to take you on a journey. This is the journey of my career thus far and the discoveries that have made dealing with DevOps more pleasant.</p>
+<figure class="" markdown="1">
 <figcaption><a href='https://unsplash.com/photos/ioyEITUD2G8'>Photo of a figure in a hoody walking down a road by Tegan Mierle on Unsplash</a></figcaption>
+<picture>
+	<img src="/images/journey.jpg" alt="Photo by Tegan Mierle on Unsplash" />
+</picture>
 </figure>
 <p>First I want to make something clear. I consider myself a JavaScript developer, previously a Java and .Net developer. Throughout my career I've technically been a &quot;Full Stack&quot; developer but operations have never been my passion. Anything I can do to make the ops side of things easier leaves me with more time to code - more time to do what I love.</p>
 <p>What follows is a progression of techniques I use to make managing servers easier. I am not suggesting that one technique replaces the prior though. There are times when each of these techniques can be useful to me today.</p>
@@ -74,11 +138,11 @@
 <p>This is where I was at the start of last year. It's a good place to be as it takes a lot of the stress out of managing servers. When you start working with hundreds of microservices though, it can become a new kind of headache. Depending on how you structure your infrastructure you could end up with the same infrastructure code repeated again and again for each of your microservices - each with their own machine instance, their own load balancer and auto scaling group. You end up with a LOT of infrastructure to manage and all the financial costs that come with that.</p>
 <p>So where do we go next?</p>
 <h2>Containers</h2>
-<figure class="center " markdown="1">
-<a href="/images/containers.jpg" target="_blank">
-  <img src="/images/containers.jpg" alt="Photo of shipping containers by frank mckenna on Unsplash">
-</a>
+<figure class="" markdown="1">
 <figcaption><a href='https://unsplash.com/photos/tjX_sniNzgQ'>Photo by frank mckenna on Unsplash</a></figcaption>
+<picture>
+	<img src="/images/containers.jpg" alt="Photo of shipping containers by frank mckenna on Unsplash" />
+</picture>
 </figure>
 <p>This is where I'm at today.</p>
 <p>In the early days of <a href="https://www.docker.com/">Docker</a>, when the technology wasn't as mature as it is today, running production services within containers could be risky. When things went right it was great, but when things went wrong and you needed to debug the issue you had a whole new layer of complexity to debug. While this is still true to some extent today, things have come a long way.</p>
@@ -124,29 +188,55 @@ spec:
 <p>I also foresee security making big strides in the coming years. With all the recent and ongoing data breaches something needs to be done to help make the security of peoples applications clearer as they're no longer involved in the nitty-gritty details of things.</p>
 <hr />
 <p>I'm pretty excited to talk about this stuff with anyone who's interested. Feel free to reach out to me on <a href="https://twitter.com/Marcus_Noble_">Twitter</a> or <a href="https://mastodon.social/@AverageMarcus">Mastodon</a>.</p>
-]]></description><link>https://rumyra.com/2018-01-02-my-journey-of-devops-discovery</link><guid isPermaLink="true">https://rumyra.com/2018-01-02-my-journey-of-devops-discovery</guid><pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
+]]></description><link>https://blog.rumyra.com/2018-01-02-my-journey-of-devops-discovery</link><guid isPermaLink="true">https://blog.rumyra.com/2018-01-02-my-journey-of-devops-discovery</guid><pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
 <p>It's <strong>Sapphire</strong> subject today so here's a little audio vis instead of a grid practice, as it seemed to fit a little betterer.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="XzdVKJ" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember Hash 2" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/XzdVKJ/">Codevember Hash 2</a> by Rumyra (<a href="https://codepen.io/Rumyra">@Rumyra</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <p>The biggest change I've made to the audio-vis software I'm building (Vizra) is to move the visuals to a canvas element to help performance. Drawing (&amp; re-drawing) a butt ton of SVGs wasn't working too well. So the audio vis you'll see this Codevember are all going to be on canvas - not too much change to the actual visuals from last year. But most of work this year has been around the nuts and bolts of the software rather than the vis themselves.</p>
 <p>Weirdly I have run into <em>more</em> performance problems recently, but that's a whole other blog post, in fact a whole series!</p>
-]]></description><link>https://rumyra.com/2017-11-04-codevember-hash-two</link><guid isPermaLink="true">https://rumyra.com/2017-11-04-codevember-hash-two</guid><pubDate>Sat, 04 Nov 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[MobDevCon 2013]]></title><description><![CDATA[<p>Earlier this week I found myself in the middle of very flat Norfolk. Coming from the West Country I'm used to the middle of no-where and actually enjoyed walking down the non pavement road to <a href="http://www.hethelcentre.com" rel="external">Hethel Engineering Centre</a> from my b&amp;b.</p>
-<p>The conference was hosted by <a href="http://nakedelement.co.uk" rel="external">Naked Element Ltd</a>. Specifically <a href="http://www.linkedin.com/in/pgrenyer" rel="external">Paul Grenyer</a> and <a href="http://www.linkedin.com/in/mariecooperuk" rel="external">Marie Cooper</a> who were both very friendly and accommodating.</p>
-<p>There were some great talks throughout the day. Ranging from topics such as NFC technology, how to code custom components for Android devices and why cross platform development is the only way forward. <a href="http://www.mobdevcon.com/2013/index.html" rel="external">More here</a></p>
-<p>I spoke about <strong>Building Apps for Firefox OS</strong> which went down very well. So well in fact Paul and Marie very kindly asked me back next year to <a href="http://www.mobdevcon.com" rel="external">present the opening keynote!</a> How exciting!</p>
-<blockquote><p>There were several requests to have some of this year’s speakers back next year, including Neil Garner, Ruth John and Paul Lammertsma. Ruth John has already agreed to open next year’s conference.</p></blockquote>
-<p>Overall an great experience and a great conference. I'm already looking forward to next year.</p>
-]]></description><link>https://rumyra.com/2013-07-16-mobdevcon-2013</link><guid isPermaLink="true">https://rumyra.com/2013-07-16-mobdevcon-2013</guid><pubDate>Tue, 16 Jul 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hackathonarama 3: with great power comes great hacks]]></title><description><![CDATA[<p>For the third year running I attended <a href="https://2017.hackference.co.uk/">Hackference</a> again. Once again, a 1 day conference followed by a 24 hour hackathon and as always a really great weekend.</p>
-<div class="tweet" tweetID="921291636486885377"></div>
+]]></description><link>https://blog.rumyra.com/2017-11-04-codevember-hash-two</link><guid isPermaLink="true">https://blog.rumyra.com/2017-11-04-codevember-hash-two</guid><pubDate>Sat, 04 Nov 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash One]]></title><description><![CDATA[<h3>Codevember 2017</h3>
+<p>Wow I almost wrote 2018 then! It's here CODEVEMBER!! ALL THE EMOJIS</p>
+<p>tl:dr;</p>
+<ul>
+  <li>It's Codevember</li>
+  <li>Gonna do some CSS Grid</li>
+  <li>Probably not every day</li>
+  <li>Got a book for inspiration</li>
+  <li>Will write notes</li>
+</ul>
+<p>I haven't written much this year, it's been pretty busy... I think I'll make it more of a focus next year, there's so much I want to learn and then hopefully write about. This year has very much been about sharing my thus far found knowledge. Which I will continue to do, but there's so many things which have taken a back seat and I need to sit and learn.</p>
+<p>Which is where this Codevember comes in. I need to get more practise with grid layout. I'll be teaching it in January to my bootcamp students as I'm revising my part of the course and I really want to stretch myself with it. Get it into muscle memory, and hopefully do a bit more flexbox as well. I've done a fair bit now, but I still feel like there's a lot of trial and error with both when I use them. I'm not use to this, other methods just fall off the finger tips. It'd be great to learn these inside out too.</p>
+<p>I know already I can't do every day this month. I'm on a project as I write this and have 3 conferences lined up... Also I really want to buy a Nintendo Switch.</p>
+<p>Don't worry, I <em>have</em> done some more visuals this year I want to share, so expect some of them mixed in too 😄</p>
+<h3>Hash 1</h3>
+<p>INSPIRATION Y'ALL 😄 You know how much I luv inspiration. Check out this book</p>
+<figure>
+  <img src="/media/cssGridBook.jpg" />
+  <figcaption>Make and Break the Grid</figcaption>
+</figure>
+<p>I totally borrowed this from a work place years and years ago, then I forgot and then I left the job (:embarrassed_face:) but we had a googles today and you can get it for £16, so if anyone is missing it and needs reimbursing hit me up (soz).</p>
+<p>I mean the title says it all really. It's got loads and loads of layouts based on different grids all the way through it. See those sticky tabs? I went through it last night and highlighted what I thought to be easy -&gt; harder layouts through the use of colour. We'll see how I get on.</p>
+<h3>The exercise here is not to copy them directly...</h3>
+<p>I have complete artist control, they are <em>inpiration</em>. What I want is to practise using CSS Grid, if there's part of a layout I want to change to practise something I will most likely do this.</p>
+<p>So to start simple here's the first day.</p>
+<p data-height="300" data-theme-id="1345" data-slug-hash="Vrerme" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="CSS Grid #1 : Codevember '17" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/Vrerme/">CSS Grid #1 : Codevember '17</a> by Rumyra (<a href="https://codepen.io/Rumyra">@Rumyra</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p>Inspired by this lovely image:</p>
+<figure>
+  <img src="/media/cssGrid1.jpg" />
+  <figcaption>Simple Image Grid</figcaption>
+</figure>
+]]></description><link>https://blog.rumyra.com/2017-11-02-codevember-hash-one</link><guid isPermaLink="true">https://blog.rumyra.com/2017-11-02-codevember-hash-one</guid><pubDate>Thu, 02 Nov 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hackathonarama 3: with great power comes great hacks]]></title><description><![CDATA[<p>For the third year running I attended <a href="https://2017.hackference.co.uk/">Hackference</a> again. Once again, a 1 day conference followed by a 24 hour hackathon and as always a really great weekend.</p>
+<div class="article__tweet" tweetID="921291636486885377"></div>
 <p>The conference was opened by <a href="https://twitter.com/JFKingsley">Jon Kingsley</a> talking about device hacking in a fetching cape.</p>
-<div class="tweet" tweetID="921294945125847040"></div>
+<div class="article__tweet" tweetID="921294945125847040"></div>
 <p>The day included a wide range of great talks including <a href="https://twitter.com/Lily_2point0/status/921305171338125312">an integer that you can't use in JS</a>, <a href="https://twitter.com/edent/status/921311892919943169">calls to Ben's mother</a>, <a href="https://twitter.com/jna_sh/status/921313320254222336">a promise of cake</a>, <a href="https://twitter.com/JamieTanna/status/921330784841228288">live coding a slide clicker</a>, <a href="https://twitter.com/cbetta/status/921342143393910789">tips for releasing your website on Mars</a> and <a href="https://twitter.com/bevishalperry/status/921400192447983617">a sobering look at privacy</a>.</p>
-<div class="tweet" tweetID="921403371860439041"></div>
+<div class="article__tweet" tweetID="921403371860439041"></div>
 <p>As always, the hackathon was great fun. While I didn't crank out my usual 4+ hacks this year (tiredness hit me hard) I did manage to tinker on a couple things. I managed to put together a fun little &quot;Virtual Stickers&quot; app that let you scan QR codes to unlock stickers that you could place on your screen and create a collage from. This could then be downloaded or shared with others. I also managed to put together a crude Alexa Flash Briefing to tell you what <a href="http://digitaloxford.com/">Digital Oxford</a> meetups were happening in the next week.</p>
 <p>Many great hacks came out of the weekend such as <a href="https://twitter.com/bevishalperry/status/922094521789435904">Tinder for GitHub</a>, <a href="https://twitter.com/bevishalperry/status/922083878889803776">GitHub contributions graph as music</a>, <a href="https://twitter.com/danielthepope/status/922097304999522310">Kudeliscope</a> and the ever useful <a href="https://twitter.com/danielthepope/status/922095102230753281">Is It a Bench?</a>.</p>
-<div class="tweet" tweetID="921326871056453632"></div>
+<div class="article__tweet" tweetID="921326871056453632"></div>
 <p>Every year I find more and more friends at Hackference, new and old, many whom I only see at these events. I have so much love for <a href="https://twitter.com/ukmadlz">Mike</a> for putting on this event and providing me with the chance to connect with so many amazing people.</p>
-]]></description><link>https://rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</link><guid isPermaLink="true">https://rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</guid><pubDate>Tue, 31 Oct 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>So the other day I shared a relatively crazy experience I had in Vienna last week.</p>
+]]></description><link>https://blog.rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</link><guid isPermaLink="true">https://blog.rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</guid><pubDate>Tue, 31 Oct 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[How To Be On Fire]]></title><description><![CDATA[<p>So the other day I shared a relatively crazy experience I had in Vienna last week.</p>
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thankfully gettin my hair sorted out after I CAUGHT IT ON FIRE in Vienna (ask <a href="https://twitter.com/csswizardry">@csswizardry</a> )<br><br>Expect totally on fire short haired Ruth 🔥</p>&mdash; Ruth John (@Rumyra) <a href="https://twitter.com/Rumyra/status/864100996422696960">May 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Anyway, thanks very much for everyone's concern and questions. I thought it probably deserved a little more explanation.</p>
@@ -158,14 +248,14 @@ spec:
 <p>Still, I wasn't injured, the flames were out and like he re-assured me throughout my paranoid mumblings through the night, 'you can't even tell'. I am 100% sure he was ready to pour a glass of water over me like a true hero!</p>
 <p>Anyway, all is well that ends well and I visited my babe of a hairdresser yesterday. By the time I'd explained the events of the evening she had rightfully sorted out the escapade. And really I think I quite like the new hair length ☺️</p>
 <figure class="media-feature">
-  <img src="media/hair.jpg" />
+  <img src="/media/hair.jpg" />
   <figcaption>Before and after photos of the hair fiasco</figcaption>
 </figure>
-]]></description><link>https://rumyra.com/posts/2017-05-17-how-to-be-on-fire</link><guid isPermaLink="true">https://rumyra.com/posts/2017-05-17-how-to-be-on-fire</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p><em>I wrote this back in December, then hopped in a campervan and travelled round Australia and barely opened my laptop. It's probably still worth releasing tho</em> 👉</p>
+]]></description><link>https://blog.rumyra.com/2017-05-17-how-to-be-on-fire</link><guid isPermaLink="true">https://blog.rumyra.com/2017-05-17-how-to-be-on-fire</guid><pubDate>Wed, 17 May 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Review]]></title><description><![CDATA[<p><em>I wrote this back in December, then hopped in a campervan and travelled round Australia and barely opened my laptop. It's probably still worth releasing tho</em> 👉</p>
 <p>Firstly let's go over the last few - here's the inspiration:</p>
 <h3>Concentric Circles</h3>
 <figure>
-  <img src="media/superConcen.jpg" />
+  <img src="/media/superConcen.jpg" />
   <figcaption>Concentric Circles</figcaption>
 </figure>
 <p data-height="300" data-theme-id="1345" data-slug-hash="QGMyXm" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #16" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/QGMyXm/">AudioVis Codevember #16</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
@@ -173,7 +263,7 @@ spec:
 <p>This was an extension of the sunburst really, it's just the shapes are being extended around rather than out. <em>Super</em> luv this (see what I did there)</p>
 <h3>Just Circles</h3>
 <figure>
-  <img src="media/superCircles.jpg" />
+  <img src="/media/superCircles.jpg" />
   <figcaption>Super Circles</figcaption>
 </figure>
 <br />
@@ -183,12 +273,12 @@ spec:
 <h3>Custom SVGs</h3>
 <p>This is Takashi Murakami. He's a crazy artist, I found this book at a random second hand sale at my mums old school:</p>
 <figure>
-  <img src="media/takashiCover.jpg" />
+  <img src="/media/takashiCover.jpg" />
   <figcaption>Takashi Murakami book cover</figcaption>
 </figure>
 <p>Then he had an exhibition when I was in London and I spot his work regularly at other exhibition. Suffice to say it's pretty awesome. Anyway super uber great for playing with a custom SVG:</p>
 <figure>
-  <img src="media/takashiScene.jpg" />
+  <img src="/media/takashiScene.jpg" />
   <figcaption>Takashi Murakami scene</figcaption>
 </figure>
 <p data-height="300" data-theme-id="1345" data-slug-hash="pNdmBO" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #19" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/pNdmBO/">Codevember AudioVis #19</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
@@ -224,17 +314,17 @@ spec:
 <h4>Note from now</h4>
 <p>This work made a big part of my talk for JSConfAU which was actually one of my favourtie talks from last year. I've also started other work in different areas of the vis, like the analysis part started in <a href="http://12devsofxmas.co.uk/2017/01/day-12-beat-dis-re-addressing-audio-analysis/">this article for 12 Devs of Xmas</a>.</p>
 <p>Basically it's all go and super cool and Codevember was awesome 🕶</p>
-]]></description><link>https://rumyra.com/posts/2017-01-25-codevember-review</link><guid isPermaLink="true">https://rumyra.com/posts/2017-01-25-codevember-review</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<h3>Super Sun</h3>
+]]></description><link>https://blog.rumyra.com/2017-01-25-codevember-review</link><guid isPermaLink="true">https://blog.rumyra.com/2017-01-25-codevember-review</guid><pubDate>Wed, 25 Jan 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Fifteen]]></title><description><![CDATA[<h3>Super Sun</h3>
 <p>Today's inspiration is:</p>
 <figure>
-  <img src="media/superSun.jpg" />
+  <img src="/media/superSun.jpg" />
   <figcaption>The Super Sun</figcaption>
 </figure>
 <p>Today's is a little bit trickier as we have to create arc elements drawn in a circle that increase their outer arc with our data. But otherwise the code goes much the same as the previous days.</p>
 <p>Sorry this isn't more insightful, but I am on a train on the way to the airport! Hopefully I'll be making more on the plane ✈️</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="MbmwGy" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #15" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/MbmwGy/">AudioVis Codevember #15</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://rumyra.com/posts/2016-11-22-codevember-number-fifteen</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-22-codevember-number-fifteen</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<h2>Part Three: d3.js</h2>
+]]></description><link>https://blog.rumyra.com/2016-11-22-codevember-number-fifteen</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-22-codevember-number-fifteen</guid><pubDate>Tue, 22 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Thirteen and Fourteen]]></title><description><![CDATA[<h2>Part Three: d3.js</h2>
 <p>Before I start I want to give a big shout out to <a href="https://twitter.com/benjaminbenben">Ben (@benjaminbenben)</a> who was helping me with some performance stuff I having trouble with. In doing so he really opened my eyes to how powerful d3 is and actually how suited a library it is to help with what we are doing here.</p>
 <p>It’s dubbed a ‘visualisation library’, however I think it’s relationship with data has given it a reputation that makes people who haven't discovered it, assume it’s just for pie charts. That’s changing now, and don’t get me wrong it’s good for displaying data, but that’s just it it’s good with displaying <em>and</em> it’s good with data. So anything you want to do with the DOM or anything you want to do with data and d3 has you covered.</p>
 <p>I’ve noticed a lot of the things I’m building use a great deal of DOM manipulation and data manipulation, so it felt like a great thing to start playing with. It’s also worth noting here I’m using version 3, version 4 was recently released with a great deal of updates and changes, but as I’m learning and pretty much all the tutorials still use version 3, I’m going to stick with that. When I’m more comfortable with the library I can start to look at the update documentation.</p>
@@ -243,13 +333,13 @@ spec:
 <p>We need data to get d3 to really do anything, but we have that, we have this array of velocity values from our frequency; <code>frequencyData</code>. We can get d3 to create an element for each item in the array, attach the relative data to each element and then start to use it to manipulate the DOM element, whether that be change it’s size, position, colour of whatever.</p>
 <h3>Number Thirteen: Super Chart</h3>
 <figure>
-  <img src="media/superGraphic.jpg" />
+  <img src="/media/superGraphic.jpg" />
   <figcaption>Cover of Super Graphic book by Tim Leong</figcaption>
 </figure>
 <p>My inspiration for this series is from the book <em>Super Graphic</em> by Tim Leong. It's a bunch of data visualisations from and about comic books. Check it out it's pretty sweet. Perfect for inspiration for audio vis!</p>
 <p>So let’s start with this example:</p>
 <figure>
-  <img src="media/superCharts.jpg" />
+  <img src="/media/superCharts.jpg" />
   <figcaption>The Super Charts</figcaption>
 </figure>
 <p>At the moment we have 256 items in our frequency array, piping that into d3 would mean it would create 256 elements, one for each frequency (unless we did some array manipulation, but for simplicities sake, let’s just reduce the number of elements).</p>
@@ -290,20 +380,20 @@ function drawCircles() {
 <h3>Number Fourteen: Super Colours</h3>
 <p>What can I say - this one is probably the most me so far!</p>
 <figure>
-  <img src="media/superColours.jpg" />
+  <img src="/media/superColours.jpg" />
   <figcaption>The Super Charts</figcaption>
 </figure>
 <p>The technique is much the same as the previous example, just this time we’re creating SVG <code>rect</code> elements and doing some maths to position and colour them. The data is being used to adjust the brightness of the squares, although we could use it for anything. Another good example that would be good to live code at a gig.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="mOWKdL" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="mOWKdL" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/mOWKdL/">mOWKdL</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://rumyra.com/posts/2016-11-21-codevember-number-thirfourteen</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-21-codevember-number-thirfourteen</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>This is an experiment in symmetry. An effect that would be great in the final audio vis software.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-21-codevember-number-thirteen-and-fourteen</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-21-codevember-number-thirteen-and-fourteen</guid><pubDate>Mon, 21 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Eleven And Twelve]]></title><description><![CDATA[<p>This is an experiment in symmetry. An effect that would be great in the final audio vis software.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="bBqbBX" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #11" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/bBqbBX/">Codevember AudioVis #11</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <p>The original idea is a function that would take whatever was in the DOM and reflect and repeat it around so it would automatically make it look awesome.</p>
 <p>It's kinda there - it needs some tweaking depending on whether we have an animation or gif/video that's needing the effect. Something that take some params depending on whether we want it rotated or reflected would be the best final solution me thinks.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="Ropbyv" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #12" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/Ropbyv/">Codevember AudioVis #12</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://rumyra.com/posts/2016-11-20-codevember-number-eleventwelve</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-20-codevember-number-eleventwelve</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do and that's try and do <em>two</em> codevembers for the next few days to make up for it.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-20-codevember-number-eleven-and-twelve</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-20-codevember-number-eleven-and-twelve</guid><pubDate>Sun, 20 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Nine And Ten]]></title><description><![CDATA[<p>Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do and that's try and do <em>two</em> codevembers for the next few days to make up for it.</p>
 <p>Let's see how that goes 🤓</p>
 <h3>AudioVis #9</h3>
 <p>NB This one comes with a warning. The way I coded this is highly UNRECOMMENDED. Not only was it a total ball ache, it doesn’t perform well and there are work arounds. It took what felt like days and the result is not amazing. If you’re wondering, I would probably use canvas for an audio vis of this nature in future. Hashtag learning, amiright?</p>
@@ -327,7 +417,7 @@ function drawCircles() {
 <p>However I think we should probably move into a better, more performant way of creating and manipulating DOM els for audio vis, don't you?</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="BQprdW" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #10" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/BQprdW/">Codevember AudioVis #10</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://rumyra.com/posts/2016-11-19-codevember-number-nineten</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-19-codevember-number-nineten</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<h3>Part Two: Random Cool New Features</h3>
+]]></description><link>https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</guid><pubDate>Sat, 19 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Eight]]></title><description><![CDATA[<h3>Part Two: Random Cool New Features</h3>
 <p>So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM, but before I do that I want to introduce some new features we have in simple CSS that can really help our visuals later down the track. Our inspiration for this set is a little tumblr called <a href="http://intothecontinuum.tumblr.com/">Archery: Into the Continuum</a>. Here I want to take inspiration from some of these random gifs, not exactly replicate them.</p>
 <p>So first up, this gif:</p>
 <figure>
@@ -352,7 +442,7 @@ function drawCircles() {
 <p>Boom! Opacity of <code>i</code> updated! In real time, in our CSS.</p>
 <p>I know - all the wows!</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/yVeoJo/">yVeoJo</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>]]></description><link>https://rumyra.com/posts/2016-11-10-codevember-number-eight</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-10-codevember-number-eight</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow...</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>]]></description><link>https://blog.rumyra.com/2016-11-10-codevember-number-eight</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-10-codevember-number-eight</guid><pubDate>Thu, 10 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Five]]></title><description><![CDATA[<p>Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow...</p>
 <p>Today is Bridget Riley's Static 4:</p>
 <figure>
   <img src="/media/bridgetStatic.jpg" />
@@ -362,7 +452,7 @@ function drawCircles() {
 <p data-height="300" data-theme-id="1345" data-slug-hash="yVypOR" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #5" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/yVypOR/">Codevember AudioVis #5</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <p>Let’s end on a classic: <a href="https://www.youtube.com/watch?v=KYSPfTMyJ2s">A to the K - Cyprus Hill</a>.</p>
-]]></description><link>https://rumyra.com/posts/2016-11-06-codevember-number-five</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-06-codevember-number-five</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>We're in it for the long haul - so we're still using the same technique. Stick with me - come next week, I'll be looking at some different, new shiny things and the week after the same. Over the next month we shall learn some great audio vis techniques together. These ones aren't bad btw - they may just not be 'wow' juuuussstt yet 🙃</p>
+]]></description><link>https://blog.rumyra.com/2016-11-06-codevember-number-five</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-06-codevember-number-five</guid><pubDate>Sun, 06 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Four]]></title><description><![CDATA[<p>We're in it for the long haul - so we're still using the same technique. Stick with me - come next week, I'll be looking at some different, new shiny things and the week after the same. Over the next month we shall learn some great audio vis techniques together. These ones aren't bad btw - they may just not be 'wow' juuuussstt yet 🙃</p>
 <p>This is my inspiration for today’s pen: Bridget Riley's Quiver 3.</p>
 <figure>
   <img src="/media/bridgetQuiver.jpg" />
@@ -378,7 +468,7 @@ function drawCircles() {
 }
 </code></pre>
 <p>Tweaked for <a href="https://www.youtube.com/watch?v=zN226CmaNcI">Witness the Fitness by Roots Manuva</a></p>
-]]></description><link>https://rumyra.com/posts/2016-11-05-codevember-number-four</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-05-codevember-number-four</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>This is my inspiration for today’s pen: Bridget Riley's Dilated Centres.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-05-codevember-number-four</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-05-codevember-number-four</guid><pubDate>Sat, 05 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Three]]></title><description><![CDATA[<p>This is my inspiration for today’s pen: Bridget Riley's Dilated Centres.</p>
 <figure>
   <img src="/media/bridgetCentres.jpg" />
   <figcaption>Bridget Riley : Dilated Centers</figcaption>
@@ -388,7 +478,7 @@ function drawCircles() {
 <p data-height="300" data-theme-id="1345" data-slug-hash="BQayWP" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #3" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/BQayWP/">Codevember AudioVis #3</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 I’d recommend the [opening credits to Luke Cage](https://www.youtube.com/watch?v=1gbHItHuZ0E) for this one.
-]]></description><link>https://rumyra.com/posts/2016-11-03-codevember-number-three</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-03-codevember-number-three</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>I’ve gone straight for something a bit weird for day two. But we’re not doing too much different from day one. Just adding a different background gradient to the divs, displaying them with a little flex magic and again changing the widths.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-03-codevember-number-three</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-03-codevember-number-three</guid><pubDate>Thu, 03 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Two]]></title><description><![CDATA[<p>I’ve gone straight for something a bit weird for day two. But we’re not doing too much different from day one. Just adding a different background gradient to the divs, displaying them with a little flex magic and again changing the widths.</p>
 <p>Yes these vis are simple, but I think it's good we're starting simple, stay with me and we'll see where we end!</p>
 <figure>
   <img src="/media/bridgetSquares.jpg" />
@@ -398,7 +488,7 @@ I’d recommend the [opening credits to Luke Cage](https://www.youtube.com/watch
 <p><a href="https://www.youtube.com/watch?v=B-y-lS0YqF0">Mos Def - Ms Fat Booty</a> for this one</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="PbYGNB" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #2" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/PbYGNB/">Codevember AudioVis #2</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://rumyra.com/posts/2016-11-02-codevember-number-two</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-02-codevember-number-two</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser. I’ve written and spoken about this a number of times, as well as made a few codepens every now and again, but I thought I would take this month to go over creating audio triggered visuals from the ground up.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-02-codevember-number-two</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-02-codevember-number-two</guid><pubDate>Wed, 02 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number One]]></title><description><![CDATA[<p>Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser. I’ve written and spoken about this a number of times, as well as made a few codepens every now and again, but I thought I would take this month to go over creating audio triggered visuals from the ground up.</p>
 <p>Not only do I hope this be a learning journey for you, but one for me as well, there’s been a number of different techniques, new web features, libraries etc… that I’ve wanted to try, it seems like Codevember is the perfect opportunity.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="pEMGEP" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #1" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/pEMGEP/">Codevember AudioVis #1</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -502,11 +592,11 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 #screen section {
   height:8vh; margin: 3vh;
   background-color: mediumorchid;
-  background-image: linear-gradient(45deg, mediumorchid 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, mediumorchid 41%, mediumorchid 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, mediumorchid 91% );
+  background-image: media/ linear-gradient(45deg, mediumorchid 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, mediumorchid 41%, mediumorchid 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, mediumorchid 91% );
   background-size: 2vh 2vh;
 }
 #screen section:nth-of-type(2n) {
-  background-image: linear-gradient(135deg, indianred 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, indianred 41%, indianred 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, indianred 91% );
+  background-image: media/ linear-gradient(135deg, indianred 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, indianred 41%, indianred 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, indianred 91% );
 }
 </code></pre>
 <p>Now we have 8 sections, all stretched along our <em>screen</em> div. Let’s loop over them and change their width depending on the volume of a frequency.</p>
@@ -525,7 +615,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 </code></pre>
 <p>The volume values received back from the analyser node range from 0-255, so I’m dividing by 2 to give rough value for the section to take up.</p>
 <p>As the weeks go by we’ll find better, more smoother ways of dealing with the DOM, but for today; huzzah! We made some things move to the music - it plays pretty well to <a href="https://www.youtube.com/watch?v=1plPyJdXKIY">Warrant G and Nate Dog - Regulate</a>, if you were wondering…</p>
-]]></description><link>https://rumyra.com/posts/2016-11-01-codevember-number-one</link><guid isPermaLink="true">https://rumyra.com/posts/2016-11-01-codevember-number-one</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>I learnt a little thing whilst playing around with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">CSS blend modes</a> this morning which I thought I should share.</p>
+]]></description><link>https://blog.rumyra.com/2016-11-01-codevember-number-one</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-01-codevember-number-one</guid><pubDate>Tue, 01 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[A Little Thing About Blends]]></title><description><![CDATA[<p>I learnt a little thing whilst playing around with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">CSS blend modes</a> this morning which I thought I should share.</p>
 <p>I was just making a little visual:</p>
 <figure class="media-feature">
   <img src="/media/visualPlain.jpg" />
@@ -578,7 +668,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
   <figcaption>Visual with second blend modes</figcaption>
 </figure>
 <p>I'm gonna be having some fun with CSS Blend Modes! Chroma key on video anyone?</p>
-]]></description><link>https://rumyra.com/posts/2016-10-20-a-little-thing-about-blends</link><guid isPermaLink="true">https://rumyra.com/posts/2016-10-20-a-little-thing-about-blends</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>It’s been a year since I wrote for Geek Mental Health week about my (then) recent experiences with depression. It’s both strange and fitting that it’s a year on.</p>
+]]></description><link>https://blog.rumyra.com/2016-10-20-a-little-thing-about-blends</link><guid isPermaLink="true">https://blog.rumyra.com/2016-10-20-a-little-thing-about-blends</guid><pubDate>Thu, 20 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[A Year On...]]></title><description><![CDATA[<p>It’s been a year since I wrote for Geek Mental Health week about my (then) recent experiences with depression. It’s both strange and fitting that it’s a year on.</p>
 <h3>It’s been one hell of a year.</h3>
 <p>Re-reading the article now it seems such a sensible read. I really felt like I was on the road to recovery in last October, but the road was longer than I expected, and I’m pretty sure there’s still a long way to go.</p>
 <p>I’d had nearly a couple of months off over the summer and was integrated back into work by the time I wrote that article. Looking back now of course that was not enough time, it was rushed. Not just because you start to feel better and so think you <em>are</em> better, but people around you are urging you to get better as well and that’s because they want you to be better. Unfortunately it’s not that simple. I was still recovering from quite a big shock.</p>
@@ -592,24 +682,11 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 <p>As with these things days are still a struggle. And it comes and goes in waves. But I was with my mum the other day, who said I was noticeably different, I didn’t look so withdrawn and colourless. I don’t feel so colourless anymore, I don’t feel like a shell, I feel like there’s something inside me again. I hold on to this.</p>
 <p>Last year was about being unwell and I stand by my last article, if you feel unwell please seek help, because this year, for me, this year has been about getting better. I hope now I can focus on getting well.</p>
 <p>But, don’t try to rush getting better, I know it’s an easy thing to say. I’ve never wanted my mental health to define me, even before the crash of last year, so I never give myself a break. This isn’t healthy, when you’re sick, you need to recover.</p>
-]]></description><link>https://rumyra.com/posts/2016-10-05-a-year-on</link><guid isPermaLink="true">https://rumyra.com/posts/2016-10-05-a-year-on</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all. In fact you might even be reading this in an airport. It's not a long one, I've been a bit out of touch with the travelling, but there's still some gems 💎</p>
+]]></description><link>https://blog.rumyra.com/2016-10-05-a-year-on</link><guid isPermaLink="true">https://blog.rumyra.com/2016-10-05-a-year-on</guid><pubDate>Wed, 05 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[✨ Rumyra's Cool Links! ✨]]></title><description><![CDATA[<p>I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all. In fact you might even be reading this in an airport. It's not a long one, I've been a bit out of touch with the travelling, but there's still some gems 💎</p>
 <p><a href="https://twitter.com/onishiweb">Adam's</a> been doing some great writing recently, check out <a href="http://adamonishi.com/">his blog</a> if you don't already. <a href="http://adamonishi.com/2016/08/web-components-and-progressive-enhancement/">This article about Web Components and progressive enhancements</a> is especially cool.</p>
 <p>Something also super helpful for me recently was <a href="https://blog.codecentric.de/en/2016/07/getting-started-webpack/">this blog post from Daniel Mies</a> about getting started with webpack. I was postCSS/cssnext-ing and not only was <a href="https://twitter.com/danielmies">Daniel</a> extremely helpful (super cool person to follow), but so was his post.</p>
 <p><a href="http://mewo2.com/notes/terrain/">Generate your own map</a> using a really well thought out process and well documented. In face check out <a href="http://mewo2.com/">Martin's homepage</a> it appears everything he does is a pretty cool link.</p>
 <p>Not audio enough for you yet? I've been checking out and playing around with <a href="https://github.com/Tonejs/Tone.js">Tone.js</a> recently. It's a super nice layer over the Web Audio API. Me and <a href="https://twitter.com/_2xAA">Sam</a> put together a cool thing which I will share after I've stopped demoing it at conferences. (I promise it's super cool).</p>
 <p>Not cool enough for you yet?  Check out <a href="http://executabledreams.net/B/emojiwin">this insane emoji fest</a> - solitare style graphics on canvas - also supports multi touch events! Yup, I think it's actually too cool. 🎶💥🎉😎💙</p>
 <p>Oh and it's my birthday in a month. Yes, I know you're thinking: 'What the 😳 can I get Ruth? She's already got like 5 MIDI controllers...' Well you can totally <a href="https://www.paypal.me/rumyra">donate to the Holtzmanns glasses fund</a>. Yes I super think having a <a href="http://www.liveforfilm.com/2016/08/04/ghostbusters-you-can-buy-holtzmanns-glasses/">pair of these</a> from the recent Ghostbusters would be super cool to VJ in 😎-&gt;😆 Hell I'd even wear them when writing these cool links posts, and that would easily make them ten times cooler!</p>
-]]></description><link>https://rumyra.com/posts/2016-08-23-Rumyras-Cool-Links-23-08-16</link><guid isPermaLink="true">https://rumyra.com/posts/2016-08-23-Rumyras-Cool-Links-23-08-16</guid></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>Doing a lot of prototyping in the past, having <a href="http://fontawesome.io/">Font Awesome</a> as part of my front end starter files was always really handy for quickly adding icons when I was building a UI.</p>
-<p>Nowadays we are more aware that using a font to represent icons isn’t necessarily the most accessible thing to do for everyone, <a href="https://www.youtube.com/watch?v=9xXBYcWgCHA">as Serend explains here</a>.</p>
-<p>So as I’m whipping up a website right at this moment I thought it a good opportunity to take the first steps to swap out the font for svgs. So…</p>
-<h5><a href="https://github.com/Rumyra/Font-Awesome-SVGs">Here’s a repo with font awesome icons as svgs</a></h5>
-<ol>
-<li>I forked the Font Awesome repo so I can keep it as up to date with the original as I can.</li>
-<li>I added an SVG folder to add all the generated glyphs to.</li>
-<li>I used <a href="https://www.npmjs.com/package/font-blast">font blast</a> to generate SVGs from a font, a la <a href="https://sarasoueidan.com/blog/icon-fonts-to-svg/">Sara Soueidan mentions in her blog post here</a>.</li>
-<li>To include the SVG’s I used the CSS Inline SVG Sprites method, <a href="https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/">again described by Sara here</a>. It seemed the easiest to integrate with the set up I already had, as I was using classes to add icons to elements.</li>
-</ol>
-<p>The most long winded part was making sure I had all the correct icons - I think a good addition to this repo would be a generated spite sheet with stylesheet companion and easy reference classes. I’ve opened an issue 😎</p>
-<p>———————————————</p>
-<p>All Font Awesome licensing etc… still applies. Info etc… is in the origin <a href="https://github.com/FortAwesome/Font-Awesome">readme here</a></p>
-]]></description><link>https://rumyra.com/posts/2016-07-25-Font-Awesome-SVGs</link><guid isPermaLink="true">https://rumyra.com/posts/2016-07-25-Font-Awesome-SVGs</guid></item></channel></rss>
+]]></description><link>https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</link><guid isPermaLink="true">https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</guid><pubDate>Tue, 23 Aug 2016 00:00:00 GMT</pubDate></item></channel></rss>

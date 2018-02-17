@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Fifteen
-date: '2016-11-22'
+title: "Codevember Number Fifteen"
+date: 2016-11-22
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - d3
 - audio-api
 status: published
-layout: post.html
-image: superSun.jpg
+image: media/superSun.jpg
 summary: "Today's is a little bit trickier as we have to create arc elements drawn in a circle that increase their outer arc with our data."
 ---
 
@@ -19,7 +18,7 @@ summary: "Today's is a little bit trickier as we have to create arc elements dra
 Today's inspiration is:
 
 <figure>
-  <img src="media/superSun.jpg" />
+  <img src="/media/superSun.jpg" />
   <figcaption>The Super Sun</figcaption>
 </figure>
 

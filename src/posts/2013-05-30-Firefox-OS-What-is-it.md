@@ -1,13 +1,12 @@
 ---
 layout: post.html
-title: 'Firefox OS: What is it?'
-date: '2013-05-30'
+title: "Firefox OS: What is it?"
+date: 2013-05-30
 category: craft-code
 tags:
 - firefoxos
 - craft-code
 status: published
-layout: post.html
 image: null
 summary: "So you may have caught wind of some phones that were released recently - namely the Geeksphone"
 ---

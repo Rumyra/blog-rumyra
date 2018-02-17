@@ -1,12 +1,11 @@
 ---
 layout: post.html
-title: So I like making stuff...
-date: '2013-11-28'
+title: "So I like making stuff..."
+date: 2013-11-28
 tags: brain-dribble
 category: brain-dribble
 status: published
-layout: post.html
-image: null
+
 summary: "I got into crochet a couple of years ago. I was bought a book on how to do it, by my then housemates, cos they knew I liked making stuff."
 ---
 

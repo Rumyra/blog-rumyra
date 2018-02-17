@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Eleven And Twelve
-date: '2016-11-20'
+title: "Codevember Number Eleven And Twelve"
+date: 2016-11-20
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - new-css-thangs
 - audio-api
 status: published
-layout: post.html
-image: null
+
 summary: "This is an experiment in symmetry. An effect that would be great in the final audio vis software."
 ---
 

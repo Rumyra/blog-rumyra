@@ -8,8 +8,7 @@ tags:
 - css
 - grid
 status: published
-layout: post.html
-image: "media/cssGridBook.jpg"
+image: media/cssGridBook.jpg
 summary: "Wow I almost wrote 2018 then! It's here CODEVEMBER!! ALL THE EMOJIS! I haven't written much this year, it's been pretty busy..."
 ---
 
@@ -40,7 +39,7 @@ Don't worry, I _have_ done some more visuals this year I want to share, so expec
 INSPIRATION Y'ALL :D You know how much I luv inspiration. Check out this book
 
 <figure>
-  <img src="media/cssGridBook.jpg" />
+  <img src="/media/cssGridBook.jpg" />
   <figcaption>Make and Break the Grid</figcaption>
 </figure>
 
@@ -60,7 +59,7 @@ So to start simple here's the first day.
 Inspired by this lovely image:
 
 <figure>
-  <img src="media/cssGrid1.jpg" />
+  <img src="/media/cssGrid1.jpg" />
   <figcaption>Simple Image Grid</figcaption>
 </figure>
 

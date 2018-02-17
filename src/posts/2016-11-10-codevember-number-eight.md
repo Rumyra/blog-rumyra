@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Eight
-date: '2016-11-10'
+title: "Codevember Number Eight"
+date: 2016-11-10
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - new-css-thangs
 - audio-api
 status: published
-layout: post.html
-image: null
+
 summary: "So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM..."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Thirteen and Fourteen
-date: '2016-11-21'
+title: "Codevember Number Thirteen and Fourteen"
+date: 2016-11-21
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - d3
 - audio-api
 status: published
-layout: post.html
-image: superGraphic.jpg
+image: media/superGraphic.jpg
 summary: Before I start I want to give a big shout out to Ben (@benjaminbenben) who was helping me with some performance stuff I having trouble with.
 ---
 
@@ -31,7 +30,7 @@ We need data to get d3 to really do anything, but we have that, we have this arr
 ### Number Thirteen: Super Chart
 
 <figure>
-  <img src="media/superGraphic.jpg" />
+  <img src="/media/superGraphic.jpg" />
   <figcaption>Cover of Super Graphic book by Tim Leong</figcaption>
 </figure>
 
@@ -40,7 +39,7 @@ My inspiration for this series is from the book _Super Graphic_ by Tim Leong. It
 So letâ€™s start with this example:
 
 <figure>
-  <img src="media/superCharts.jpg" />
+  <img src="/media/superCharts.jpg" />
   <figcaption>The Super Charts</figcaption>
 </figure>
 
@@ -92,7 +91,7 @@ You can already see the difference in performance compared to previous days. Iâ€
 What can I say - this one is probably the most me so far!
 
 <figure>
-  <img src="media/superColours.jpg" />
+  <img src="/media/superColours.jpg" />
   <figcaption>The Super Charts</figcaption>
 </figure>
 

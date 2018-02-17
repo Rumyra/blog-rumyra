@@ -1,12 +1,11 @@
 ---
 layout: post.html
-title: CSS Dev Conf
-date: '2013-10-30'
+title: "CSS Dev Conf"
+date: 2013-10-30
 tags: brain-dribble
 category: brain-dribble
 status: published
-layout: post.html
-image: null
+
 summary: "Recently I was lucky enough to have an awe inspiring holiday to Colorado, but I managed to plant CSS Dev Conference within it."
 ---
 

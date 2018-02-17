@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: I got a Physical Web Beacon!
-date: '2016-06-13'
+title: "I got a Physical Web Beacon!"
+date: 2016-06-13
 category: craft-code
 tags:
 - beacon
@@ -9,13 +9,12 @@ tags:
 - ble
 - physical web
 status: published
-layout: post.html
-image: beacon.jpg
+image: media/beacon.jpg
 summary: "Dan gave me a beacon! (Well Paul gave him some beacons and then he gave me one, so thanks both)."
 ---
 
 <figure>
-  <img src="media/beacon.jpg" />
+  <img src="/media/beacon.jpg" />
 </figure>
 
 Yay
@@ -35,7 +34,7 @@ All I want to do is alter the URL which is being emitted by the device, that’s
 - Switch your beacon on and check it. I have the latest version of Chrome installed on my phone, so if I check my notifications under *'Chrome'* it says _'Scanning for physical web devices'_ and then pops up with the URL set on the beacon, with an easy clickable link. Phew well that’s much easier than typing in a url! It also means your beacon is working. (If you don't have notifications switched on for Chrome [check out this video](https://docs.pushmote.com/docs/how-to-enable-chromes-physical-web-extension-on-the-ios))
 
 <figure class="media-feature">
-  <img src="media/chromeNoti.jpg" />
+  <img src="/media/chromeNoti.jpg" />
 </figure>
 
 - I want to change this url. I’m going to be carrying around the device in my handbag, so I’ll put my blog on it. Something to note is new physical web devices don’t accept non https urls.  Now here’s the deal, apps I tried that *didn’t* work are: [Beacon Tools](https://itunes.apple.com/us/app/beacon-tools/id1094371356?mt=8), [eBeacon](https://itunes.apple.com/us/app/ebeacon-ibeacon-eddystone/id730279939?mt=8) and [MyBeacon](https://itunes.apple.com/us/app/my-beacon-best-beacon-manager/id850255614?mt=8) Thank you to [Hemanth](https://twitter.com/gnumanth), [Dan](https://twitter.com/dan_jenkins), [Jean-François](https://twitter.com/jefbinomed) and [Francois](https://github.com/beaufortfrancois) for they’re advice as I finally installed [Physical Web app](https://itunes.apple.com/fr/app/physical-web/id927653608?mt=8) and sure enough managed to change the url.

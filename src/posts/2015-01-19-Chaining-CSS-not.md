@@ -1,18 +1,17 @@
 ---
 layout: post.html
-title: Chaining CSS :not()
-date: '2015-01-19'
+title: "Chaining CSS :not()"
+date: 2015-01-19
 category: craft-code
 tags: craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "I found myself using the CSS psuedo class :not() the other day. It proved superbly useful."
 ---
 
 I found myself using the CSS psuedo class <code>:not()</code> the other day. It proved superbly useful. For those that are unaware, by adding it to your CSS, you can choose <b>not</b> to affect a set of elements.
 
-<pre class="language-css"><code>myelement:not(.ofthisclass) { style: property; }</code></pre>
+<pre class="language-css"><code>myelement:not(.ofthisclass) { style: "property; }</code></pre>
 
 There's a couple of good resources about it in the <a href="http://css-tricks.com/almanac/selectors/n/not/">CSS Tricks Almanac</a> or the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:not">MDN docs</a>.
 

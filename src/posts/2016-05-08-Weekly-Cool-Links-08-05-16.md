@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: 📢 Announcement Emoji&#58; Weekly Cool Links!*
-date: '2016-05-08'
+title: "📢 Announcement Emoji: Weekly Cool Links!*"
+date: 2016-05-08
 category: brain-dribble
 tags:
 - weekly
@@ -10,8 +10,7 @@ tags:
 - cool
 - things
 status: published
-layout: post.html
-image: null
+
 summary: "People have shared with me a number of cool things this week, along side the other cool things I've seen, I thought that's all we really needed this week!"
 ---
 

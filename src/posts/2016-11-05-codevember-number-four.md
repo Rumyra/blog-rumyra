@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Four
-date: '2016-11-05'
+title: "Codevember Number Four"
+date: 2016-11-05
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - simple-html-css
 - audio-api
 status: published
-layout: post.html
-image: bridgetQuiver.jpg
+image: media/bridgetQuiver.jpg
 summary: "We're in it for the long haul - so we're still using the same technique. Stick with me."
 ---
 

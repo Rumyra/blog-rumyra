@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Two
-date: '2016-11-02'
+title: "Codevember Number Two"
+date: 2016-11-02
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - simple-html-css
 - audio-api
 status: published
-layout: post.html
-image: bridgetSquares.jpg
+image: media/bridgetSquares.jpg
 summary: "I’ve gone straight for something a bit weird for day two. But we’re not doing too much different from day one."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: JSConf Uruguay
-date: '2016-05-02'
+title: "JSConf Uruguay"
+date: 2016-05-02
 category: speak-write-mentor
 tags:
 - conference
@@ -9,8 +9,7 @@ tags:
 - slides
 - MIDI
 status: published
-layout: post.html
-image: null
+
 summary: "Which was amazing! Montevideo was so pretty, the conference was brilliant, the people I met were all so friendly."
 ---
 

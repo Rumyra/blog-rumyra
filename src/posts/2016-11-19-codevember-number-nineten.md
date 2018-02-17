@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number Nine And Ten
-date: '2016-11-19'
+title: "Codevember Number Nine And Ten"
+date: 2016-11-19
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - new-css-thangs
 - audio-api
 status: published
-layout: post.html
-image: null
+
 summary: "Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do..."
 ---
 

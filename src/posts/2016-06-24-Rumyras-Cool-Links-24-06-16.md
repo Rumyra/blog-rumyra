@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: ✨ Rumyra's Cool Links! ✨
-date: '2016-06-24'
+title: "✨ Rumyra's Cool Links! ✨"
+date: 2016-06-24
 category: cool-links
 tags:
 - weekly
@@ -10,8 +10,7 @@ tags:
 - cool
 - things
 status: published
-layout: post.html
-image: null
+
 summary: null
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Tweet activated rose
-date: '2015-03-30'
+title: "Tweet activated rose"
+date: 2015-03-30
 category: craft-code
 tags:
 - arduino
@@ -11,8 +11,7 @@ tags:
 - wearables
 - craft-code
 status: published
-layout: post.html
-image: featureCode.jpg
+image: media/featureCode.jpg
 summary: "TLDR; I crocheted a rose, a couple of rows of which contained wire, I then sewed LEDs on the rose in a parallel circuit."
 ---
 
@@ -21,7 +20,7 @@ summary: "TLDR; I crocheted a rose, a couple of rows of which contained wire, I 
 <p>TLDR; I crocheted a rose, a couple of rows of which contained wire, I then sewed LEDs on the rose in a parallel circuit. This post describes how I made it flash when someone tweets with a specified string, head down to the bottom of the post if you don't care about the code, there's a cool video :)</p>
 
 <figure class="media-feature">
-	<img src="media/featureCode.jpg" alt="Lit up crocheted rose, with equipment and code running to make it flash" />
+	<img src="/media/featureCode.jpg" alt="Lit up crocheted rose, with equipment and code running to make it flash" />
 	<figcaption></figcaption>
 </figure>
 

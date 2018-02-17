@@ -1,14 +1,13 @@
 ---
 layout: post.html
-title: A Little Thing About Blends
-date: '2016-10-20'
+title: "A Little Thing About Blends"
+date: 2016-10-20
 category: craft-code
 tags:
 - css
 - blend-modes
 status: published
-layout: post.html
-image: visualPlain.jpg
+image: media/visualPlain.jpg
 summary: "I learnt a little thing whilst playing around with CSS blend modes this morning which I thought I should share."
 ---
 

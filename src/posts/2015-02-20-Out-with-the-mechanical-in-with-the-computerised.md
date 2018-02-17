@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Out with the mechanical, in with the 'computerised'
-date: '2015-02-20'
+title: "Out with the mechanical, in with the 'computerised'"
+date: 2015-02-20
 category: brain-dribble
 tags:
 - goodbye
@@ -10,8 +10,7 @@ tags:
 - time
 - brain-dribble
 status: published
-layout: post.html
-image: oldnnew.jpg
+image: media/oldnnew.jpg
 summary: "I like to think I'm comfortable with new technology, that I'm a woman who embraces new exciting developments in the world around her."
 ---
 
@@ -20,7 +19,7 @@ I like to think I'm comfortable with new technology, that I'm a woman who embrac
 I always want to urge people to try new things, new things can be better, worried that those that are 'happy with what they have' could be missing out on better processes, saving time, seeing more awesome.
 
 <figure class="media-feature">
-	<img src="media/oldnnew.jpg" alt="old mechanical janome sewing machine next to new computerised sewing machine">
+	<img src="/media/oldnnew.jpg" alt="old mechanical janome sewing machine next to new computerised sewing machine">
 	<figcaption></figcaption>
 </figure>
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: The Colour Black
-date: '2016-05-14'
+title: "The Colour Black"
+date: 2016-05-14
 category: craft-code
 tags:
 - black
@@ -9,8 +9,7 @@ tags:
 - sass
 - art
 status: published
-layout: post.html
-image: rothko.jpg
+image: media/rothko.jpg
 summary: "When I was studying art in college, one of the first things we were taught when painting, was not to use the colour black, to mix it instead."
 ---
 
@@ -18,7 +17,7 @@ When I was studying art in college, one of the first things we were taught when 
 
 
 <figure class="media-feature">
-  <img src="media/rothko.jpg" alt="An image of Rothkos black on maroon painting, black squares on maroon background" />
+  <img src="/media/rothko.jpg" alt="An image of Rothkos black on maroon painting, black squares on maroon background" />
   <figcaption>Rothko, Black on Maroon 3</figcaption>
 </figure>
 

@@ -10,6 +10,10 @@
 /* set colours, fonts, sizes & breakpoints */
 @import 'partials/_settings.scss';
 
+/* body & html */
+@import 'partials/_main-partials.scss';
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HTML ELEMENTS */
 /* headers, paragraphs, lists, formatting etc... */
 @import 'partials/_typographic-elements.scss';
@@ -27,7 +31,6 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PAGE PARTIALS */
 
-@import 'partials/_main-partials.scss';
 @import 'partials/_main-nav.scss';
 @import 'partials/_header.scss';
 @import 'partials/_footer.scss';

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: I want a sarcasm element!
-date: '2014-11-14'
+title: "I want a sarcasm element!"
+date: 2014-11-14
 category: brain-dribble
 tags:
 - element
@@ -9,8 +9,7 @@ tags:
 - tag
 - brain-dribble
 status: published
-layout: post.html
-image: null
+
 summary: "For aaaggees now I've wanted a way to express my sarcasm over the internets. When you're typing this can be pretty hard..."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Codevember Number One
-date: '2016-11-01'
+title: "Codevember Number One"
+date: 2016-11-01
 category: craft-code
 tags:
 - codevember
@@ -9,8 +9,7 @@ tags:
 - simple-html-css
 - audio-api
 status: published
-layout: post.html
-image: bridgetBook.jpg
+image: media/bridgetBook.jpg
 summary: "Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser."
 ---
 
@@ -152,11 +151,11 @@ So let’s start with 'Rattle'. It’s a simple one where we can just create som
 #screen section {
   height:8vh; margin: 3vh;
   background-color: mediumorchid;
-  background-image: linear-gradient(45deg, mediumorchid 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, mediumorchid 41%, mediumorchid 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, mediumorchid 91% );
+  background-image: media/ linear-gradient(45deg, mediumorchid 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, mediumorchid 41%, mediumorchid 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, mediumorchid 91% );
   background-size: 2vh 2vh;
 }
 #screen section:nth-of-type(2n) {
-  background-image: linear-gradient(135deg, indianred 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, indianred 41%, indianred 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, indianred 91% );
+  background-image: media/ linear-gradient(135deg, indianred 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, indianred 41%, indianred 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, indianred 91% );
 }
 </code></pre>
 

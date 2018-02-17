@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: ✨ Rumyra's Cool Links! ✨
-date: '2016-08-23'
+title: "✨ Rumyra's Cool Links! ✨"
+date: 2016-08-23
 category: cool-links
 tags:
 - weekly
@@ -10,8 +10,7 @@ tags:
 - cool
 - things
 status: published
-layout: post.html
-image: null
+
 summary: "I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all."
 ---
 

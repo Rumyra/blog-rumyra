@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Learning & Skills Group Conference
-date: '2013-06-23'
+title: "Learning & Skills Group Conference"
+date: 2013-06-23
 tags:
 - conference
 - mobile
@@ -9,7 +9,6 @@ tags:
 - speak-write-mentor
 category: speak-write-mentor
 status: published
-layout: post.html
 image: null
 summary: "Last Tuesday I was privilege to speak at the Learning & Skills Group Conference at Kensington Olympia along with the amazing Terence Eden."
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: How To Be On Fire
-date: '2017-05-17'
+title: "How To Be On Fire"
+date: 2017-05-17
 category: brain-dribble
 tags:
 - hair
@@ -9,8 +9,7 @@ tags:
 - fire
 - vienna
 status: published
-layout: post.html
-image: hair.jpg
+image: media/hair.jpg
 summary: "So the other day I shared a relatively crazy experience I had in Vienna last week."
 ---
 
@@ -36,7 +35,7 @@ Still, I wasn't injured, the flames were out and like he re-assured me throughou
 Anyway, all is well that ends well and I visited my babe of a hairdresser yesterday. By the time I'd explained the events of the evening she had rightfully sorted out the escapade. And really I think I quite like the new hair length ☺️
 
 <figure class="media-feature">
-  <img src="media/hair.jpg" />
+  <img src="/media/hair.jpg" />
   <figcaption>Before and after photos of the hair fiasco</figcaption>
 </figure>
 

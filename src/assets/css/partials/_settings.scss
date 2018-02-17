@@ -1,3 +1,10 @@
+
+// colours
+// sizings
+// fonts
+// breakpoints
+
+// -------------------------- colours
 $blue: hsla(213, 35%, 25%, 1);
 $purple: hsla(302, 15%, 39%, 1);
 $pink: hsla(339, 37%, 55%, 1);
@@ -15,34 +22,76 @@ $brand4: $pink;
 $brand5: $purple;
 $brand6: $blue;
 
+$craftCode: $pink;
+$brainDribble: $purple;
+$speakWrite: $peach;
+
 $white: $brightWhite;
 $black: $black;
 
 $errorColour: $pink;
 $successColour: $blue;
 
-//2.2 Font imports & settings
-@include font-face('Playfair', '../fonts/PlayfairDisplay-Regular');
-@include font-face('Playfair', '../fonts/PlayfairDisplay-Bold', bold);
-@include font-face('Playfair', '../fonts/PlayfairDisplay-Italic', normal, italic);
-@include font-face('Playfair', '../fonts/PlayfairDisplay-BoldItalic', bold, italic);
+// -------------------------- sizings
+$goldenRatio: 1.618;
+
+// top and bottom space
+$verticalSpace: $goldenRatio*1em !default;
+// left and right space
+$gutter: $goldenRatio*1em !default;
+
+
+// -------------------------- fonts
 @include font-face('Lora', '../fonts/Lora-Regular');
 @include font-face('Lora', '../fonts/Lora-Bold', bold);
 @include font-face('Lora', '../fonts/Lora-Italic', normal, italic);
 @include font-face('Lora', '../fonts/Lora-BoldItalic', bold, italic);
 
 $font:'Lora', 'Baskerville', 'Georgia', serif !default;
-$fontSize:1em !default;
-$lineHeight:1.8 !default;
-$letterSpacing:0.05em;
+$fontSize: 1em !default;
+$lineHeight: $goldenRatio !default;
+$letterSpacing: 0.01em;
 
-$headerFont: 'Playfair', 'Baskerville', 'Georgia', serif !default;
-$headerLineHeight:1.5;
+$headerFont: 'Lora', 'Baskerville', 'Georgia', serif !default;
+$headerLineHeight: 1;
 
-// top and bottom space
-$verticalSpace:1.8em !default;
-// left and right space
-$gutter:1.8em !default;
+%bigHeader {
+  font-family: $headerFont;
+  font-size: $fontSize*$goldenRatio*$goldenRatio*$goldenRatio;
+  font-weight: normal;
+  line-height: $headerLineHeight;
+}
+
+%subHeader {
+	font-family: $headerFont;
+  font-size: $fontSize*$goldenRatio*$goldenRatio;
+  font-weight: normal;
+  line-height: $headerLineHeight;
+}
+
+%smallCaps {
+	font-family: $headerFont;
+  font-size: $fontSize;
+  font-weight: normal;
+  line-height: $headerLineHeight;
+  text-transform: uppercase;
+}
+
+%readingText {
+	font-family: $font;
+  font-size: $fontSize*$goldenRatio;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+%normalText {
+	font-family: $font;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+
 
 // use with breakpoint mixin like @include until($small) or @include at-least($screenLarge)
 $screenSmall:620px;

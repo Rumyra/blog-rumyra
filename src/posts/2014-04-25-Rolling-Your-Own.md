@@ -1,12 +1,11 @@
 ---
 layout: post.html
-title: Rolling Your Own
-date: '2014-04-25'
+title: "Rolling Your Own"
+date: 2014-04-25
 tags: brain-dribble
 category: brain-dribble
 status: published
-layout: post.html
-image: null
+
 summary: "I don't like to spend a lot of time getting ready in the morning. I like to spend a lot of time in the shower, cos showers are nice"
 ---
 

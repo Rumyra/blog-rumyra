@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Choosing a colour scheme
-date: '2014-08-18'
+title: "Choosing a colour scheme"
+date: 2014-08-18
 tags:
 - colour
 - colour-scheme
@@ -10,8 +10,7 @@ tags:
 - craft-code
 category: craft-code
 status: published
-layout: post.html
-image: Screen-Shot-2014-08-17-at-17.15.07.png
+image: media/Screen-Shot-2014-08-17-at-17.15.07.png
 summary: "I thought I'd document how I usually go about deciding on colours for a new website design."
 ---
 
@@ -22,7 +21,7 @@ I'm currently working on a personal project and have already put together some i
 For this project I only have the subject matter for inspiration. Usually I would have a fair idea of look and feel in my head before I start looking for colour influence. However this one is very much an open book.
 
 <figure>
-	<img src="media/Screen-Shot-2014-08-17-at-17.15.07.png" />
+	<img src="/media/Screen-Shot-2014-08-17-at-17.15.07.png" />
 	<figcaption></figcaption>
 </figure>
 
@@ -33,7 +32,7 @@ From there I can start to see common colours, what I like, what I don't like, th
 The next step is to use the <i>shape tool (U)</i> to draw rectangles which will make up my palette. The shape tool is a good choice as you can edit the colours easily via the <i>Layers Palette</i>. The size of the rectangles is relevant too. As I am going for a <b>light</b> look (with a pale background) rather than a dark look, I will make the dominant light coloured rectangle larger.
 
 <figure>
-	<img src="media/Screen-Shot-2014-08-17-at-17.36.42.png" />
+	<img src="/media/Screen-Shot-2014-08-17-at-17.36.42.png" />
 	<figcaption></figcaption>
 </figure>
 
@@ -44,7 +43,7 @@ I then create other same size rectangles for the schemes other colours.
 At this point the colours aren't too important, as it's easy to edit and change them. Which I will evidently do as the design progresses.
 
 <figure>
-	<img src="media/Screen-Shot-2014-08-17-at-18.01.57.png" />
+	<img src="/media/Screen-Shot-2014-08-17-at-18.01.57.png" />
 	<figcaption></figcaption>
 </figure>
 
@@ -57,7 +56,7 @@ This final rectangle I find important. It acts to converge all the colours and g
 And here it is - the first draft of my colour palette for my new design. The next thing to do is to get it into a browser, as no doubt it will change and develop after I start designing. I must remember to post here what makes the final cut :)
 
 <figure class="media-feature" style="background:none;">
-	<img src="media/Screen-Shot-2014-08-17-at-18.25.33.png" />
+	<img src="/media/Screen-Shot-2014-08-17-at-18.25.33.png" />
 	<figcaption></figcaption>
 </figure>
 

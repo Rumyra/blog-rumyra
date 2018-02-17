@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Just a quick Friday tip
-date: '2015-01-30'
+title: "Just a quick Friday tip"
+date: 2015-01-30
 tags:
 - article
 - comment
@@ -11,8 +11,7 @@ tags:
 - craft-code
 category: craft-code
 status: published
-layout: post.html
-image: null
+
 summary: "I know a lot of you out there are already aware of this and to you it will seem obvious..."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post.html
-title: Font Awesome SVGs
-date: '2016-07-25'
+title: "Font Awesome SVGs"
+date: 2016-07-25
 category: craft-code
 tags:
 - font
@@ -9,8 +9,7 @@ tags:
 - svg
 - web-code
 status: published
-layout: post.html
-image: null
+
 summary: "Doing a lot of prototyping in the past, having Font Awesome as part of my front end starter files was always really handy for quickly adding icons when I was building a UI."
 ---
 

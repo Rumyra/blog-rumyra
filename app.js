@@ -52,7 +52,7 @@ Metalsmith(__dirname)
     site: {
       title: 'Rumyra\'s Blog',
       description: 'Personal blog of Ruth John',
-      url: 'https://rumyra.com'
+      url: 'https://blog.rumyra.com'
     }
   }))
   .destination('./docs')

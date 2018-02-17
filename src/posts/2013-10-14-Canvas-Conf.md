@@ -1,14 +1,13 @@
 ---
 layout: post.html
-title: Canvas Conf
-date: '2013-10-14'
+title: "Canvas Conf"
+date: 2013-10-14
 tags:
 - canvas
 - conference
 - speak-write-mentor
 category: speak-write-mentor
 status: published
-layout: post.html
 image: null
 summary: "At the start of this month, I was very privileged to be asked to speak at Canvas Conf"
 ---
