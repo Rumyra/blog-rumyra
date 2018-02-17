@@ -14,11 +14,12 @@
     <div class="section__posts">
       <ul class="posts__list">
         {{#each pagination.files }}
+        {{#if this.image}}
+        <li class="post-link__container has-image" style="background-image:url({{this.image}})">
+        {{else}}
         <li class="post-link__container">
+        {{/if}}
           <a class="post-link" href="/{{ this.path }}">
-            {{#if this.image}}
-              {{>picture class="post-link__image" url=this.image}}
-            {{/if}}
             <h2 class="post-link__title">{{ this.title }}</h2>
             <p class="post-link__date"><time datetime="{{moment this.date 'YYYY-MM-DD' }}">{{moment this.date 'dddd, Do MMMM YYYY' }}</time></p>
             <section class="post-link__preview">{{{ markdown this.summary }}}</section>
