@@ -7,7 +7,7 @@ tags:
 - brain-dribble
 category: brain-dribble
 status: published
-image: null
+
 summary: "I was sitting at breakfast when my Mum entered the room, rushing around in a flurry, explaining to both me and my Dad why she was running late."
 ---
 

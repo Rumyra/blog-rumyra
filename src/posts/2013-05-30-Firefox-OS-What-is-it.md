@@ -7,7 +7,7 @@ tags:
 - firefoxos
 - craft-code
 status: published
-image: null
+
 summary: "So you may have caught wind of some phones that were released recently - namely the Geeksphone"
 ---
 

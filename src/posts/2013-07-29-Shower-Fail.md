@@ -7,7 +7,7 @@ tags:
 - shower
 - brain-dribble
 status: published
-image: null
+
 summary: "So I fell over in the shower this morning. I say in the shower, I ended up outside of it."
 ---
 

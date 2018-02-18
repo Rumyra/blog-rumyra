@@ -9,7 +9,7 @@ tags:
 - speak-write-mentor
 status: published
 category: speak-write-mentor
-image: null
+
 summary: "Earlier this week I found myself in the middle of very flat Norfolk"
 ---
 

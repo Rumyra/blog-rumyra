@@ -9,7 +9,7 @@ tags:
 - speak-write-mentor
 category: speak-write-mentor
 status: published
-image: null
+
 summary: "Last Tuesday I was privilege to speak at the Learning & Skills Group Conference at Kensington Olympia along with the amazing Terence Eden."
 ---
 

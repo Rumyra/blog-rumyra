@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Sat, 17 Feb 2018 17:39:40 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[This blogs styleguide]]></title><description><![CDATA[<h2>Main Header</h2>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Sun, 18 Feb 2018 22:11:07 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[This blogs styleguide]]></title><description><![CDATA[<h2>Main Header</h2>
 <h3>Sub Header</h3>
 <h5>Small caps</h5>
 <p class="body__text">This is a regular text size paragraph. Skate ipsum dolor sit amet, judo air boned out Christ air ollie impossible locals. Salad grind masonite indy grab bearings cess slide slappy. Dudesblood smith grind axle hang ten rail slide coper downhill. Tail boneless slide Omar Hassan coping chicken wing axle set.</p>
@@ -63,132 +63,7 @@ const screen = document.querySelector('#screen'),
 <li>Soursop</li>
 <li>Star fruit</li>
 </ol>
-]]></description><link>https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</link><guid isPermaLink="true">https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</guid><pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[My Journey of DevOps Discovery]]></title><description><![CDATA[<p>I'm going to take you on a journey. This is the journey of my career thus far and the discoveries that have made dealing with DevOps more pleasant.</p>
-<figure class="" markdown="1">
-<figcaption><a href='https://unsplash.com/photos/ioyEITUD2G8'>Photo of a figure in a hoody walking down a road by Tegan Mierle on Unsplash</a></figcaption>
-<picture>
-	<img src="/images/journey.jpg" alt="Photo by Tegan Mierle on Unsplash" />
-</picture>
-</figure>
-<p>First I want to make something clear. I consider myself a JavaScript developer, previously a Java and .Net developer. Throughout my career I've technically been a &quot;Full Stack&quot; developer but operations have never been my passion. Anything I can do to make the ops side of things easier leaves me with more time to code - more time to do what I love.</p>
-<p>What follows is a progression of techniques I use to make managing servers easier. I am not suggesting that one technique replaces the prior though. There are times when each of these techniques can be useful to me today.</p>
-<p>So let's start way back at the beginning with young naïve Marcus and how he approached all server configuration and management:</p>
-<h2>Welcome to the terminal</h2>
-<p>When I was first learning about managing servers all my interaction was through either entering commands in the command line (usually copy &amp; pasted from StackOverflow) or running some installer directly on the machine. Servers were unique, well cared for creatures. Each had their own quirks and were often jack-of-all-trades machines, running several different applications. When something new needed installing I would log on to each machine and repeat the same process to get whatever is needed set up.</p>
-<p>This took time, my clumsy fingers made mistakes and I constantly feared hard drive corruption. There was little to no documentation to say exactly how each machine was setup and configured. Production and dev machines could have their differences without anyone being aware and new staff were nervous to make changes fearing what impact it could have.</p>
-<p>Clearly this wasn't going to scale much. We need something better. We need reproducibility.</p>
-<h2>Say hello to bash scripts</h2>
-<p>The next logical step was to put those manually typed commands into a bash or batch script to make it easier to apply to multiple machines. We still need to run the file on each server but now we can be sure that the same commands are run on each - assuming each are already set up the same.</p>
-<p>Bash scripts also have the added documentation of being self-documenting (sort-of). If you want to know how a server is configured and setup you can just read the code in the bash script and get an understanding of what was run.</p>
-<p>But this is still time consuming - rather than copy &amp; pasting these commands into a terminal window we are putting them into a script instead (often both as we want to check it actually works first). These scripts are hard to maintain as it's very rare they can be re-run on the same machine without unwanted side-effects. Emergency hotfixes applied directly to production machines can quite easily be forgotten about and not back-ported to other machines or scripts.</p>
-<p>Clearly we need to do more.</p>
-<h2>It's time to automate repetitive tasks</h2>
-<p>Wouldn't it be wonderful if we could tell the computer what we want it to have installed and it went away and figured out the <em>if</em> and <em>hows</em>? That's exactly what <strong>configuration management tools</strong> like <a href="https://www.ansible.com/">Ansible</a> and <a href="https://www.chef.io/">Chef</a> do.</p>
-<p>With these tools we can create small tasks that handle a piece of software and then we can use those tasks in larger descriptor files of our servers.</p>
-<p><small>Example NodeJS role in Ansible:</small></p>
-<pre><code># Install Node.js using packages crafted by NodeSource
----
-- name: Import the NodeSource GPG key into apt
-  apt_key:
-    url: https://keyserver.ubuntu.com/pks/lookup?op=get&amp;fingerprint=on&amp;search=0x1655A0AB68576280
-    id: &quot;68576280&quot;
-    state: present
-
-- name: Add NodeSource deb repository
-  apt_repository:
-    repo: 'deb https://deb.nodesource.com/node_{{ debian_repo_version }} {{ ansible_distribution_release }} main'
-    state: present
-
-- name: Install Node.js
-  apt:
-    pkg:
-      - nodejs
-    state: installed
-    update_cache: yes
-</code></pre>
-<p>When this role is referenced in our &quot;playbook&quot; (Ansible speak for server configuration file) Ansible will keep track of whether it needs to install NodeJS or not. If it's the first time being run on that machine it will go off, add the repository, install NodeJS and then keep a note of doing so. Subsequent runs on the playbook will skip over the NodeJS role unless there are changes made to it.</p>
-<p>This is wonderful, no longer do we have to worry about how our servers are set up. We can stop treating them as special, unique beasts and start thinking of them as simply a resource to be used up. We can now configure many servers with ease but we still need to go through the process of creating each of those servers, setting up networking, data stores etc.</p>
-<p>Still more boring Ops work we can automate.</p>
-<h2>Infrastructure as code</h2>
-<p>This is what has me most excited. As I said at the start of this article, I love to code and want to spend more of my time doing it. Being able to code infrastructure is amazing.</p>
-<p>So what exactly do I mean? Tools such as <a href="https://www.terraform.io/">Terraform</a> allow us to create descriptor files that outline what we want from a cloud provider (servers, databases, networking, security, etc.) and will go off and automatically provision it all for us.</p>
-<p><small>Example MySQL instance in AWS using Terraform:</small></p>
-<pre><code>module &quot;db&quot; {
-  identifier = &quot;demodb&quot;
-
-  engine            = &quot;mysql&quot;
-  engine_version    = &quot;5.7.19&quot;
-  instance_class    = &quot;db.t2.large&quot;
-  allocated_storage = 5
-  storage_encrypted = false
-
-  name     = &quot;demodb&quot;
-  username = &quot;user&quot;
-  password = &quot;Secret!&quot;
-  port     = &quot;3306&quot;
-}
-</code></pre>
-<p>Having our infrastructure in code gives us all the same benefits as with our source code:</p>
-<ul>
-<li>we get a history of all changes by using a version controls system and because of this, easy rollbacks and accountability.</li>
-<li>reproducibility - all servers in our production and test environments can be identical.</li>
-<li>infrastructure can be stored alongside our application code and can be used by our <abbr title="Continuous Integration">CI</abbr> tools to automate creation of new resources.</li>
-<li>self-documenting.</li>
-</ul>
-<p>This is where I was at the start of last year. It's a good place to be as it takes a lot of the stress out of managing servers. When you start working with hundreds of microservices though, it can become a new kind of headache. Depending on how you structure your infrastructure you could end up with the same infrastructure code repeated again and again for each of your microservices - each with their own machine instance, their own load balancer and auto scaling group. You end up with a LOT of infrastructure to manage and all the financial costs that come with that.</p>
-<p>So where do we go next?</p>
-<h2>Containers</h2>
-<figure class="" markdown="1">
-<figcaption><a href='https://unsplash.com/photos/tjX_sniNzgQ'>Photo by frank mckenna on Unsplash</a></figcaption>
-<picture>
-	<img src="/images/containers.jpg" alt="Photo of shipping containers by frank mckenna on Unsplash" />
-</picture>
-</figure>
-<p>This is where I'm at today.</p>
-<p>In the early days of <a href="https://www.docker.com/">Docker</a>, when the technology wasn't as mature as it is today, running production services within containers could be risky. When things went right it was great, but when things went wrong and you needed to debug the issue you had a whole new layer of complexity to debug. While this is still true to some extent today, things have come a long way.</p>
-<p>Enter <a href="https://kubernetes.io/">Kubernetes</a> - &quot;production-grade container orchestration&quot; as they call it. In it's most simple form, Kubernetes runs containers (be that Docker or otherwise) but there is so much more to it than that. One of the core concepts of Kubernetes is that of &quot;desired state&quot; and declarative configuration. You provide Kubernetes with a configuration (a yaml or json file) of <em>what</em> you want and it figures out the <em>how</em>. Kubernetes has a collection of controllers that constantly run and compare the current state of running services against the supplied desired state. If it finds any discrepancy it works to rectify it.</p>
-<p><small>Example of a Kubernetes deployment with a load balancer in front of two instances:</small></p>
-<pre><code>apiVersion: apps/v1beta1
-kind: Deployment
-metadata:
-  name: k8s-example
-spec:
-  selector:
-    matchLabels:
-      app: k8s-example
-  replicas: 2                                     # Number of instances to run within the cluster
-  template:                                       # This template is used to create the Kubernetes pods
-    metadata:
-      labels:
-        app: k8s-example
-    spec:
-      containers:
-      - name: k8s-example
-        image: http://example.com/k8s-example     # The Docker image to run within the container
-        ports:
-        - containerPort: 3000
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: k8s-example
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 3000
-  selector:
-    app: k8s-example
-</code></pre>
-<p>There's some really exciting things that can be done with Kubernetes. My personal favourite right now is the ability to spin up a deployed version of every pull request in it's own namespace within a Kubernetes cluster. This makes it much easier for others in my team to review UI changes as they have a working version they can take a look at without the frustrations that come from a shared dev environment.</p>
-<h2>What's next?</h2>
-<p>Things are pretty exciting right now. Both server resources and installed software can be coded and automated, taking much of the pain out of dealing with operations. So what is left for the future?</p>
-<p>I think the next &quot;big thing&quot; in the DevOps world would be the removal of the term &quot;DevOps&quot;. We're seeing the developer and operations worlds becoming more and more overlapped and I think this will continue until we see a cultural shift to just referring to these people as developers or similar.</p>
-<p>I also foresee security making big strides in the coming years. With all the recent and ongoing data breaches something needs to be done to help make the security of peoples applications clearer as they're no longer involved in the nitty-gritty details of things.</p>
-<hr />
-<p>I'm pretty excited to talk about this stuff with anyone who's interested. Feel free to reach out to me on <a href="https://twitter.com/Marcus_Noble_">Twitter</a> or <a href="https://mastodon.social/@AverageMarcus">Mastodon</a>.</p>
-]]></description><link>https://blog.rumyra.com/2018-01-02-my-journey-of-devops-discovery</link><guid isPermaLink="true">https://blog.rumyra.com/2018-01-02-my-journey-of-devops-discovery</guid><pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
+]]></description><link>https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</link><guid isPermaLink="true">https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</guid><pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
 <p>It's <strong>Sapphire</strong> subject today so here's a little audio vis instead of a grid practice, as it seemed to fit a little betterer.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="XzdVKJ" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember Hash 2" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/XzdVKJ/">Codevember Hash 2</a> by Rumyra (<a href="https://codepen.io/Rumyra">@Rumyra</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -226,17 +101,7 @@ spec:
   <img src="/media/cssGrid1.jpg" />
   <figcaption>Simple Image Grid</figcaption>
 </figure>
-]]></description><link>https://blog.rumyra.com/2017-11-02-codevember-hash-one</link><guid isPermaLink="true">https://blog.rumyra.com/2017-11-02-codevember-hash-one</guid><pubDate>Thu, 02 Nov 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hackathonarama 3: with great power comes great hacks]]></title><description><![CDATA[<p>For the third year running I attended <a href="https://2017.hackference.co.uk/">Hackference</a> again. Once again, a 1 day conference followed by a 24 hour hackathon and as always a really great weekend.</p>
-<div class="article__tweet" tweetID="921291636486885377"></div>
-<p>The conference was opened by <a href="https://twitter.com/JFKingsley">Jon Kingsley</a> talking about device hacking in a fetching cape.</p>
-<div class="article__tweet" tweetID="921294945125847040"></div>
-<p>The day included a wide range of great talks including <a href="https://twitter.com/Lily_2point0/status/921305171338125312">an integer that you can't use in JS</a>, <a href="https://twitter.com/edent/status/921311892919943169">calls to Ben's mother</a>, <a href="https://twitter.com/jna_sh/status/921313320254222336">a promise of cake</a>, <a href="https://twitter.com/JamieTanna/status/921330784841228288">live coding a slide clicker</a>, <a href="https://twitter.com/cbetta/status/921342143393910789">tips for releasing your website on Mars</a> and <a href="https://twitter.com/bevishalperry/status/921400192447983617">a sobering look at privacy</a>.</p>
-<div class="article__tweet" tweetID="921403371860439041"></div>
-<p>As always, the hackathon was great fun. While I didn't crank out my usual 4+ hacks this year (tiredness hit me hard) I did manage to tinker on a couple things. I managed to put together a fun little &quot;Virtual Stickers&quot; app that let you scan QR codes to unlock stickers that you could place on your screen and create a collage from. This could then be downloaded or shared with others. I also managed to put together a crude Alexa Flash Briefing to tell you what <a href="http://digitaloxford.com/">Digital Oxford</a> meetups were happening in the next week.</p>
-<p>Many great hacks came out of the weekend such as <a href="https://twitter.com/bevishalperry/status/922094521789435904">Tinder for GitHub</a>, <a href="https://twitter.com/bevishalperry/status/922083878889803776">GitHub contributions graph as music</a>, <a href="https://twitter.com/danielthepope/status/922097304999522310">Kudeliscope</a> and the ever useful <a href="https://twitter.com/danielthepope/status/922095102230753281">Is It a Bench?</a>.</p>
-<div class="article__tweet" tweetID="921326871056453632"></div>
-<p>Every year I find more and more friends at Hackference, new and old, many whom I only see at these events. I have so much love for <a href="https://twitter.com/ukmadlz">Mike</a> for putting on this event and providing me with the chance to connect with so many amazing people.</p>
-]]></description><link>https://blog.rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</link><guid isPermaLink="true">https://blog.rumyra.com/2017-10-31-hackathonarama-3-with-great-power-comes-great-hacks</guid><pubDate>Tue, 31 Oct 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[How To Be On Fire]]></title><description><![CDATA[<p>So the other day I shared a relatively crazy experience I had in Vienna last week.</p>
+]]></description><link>https://blog.rumyra.com/2017-11-02-codevember-hash-one</link><guid isPermaLink="true">https://blog.rumyra.com/2017-11-02-codevember-hash-one</guid><pubDate>Thu, 02 Nov 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[How To Be On Fire]]></title><description><![CDATA[<p>So the other day I shared a relatively crazy experience I had in Vienna last week.</p>
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thankfully gettin my hair sorted out after I CAUGHT IT ON FIRE in Vienna (ask <a href="https://twitter.com/csswizardry">@csswizardry</a> )<br><br>Expect totally on fire short haired Ruth 🔥</p>&mdash; Ruth John (@Rumyra) <a href="https://twitter.com/Rumyra/status/864100996422696960">May 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Anyway, thanks very much for everyone's concern and questions. I thought it probably deserved a little more explanation.</p>
@@ -689,4 +554,28 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 <p>Not audio enough for you yet? I've been checking out and playing around with <a href="https://github.com/Tonejs/Tone.js">Tone.js</a> recently. It's a super nice layer over the Web Audio API. Me and <a href="https://twitter.com/_2xAA">Sam</a> put together a cool thing which I will share after I've stopped demoing it at conferences. (I promise it's super cool).</p>
 <p>Not cool enough for you yet?  Check out <a href="http://executabledreams.net/B/emojiwin">this insane emoji fest</a> - solitare style graphics on canvas - also supports multi touch events! Yup, I think it's actually too cool. 🎶💥🎉😎💙</p>
 <p>Oh and it's my birthday in a month. Yes, I know you're thinking: 'What the 😳 can I get Ruth? She's already got like 5 MIDI controllers...' Well you can totally <a href="https://www.paypal.me/rumyra">donate to the Holtzmanns glasses fund</a>. Yes I super think having a <a href="http://www.liveforfilm.com/2016/08/04/ghostbusters-you-can-buy-holtzmanns-glasses/">pair of these</a> from the recent Ghostbusters would be super cool to VJ in 😎-&gt;😆 Hell I'd even wear them when writing these cool links posts, and that would easily make them ten times cooler!</p>
-]]></description><link>https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</link><guid isPermaLink="true">https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</guid><pubDate>Tue, 23 Aug 2016 00:00:00 GMT</pubDate></item></channel></rss>
+]]></description><link>https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</link><guid isPermaLink="true">https://blog.rumyra.com/2016-08-23-rumyra-s-cool-links</guid><pubDate>Tue, 23 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Font Awesome SVGs]]></title><description><![CDATA[<p>Doing a lot of prototyping in the past, having <a href="http://fontawesome.io/">Font Awesome</a> as part of my front end starter files was always really handy for quickly adding icons when I was building a UI.</p>
+<p>Nowadays we are more aware that using a font to represent icons isn’t necessarily the most accessible thing to do for everyone, <a href="https://www.youtube.com/watch?v=9xXBYcWgCHA">as Serend explains here</a>.</p>
+<p>So as I’m whipping up a website right at this moment I thought it a good opportunity to take the first steps to swap out the font for svgs. So…</p>
+<h5><a href="https://github.com/Rumyra/Font-Awesome-SVGs">Here’s a repo with font awesome icons as svgs</a></h5>
+<ol>
+<li>I forked the Font Awesome repo so I can keep it as up to date with the original as I can.</li>
+<li>I added an SVG folder to add all the generated glyphs to.</li>
+<li>I used <a href="https://www.npmjs.com/package/font-blast">font blast</a> to generate SVGs from a font, a la <a href="https://sarasoueidan.com/blog/icon-fonts-to-svg/">Sara Soueidan mentions in her blog post here</a>.</li>
+<li>To include the SVG’s I used the CSS Inline SVG Sprites method, <a href="https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/">again described by Sara here</a>. It seemed the easiest to integrate with the set up I already had, as I was using classes to add icons to elements.</li>
+</ol>
+<p>The most long winded part was making sure I had all the correct icons - I think a good addition to this repo would be a generated spite sheet with stylesheet companion and easy reference classes. I’ve opened an issue 😎</p>
+<p>———————————————</p>
+<p>All Font Awesome licensing etc… still applies. Info etc… is in the origin <a href="https://github.com/FortAwesome/Font-Awesome">readme here</a></p>
+]]></description><link>https://blog.rumyra.com/2016-07-25-font-awesome-svgs</link><guid isPermaLink="true">https://blog.rumyra.com/2016-07-25-font-awesome-svgs</guid><pubDate>Mon, 25 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[✨ Rumyra's Cool Links! ✨]]></title><description><![CDATA[<p>Phew, isn’t it warm 🌞🔥☀️*</p>
+<p>Well then, I guess it’s time for another instalment of ‘Rumyra’s Cool Links’ (the time will come when this has it’s own space).</p>
+<p><em>*For those viewing outside the UK it was 35 degrees yesterday and the country melted, we are currently trying to reanimate ourselves.</em></p>
+<p>Easily and undoubtedly top of my cool links this time is <a href="https://codepen.io/jakealbaugh/full/qNrZyw">Jake Albaugh’s arpeggiator</a>. I just can <em>not</em> get enough of this. What an inspired, solid, clever and useful piece of engineering. It basically sums up everything ever about ‘why do we have the audio api again?’.</p>
+<p>This. That is all. Thanks <a href="https://twitter.com/jake_albaugh">Mr. Albaugh</a></p>
+<p>There is also <a href="http://superlooper.universlabs.co.uk/">Superlooper</a> from <a href="http://www.universlabs.co.uk/">Univers Labs</a> which not only contains beautiful loops but also visuals which are just simple but inspirational. (Very close to my own doodles around A/V so they’ll be more like this I’m sure).</p>
+<p>If you want a hand with your audio visual creations <a href="https://twitter.com/likethemammal">Chris Dolphin</a> has created <a href="https://github.com/likethemammal/visualizer-micro">visualizer-micro.js</a> a teeny library wrapping just the analysis parts of the audio API, inspired by the methods from that ol’ dancer.js (man that feels like a decade ago right?).</p>
+<p>Other things that are cool include <a href="http://bigstory.ap.org/article/ab73d19c160c4c509dc6b9decfec3c0f/south-korea-uses-technology-help-pregnant-women-get-seats">a great use of beacon technology to help pregnant women</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=hKRLcQ2Y8kA">This talk I saw at JS Oxford last month</a> by <a href="https://twitter.com/ashok_menon">Ashok Menon</a> literally writing a language <em>with</em> a language, or something, it was all like 😳 Very cool tho.</p>
+<p>I know others have linked to it, but the tab’s been open so long I couldn’t not include it. This is a <a href="http://a.singlediv.com/">great showcase of what you can do with just one div and a love affair with CSS</a>.</p>
+<p>And if you’re still hot after all that go and buy yourself a cool print, I saw this one and thought it was cool: <a href="http://www.wearedorothy.com/shop/inside-information-minimoog">The insides of a Minimoog</a> featuring all your fav artists.</p>
+]]></description><link>https://blog.rumyra.com/2016-07-20-rumyra-s-cool-links</link><guid isPermaLink="true">https://blog.rumyra.com/2016-07-20-rumyra-s-cool-links</guid><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate></item></channel></rss>

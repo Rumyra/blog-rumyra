@@ -8,7 +8,7 @@ tags:
 - speak-write-mentor
 category: speak-write-mentor
 status: published
-image: null
+
 summary: "At the start of this month, I was very privileged to be asked to speak at Canvas Conf"
 ---
 
