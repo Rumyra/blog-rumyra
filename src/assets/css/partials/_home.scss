@@ -1,44 +1,67 @@
-.section__posts {}
+.section__posts {
+  padding: $verticalSpace $gutter;
+}
 
 .posts__list {
 	@include clearListStyles();
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: $gutter/2;
+	grid-gap: $gutter;
 }
 
 .post-link__container {
-	position: relative; overflow: hidden;
-	background-color: $pink;
-	background-image: linear-gradient(0deg, $pink, lighten($pink, 3%));
+  position: relative; overflow: hidden;
 
+  img {
+    position: absolute;
+    top: -10%; left: -10%;
+    width: auto; height: 60vh;
+    opacity: 0.2;
+    -webkit-filter: invert(1) brightness(80%);
+    filter: invert(1) brightness(80%);
+  }
+
+  .post-link, .post-link__title, .post-link__date, .post-link__preview p {
+    position: relative;
+    margin:0px; padding:0px;
+    text-shadow: none;
+    color: $white;
+    opacity: 1; z-index: 2;
+  }
 
   .post-link {
   	display: block;
+    padding: $verticalSpace $gutter;
   	text-decoration: none;
   }
 
-  .post-link, .post-link__title, .post-link__date, .post-link__preview {
-  	position: relative;
-  	margin:0px; padding:0px;
-  	text-shadow: none;
-  	color: $white;
-  	opacity: 1; z-index: 2;
+  // date
+  .post-link__date {
+    margin-bottom: $verticalSpace/2;
+    line-height: $goldenRatio;
+    @extend %smallCaps;
+    @include partBorder(0%, 20%, $white);
+
   }
 
   .post-link__title {
+    margin-bottom: $verticalSpace/3;
+    padding-bottom: 2px;
   	@extend %subHeader;
-  }
-  .post-link__date {
-  	@extend %smallCaps;
+    @include partBorder(0%, 20%, $white);
 
   }
+
   .post-link__preview {
 
   }
 }
 
 // colours & images
+.post-link__container {
+  background-color: $pink;
+  background-image: linear-gradient(0deg, $pink, lighten($pink, 3%));
+}
 .post-link__container:nth-of-type(1) {
 	background-color: $blue;
 	background-image: linear-gradient(0deg, $blue, lighten($blue, 3%));
@@ -50,36 +73,21 @@
 .post-link__container:nth-of-type(6), .post-link__container:nth-of-type(8) {
 	background-color: $peach;
 	background-image: linear-gradient(0deg, $peach, lighten($peach, 3%));
+  img {-webkit-filter: invert(1) brightness(150%);
+    filter: invert(1) brightness(150%);}
+  .post-link__title, .post-link__date, .post-link__preview p {color: $blue;}
+  .post-link__date, .post-link__title {@include partBorder(0%, 20%, $blue);}
 }
 .post-link__container:nth-of-type(9) {
 	background-color: $taupe;
 	background-image: linear-gradient(0deg, $taupe, lighten($taupe, 3%));
+  img {-webkit-filter: invert(1) brightness(150%);
+    filter: invert(1) brightness(150%);}
+  .post-link__title, .post-link__date, .post-link__preview p {color: $blue;}
+  .post-link__date, .post-link__title {@include partBorder(0%, 20%, $blue);}
 }
 
-.has-image {
-	background-size: 0px 0px;
-	&:before {
-		content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.3;
-    background-image: inherit;
-    background-color: inherit;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-blend-mode: overlay;
-	}
-}
+
 
 
 
