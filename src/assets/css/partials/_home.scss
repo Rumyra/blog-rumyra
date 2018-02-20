@@ -6,10 +6,11 @@
 	@include clearListStyles();
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-gap: $gutter;
   @include until($screenMedium) {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: $gutter/2;
   }
-	grid-gap: $gutter;
 }
 
 .post-link__container {
@@ -41,6 +42,7 @@
 
   .post-link {
     padding: $verticalSpace $gutter;
+    @include until($screenMedium) {padding: $verticalSpace/2 $gutter/2;}
   	text-decoration: none;
     &:hover {
       background-color: transparentize($white, 0.9);

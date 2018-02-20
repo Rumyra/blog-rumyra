@@ -14,7 +14,12 @@
         border:none; text-decoration:none;
         svg {
           width:auto; height:74px;
+          @include until($screenMedium) {height: 54px;}
           padding:$verticalSpace/2 $gutter/2;
+          @include until($screenSmall) {
+            height: 44px;
+            padding: $verticalSpace/2 $gutter/6;
+          }
           box-sizing:border-box;
           path {fill:$blue;}
         }
