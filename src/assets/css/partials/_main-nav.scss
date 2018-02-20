@@ -11,5 +11,6 @@
     @extend %smallCaps;
     text-align: center; line-height:1;
     color: $blue; text-decoration: none;
+    &:hover {text-decoration:underline;}
   }
 }

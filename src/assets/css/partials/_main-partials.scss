@@ -20,11 +20,14 @@ body {
   -ms-font-feature-settings:     "liga" 1;
   font-feature-settings:         "liga" 1;
   @include at-least($screenXlarge) { font-size: 112%; }
-  @include until($screenMedium) { font-size: 90%; }
-  @include until($screenSmall) { font-size: 80%; }
+  @include until($screenLarge) { font-size: 90%; }
+  @include until($screenMedium) { font-size: 80%; }
 }
 
 // remember to define focus styles!
 :focus { outline: thin dotted; }
 
-.wrapper {padding: $verticalSpace 0px;}
+.wrapper {
+  padding: $verticalSpace 0px;
+  max-width: 1400px; margin: 0px auto;
+}

@@ -11,6 +11,13 @@ h5, h6, .header__caps {@extend %smallCaps;}
 
 // there's already a main header for posts, so make sure h1 & h2 look smaller
 .article__body h1, .article__body h2 {@extend %subHeader;}
+.article__body h1, .article__body h2,
+.article__body h3, .article__body h4,
+.article__body h5, .article__body h6 {
+  @include partBorder(0%, 80%, $blue);
+  line-height: 1.2;
+}
+
 
 //2. PARAGRAPHS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 p, p.body__text {
@@ -72,7 +79,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {}
 //5. BLOCK LEVEL TEXT ELEMENTS~~~~~~~~~~~~~~~~~~~~
 
 //5.1. lists, navs and menus
-ol, ul, dl, menu[type="list"] {margin:$verticalSpace $gutter*2;}
+ol, ul, dl, menu[type="list"] {margin:$verticalSpace $gutter*2 $verticalSpace*2;}
 ul {list-style:circle inside;}
 ol {list-style-type:lower-roman; margin-left: $gutter*3;}
 li {margin:$verticalSpace/2 0px;}

@@ -24,14 +24,10 @@
 
     <div class="pagination">
       {{#if pagination.previous}}
-        <a href="/{{pagination.previous.path}}">&larr; Newer Posts</a>
-
-        {{#if pagination.next}}
-          |
-        {{/if}}
+        <a class="pagination--link" href="/{{pagination.previous.path}}">&laquo; Newer Posts</a>
       {{/if}}
       {{#if pagination.next}}
-        <a href="/{{pagination.next.path}}">Older Posts &rarr;</a>
+        <a class="pagination--link" href="/{{pagination.next.path}}">Older Posts &raquo;</a>
       {{/if}}
     </div>
 

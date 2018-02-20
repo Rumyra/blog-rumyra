@@ -1,18 +1,25 @@
 /*media*/
 img, audio, video {
   width: 100%; height: auto;
-  padding-bottom: $verticalSpace/2;
+  margin-bottom: $verticalSpace/2;
 }
 img {
   @include simple-vendor-prefix(box-sizing,border-box);
   display: block;
+  border: 1px solid $speakWrite;
 }
+.brain-dribble img {border-color: $brainDribble;}
+.craft-code img {border-color: $craftCode;}
 audio {}
 video {}
 
 figure {
   margin-bottom: $verticalSpace;
+  padding: 0px $gutter*2;
   @include partBorder(0%, 80%, $speakWrite);
+}
+figure.media__feature {
+  padding: 0px;
 }
 
 figcaption {
@@ -40,3 +47,5 @@ figcaption {
 
 /*Prevents modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices.*/
 audio:not([controls]) { display: none; height: 0; }
+
+iframe {margin-bottom: $verticalSpace;}
