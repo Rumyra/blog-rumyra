@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 20 Feb 2018 18:39:07 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[This blogs styleguide]]></title><description><![CDATA[<h2>Main Header</h2>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Thu, 22 Feb 2018 22:38:59 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[This blogs mini pattern library]]></title><description><![CDATA[<h2>Main Header</h2>
 <h3>Sub Header</h3>
 <h5>Small caps</h5>
 <p class="body__text">This is a regular text size paragraph. Skate ipsum dolor sit amet, judo air boned out Christ air ollie impossible locals. Salad grind masonite indy grab bearings cess slide slappy. Dudesblood smith grind axle hang ten rail slide coper downhill. Tail boneless slide Omar Hassan coping chicken wing axle set.</p>
@@ -63,7 +63,7 @@ const screen = document.querySelector('#screen'),
 <li>Soursop</li>
 <li>Star fruit</li>
 </ol>
-]]></description><link>https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</link><guid isPermaLink="true">https://blog.rumyra.com/2018-02-13-this-blogs-styleguide</guid><pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
+]]></description><link>https://blog.rumyra.com/2018-02-13-this-blogs-mini-pattern-library</link><guid isPermaLink="true">https://blog.rumyra.com/2018-02-13-this-blogs-mini-pattern-library</guid><pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Hash Two]]></title><description><![CDATA[<h3>Codevember Hash Two</h3>
 <p>It's <strong>Sapphire</strong> subject today so here's a little audio vis instead of a grid practice, as it seemed to fit a little betterer.</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="XzdVKJ" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember Hash 2" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/XzdVKJ/">Codevember Hash 2</a> by Rumyra (<a href="https://codepen.io/Rumyra">@Rumyra</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

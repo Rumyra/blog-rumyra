@@ -12,6 +12,19 @@
     grid-gap: $gutter/2;
   }
 }
+@supports not (display: grid) {
+  .post-link__container {
+    display:inline-block; width:30%;
+    margin:0px $gutter/2 $verticalSpace/2 0px;
+    vertical-align: middle;
+    @include until($screenMedium) {
+      width: 47%;
+    }
+    @include until(460px) {
+      width: 95%;
+    }
+  }
+}
 
 .post-link__container {
   position: relative; overflow: hidden;
@@ -42,6 +55,7 @@
 
   .post-link {
     padding: $verticalSpace $gutter;
+    display: block;
     @include until($screenMedium) {padding: $verticalSpace/2 $gutter/2;}
   	text-decoration: none;
     &:hover {

@@ -15,7 +15,7 @@ video {}
 
 figure {
   margin-bottom: $verticalSpace;
-  padding: 0px $gutter*2;
+  padding: 0px $gutter*4;
   @include partBorder(0%, 80%, $speakWrite);
 }
 figure.media__feature {

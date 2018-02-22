@@ -94,8 +94,8 @@ address {display:block; margin:$verticalSpace 0px;}
 //5.3. Quotes
 q {}
 blockquote {
-  margin: $verticalSpace $gutter;
-  padding: 0px $gutter;
+  margin: $verticalSpace $gutter*4;
+  padding: 0px;
   quotes:'"';
   &:before {
   	float: left;
@@ -113,7 +113,7 @@ blockquote {
 
 //5.4. Basic styling, see _prism.scss for colours etc... Code -> NB see 3. for <code> */
 pre {
-	margin-bottom: $verticalSpace;
+	margin:0px $gutter*2 $verticalSpace;
   padding: $verticalSpace $gutter;
   background-color:#1d1f21;
   font-size: 100%;

@@ -1,12 +1,13 @@
 ---
 layout: post.html
-title: "This blogs styleguide"
+title: "This blogs mini pattern library"
 date:   2018-02-13
 category: craft-code
 tags:
 - styleguide
+- pattern library
 - blog
-summary: "A mini styleguide for this blog, to help with content and styling"
+summary: "A mini pattern library for this blog, to help with content and styling"
 ---
 
 ## Main Header
