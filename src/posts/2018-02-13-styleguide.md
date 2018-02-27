@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "This blogs mini pattern library"
+title: "This blog's mini pattern library"
 date:   2018-02-13
 category: craft-code
 tags:
