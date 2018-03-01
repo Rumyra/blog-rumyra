@@ -35,6 +35,10 @@
 // article body content
 .article__body {
 	li, dt, dd {font-size:$fontSize*$goldenRatio; line-height:$lineHeight; letter-spacing:$letterSpacing;}
+	li li {
+		font-size:100%;
+		&:last-child {margin-bottom:0px;}
+	}
 	blockquote:before {color:$speakWrite;}
 	blockquote p {
 		margin: 0px; padding: $verticalSpace 0px;
