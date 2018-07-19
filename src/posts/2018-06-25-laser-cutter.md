@@ -72,7 +72,7 @@ Why this one? I had been looking at laser cutters for a few years actually. You 
 Now I don't use this blog for advertising or sponsorship in anyway, and this post isn't either. However if you are interested, this link will get you a discount on one should you feel like you need lasers in your life [https://glowforge.us/4sNRHd](https://glowforge.us/4sNRHd)
 
 
-### Thing's I now know about laser cutting which I didn't know before
+### What do you know about lasers now Ruth?
 
 I can cut fabric, well I knew I could, but it hadn't really crossed my mind. I had considered wood, perspex and leather, possibly cardboard & paper. But it's cool it cuts cotton, I make a lot of clothes, so I feel this could be great. Apparently you can engrave denim as well, this excites me.
 
