@@ -104,7 +104,7 @@ Metalsmith(__dirname)
   .build(function(err) {
     if (err) throw err;
 
-    app.listen(port, function () {
+    app.listen(port, '0.0.0.0', function () {
       console.log(`App listening at http://localhost:${port}`);
     });
   });
