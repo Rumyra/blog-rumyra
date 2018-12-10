@@ -1,0 +1,14 @@
+<figure class="{{ class }}" markdown="1">
+{{#if this.caption}}
+<figcaption>{{{ caption }}}</figcaption>
+{{/if}}
+<picture>
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/ar_16:9,c_fill/c_scale,w_auto,dpr_auto/{{image}}.webp" type="image/webp" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/{{image}}.png" type="image/png" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/{{image}}.webp" type="image/webp" media="(max-width: 659px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/{{image}}.png" type="image/png" media="(max-width: 659px)">
+	<img src="{{url}}" alt="{{ alt }}" />
+</picture>
+</figure>
+
+<!-- this is for images - for gifs and videos something else will be needed -->
