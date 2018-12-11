@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Mon, 10 Dec 2018 16:53:10 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Initial thoughts on Shera]]></title><description><![CDATA[<p>So the new series of Shera is out on Netflix.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 11 Dec 2018 16:20:15 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Initial thoughts on Shera]]></title><description><![CDATA[<p>So the new series of Shera is out on Netflix.</p>
 <p>Yes I know.</p>
 <p>Yes I have watched it.</p>
 <p>Yes people have asked me what I think.</p>
@@ -8,14 +8,15 @@
 <p>But, back to Shera. Bypassing the replacement of the best opening theme tune for the worst opening theme tune... here are some points:</p>
 <h3>Characters</h3>
 <p>I like how they have pretty much kept and developed most of the original characters, without feeling the need to add any to the mix, just shuffle it around a little. The baddies are the best. Shadow Weaver is excellent, she already was, but I am glad she's more of a focus and has stayed truly dark. Catra is interesting and I am missing Scorpia, hopefully she will be bought in in later episodes. More Hordak is needed.</p>
+<!-- TODO add a flag for different type images (size, look, crop etc...) -->
 <figure class="" markdown="1">
 <figcaption>The new Shera</figcaption>
 <picture>
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/ar_16:9,c_fill/c_scale,w_auto,dpr_auto/shera.webp" type="image/webp" media="(min-width: 660px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shera.png" type="image/png" media="(min-width: 660px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shera.webp" type="image/webp" media="(max-width: 659px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shera.png" type="image/png" media="(max-width: 659px)">
-	<img src="" alt="An image of Shera from the Netflix cartoon series" />
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/shera.webp" type="image/webp" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/shera.png" type="image/png" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shera.webp" type="image/webp" media="(max-width: 659px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shera.png" type="image/png" media="(max-width: 659px)">
+	<img src="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shera.png" alt="An image of Shera from the Netflix cartoon series" />
 </picture>
 </figure>
 <!-- this is for images - for gifs and videos something else will be needed -->
@@ -29,18 +30,18 @@
 <h3>Conclusion</h3>
 <p>Yeh I don't like it very much do I? Despite all of this is could be worse, I do thinks the baddies are tonnes better. Thing is there is one clincher: We're now missing the Sorceress, who really represented true, strong, powerful femininity.</p>
 <p>But having said all of this, I am already designing a Shadow Weaver top, so there's that.</p>
+<!-- TODO add a flag for different type images (size, look, crop etc...) -->
 <figure class="" markdown="1">
 <figcaption>This top is pretty epic</figcaption>
 <picture>
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/ar_16:9,c_fill/c_scale,w_auto,dpr_auto/shadow.webp" type="image/webp" media="(min-width: 660px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shadow.png" type="image/png" media="(min-width: 660px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shadow.webp" type="image/webp" media="(max-width: 659px)">
-	<source srcset="https://res.cloudinary.com/rumyra/image/upload/blog/shadow.png" type="image/png" media="(max-width: 659px)">
-	<img src="" alt="An image of Shadow Weaver from the Netflix cartoon series" />
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/shadow.webp" type="image/webp" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/shadow.png" type="image/png" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shadow.webp" type="image/webp" media="(max-width: 659px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shadow.png" type="image/png" media="(max-width: 659px)">
+	<img src="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/shadow.png" alt="An image of Shadow Weaver from the Netflix cartoon series" />
 </picture>
 </figure>
-<!-- this is for images - for gifs and videos something else will be needed -->
-]]></description><link>https://blog.rumyra.com/2018-12-10-initial-thoughts-on-shera</link><guid isPermaLink="true">https://blog.rumyra.com/2018-12-10-initial-thoughts-on-shera</guid><pubDate>Mon, 10 Dec 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Moving to a Chromebook]]></title><description><![CDATA[<p>So here's the deal. The macbook broke, it broke a long time ago, possibly January. The space bar just stopped working, I mean the keyboard was a mess anyway, but this time :rolling_eyes:</p>
+<!-- this is for images - for gifs and videos something else will be needed -->]]></description><link>https://blog.rumyra.com/2018-12-10-initial-thoughts-on-shera</link><guid isPermaLink="true">https://blog.rumyra.com/2018-12-10-initial-thoughts-on-shera</guid><pubDate>Mon, 10 Dec 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Moving to a Chromebook]]></title><description><![CDATA[<p>So here's the deal. The macbook broke, it broke a long time ago, possibly January. The space bar just stopped working, I mean the keyboard was a mess anyway, but this time :rolling_eyes:</p>
 <p>I took extreme action and popped it off and sticky taped it back on, with a new <em>improved</em> Ruth Crafted Button™</p>
 <p>Problem. Solved.</p>
 <p>Anyway, without going on a rant about Apple turning a blind eye, I was in no position to afford repairs. The <em>Genius'</em> were no help and I had not budgeted for a new laptop for at least another 12-18 months. I expect Apple hardware to last a good 24-36 months, really. I dunno maybe I'm optimistic.</p>
