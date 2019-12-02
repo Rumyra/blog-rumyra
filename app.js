@@ -19,6 +19,7 @@ const Handlebars = require('handlebars');
 const emoji = require('markdown-it-emoji');
 const moment = require('moment');
 const striptags = require('striptags');
+const drafts = require('metalsmith-drafts');
 
 const port = process.env.PORT || 8000;
 const oneDay = 86400000;
@@ -57,6 +58,7 @@ Metalsmith(__dirname)
   }))
   .destination('./docs')
   .use(date())
+  .use(drafts())
   .use(collections({
     posts: {
       pattern: 'posts/*',

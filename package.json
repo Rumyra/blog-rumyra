@@ -6,26 +6,27 @@
     "watch": "nodemon --exec npm start -e \"md,html,scss,js\" -i \"docs\""
   },
   "dependencies": {
-    "compression": "^1.7.3",
-    "express": "^4.16.4",
-    "handlebars": "^4.0.12",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
     "markdown-it-emoji": "^1.1.1",
     "metalsmith": "^2.1.0",
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections": "^0.9.0",
-    "metalsmith-define": "^2.0.1",
+    "metalsmith-define": "^2.1.2",
+    "metalsmith-drafts": "^1.0.0",
     "metalsmith-feed": "^0.2.0",
     "metalsmith-in-place": "^1.4.4",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-markdownit": "^0.5.0",
-    "metalsmith-pagination": "^1.4.1",
+    "metalsmith-pagination": "^1.5.0",
     "metalsmith-permalinks": "^0.5.0",
-    "metalsmith-sass": "^1.3.0",
-    "moment": "^2.22.2",
+    "metalsmith-sass": "^1.7.0",
+    "moment": "^2.24.0",
     "striptags": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.19.4"
   },
   "engines": {
     "node": "8"

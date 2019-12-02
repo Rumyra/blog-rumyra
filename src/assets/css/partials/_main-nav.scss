@@ -2,15 +2,21 @@
   padding: 0px $gutter;
   ul {
     @include clearListStyles();
+    padding-bottom: $verticalSpace;
     border-bottom: 1px solid $blue;
-  	display: flex; justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   a {
-  	display: inline-block;
-  	padding-bottom: $verticalSpace/2;
     @extend %smallCaps;
-    text-align: center; line-height:1;
+    line-height:1;
     color: $blue; text-decoration: none;
     &:hover {text-decoration:underline;}
+
+    svg {
+      display: block;
+      margin: auto;
+    }
   }
 }
