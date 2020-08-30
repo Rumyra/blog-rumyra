@@ -11,7 +11,7 @@ tags:
 category: craft-code
 status: published
 
-summary: "I remember someone stating a few months back: "I've only just realised the 'break' in break-points was referring to the design breaking, I thought it was device related"
+summary: "I remember someone stating a few months back: \"I've only just realised the 'break' in break-points was referring to the design breaking, I thought it was device related\""
 ---
 
 <p data-pullquote-bottom="I've only just realised the 'break' in break-points was referring to the design breaking, I thought it was device related.">I remember someone stating a few months back: "I've only just realised the 'break' in break-points was referring to the design breaking, I thought it was device related."</p>
