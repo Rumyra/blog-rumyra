@@ -32,5 +32,9 @@ From this I found some other useful articles. By now everyone knows someone who 
 - [An article from the BBC](https://www.bbc.co.uk/news/health-53269391)
 - [A first hand account from the Guardian](https://www.theguardian.com/commentisfree/2020/aug/05/brain-fog-phantom-smells-and-tinnitus-my-experience-as-a-covid-long-hauler)
 
+[23.09.20] EDIT: A couple more useful links
+
+- [Body Politic - an online support group](https://www.wearebodypolitic.com/covid19)
+- [Citizen Scientists Take on the Challenge of Long-Haul COVID-19](https://directorsblog.nih.gov/2020/09/03/citizen-scientists-take-on-the-challenge-of-long-haul-covid-19/)
 
 I'm personally positive about the future, at the moment now one knows what the long term side affects are. Yeh it sucked to be so ill and it continues to suck, but if I think about how it's better than a month ago, and a month before that surely that's a good thing 🙏.
