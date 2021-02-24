@@ -3,12 +3,12 @@ layout: post.html
 title: "Learning To Snowboard"
 date:   2019-02-17
 category: brain-dribble
+draft: true
 tags:
 - snowboard
 - learning
 image: media/sner.jpg
 summary: "A few years ago I started to learn to snowboard, it's probably the most demanded thing I have tried to do"
-draft: true
 ---
 
 A couple of years ago I ran away to Canada. I wasn't having a good time back then and my friends [Kevin]() and [Ben]() were out there. They could see things weren't too peachy for me and ordered me to come and stay on their couch for a couple of weeks.

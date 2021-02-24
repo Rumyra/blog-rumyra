@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Wed, 23 Sep 2020 12:00:34 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[c-19: Long Hauling]]></title><description><![CDATA[<p>I've been considering a c-19 follow up post for a while. Around the end of May I felt my consciousness start to kick in again, at that point it had been around 70 days. June was spent coming to terms with the world around me, what had happened and how to best cope with something that would probably be ongoing for a while to come. My life now is planning every day to compensate for my new level of health, both physically and mentally.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rumyra's Blog]]></title><description><![CDATA[Personal blog of Ruth John]]></description><link>https://blog.rumyra.com</link><generator>metalsmith-feed</generator><lastBuildDate>Wed, 24 Feb 2021 19:09:53 GMT</lastBuildDate><atom:link href="https://blog.rumyra.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Laser Cutting a Jigsaw Puzzle]]></title><description><![CDATA[<p>I took part in Remote Hack today, which is a monthly event where peeps get online and so some hacking together. No theme, no pressure, just whatever you want.</p>
+<p>Last week I did a jigsaw puzzle, I'm not into jigsaw puzzles, but someone lent me a 1000 piece and I thought I would give it a go. Seems lockdown appropriate. I ended up being pretty obsessed with finishing it - I'm not sure if that's because I wanted to or because it was taking up my entire kitchen table. But suffice to say it got me thinking about <em>making</em> jigsaw puzzles. I really like the idea of an abstract design.</p>
+<p>So I thought I would use the hackday to try the POC (Proof Of Concept) - is this viable? Could I laser cut a generative jigsaw?</p>
+<p>My generative SVG software was fired up. Someone asked if I could share it later, but honestly it doesn't work how I intended at the moment and is <em>very</em> finicky. I need to go down the SVG v1 vs v2 rabbit hole a bit more. Browsers are <em>really</em> good at rendering SVGs - my laser cutter software, not so much.</p>
+<p>I had found a jigsaw piece generator on the Glowforge forums (Glowforge is my laser cutter) and although part of me thinks programming jigsaws is probably a very interesting activity, I am happy at this time just to grab an SVG for the cut.</p>
+<p>Anyway, I made an SVG with the image from my software and the found generated cut path:</p>
+<figure>
+  <picture>
+    <img src="../media/jigFirstTry.svg" alt="An SVG of random shapes and a jigsaw style cut" />
+</picture>
+</figure>
+<p>I used corrugated cardboard as the trial. It's great that you can both cut this material and engrave it as it means you can prototype really easily and cheaply. I actually took a delivery for my neighbour a couple of days ago and when she came round to collect it, I was a bit 'can I have the box for this weird thing I want to do at the weekend?'.</p>
+<p>Here's video of the cut [I AM SORRY IT IS 35MB]:</p>
+<p><video src="../media/Laser-cut-jigsaw-puzzle.mp4" controls></video></p>
+<p>Anyway... <em>doing</em> the jigsaw was a pain in the arse. Card did <strong>not</strong> work for this 🙈. However the jigsaw bit was great. I then set about making a couple more with more substantial materials. Here's a couple of pics:</p>
+<!-- TODO add a flag for different type images (size, look, crop etc...) -->
+<figure class="" markdown="1">
+<figcaption>MDF jigsaw pieces</figcaption>
+<picture>
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/mdfjig.webp" type="image/webp" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/mdfjig.png" type="image/png" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/mdfjig.webp" type="image/webp" media="(max-width: 659px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/mdfjig.png" type="image/png" media="(max-width: 659px)">
+	<img src="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/mdfjig.png" alt="A photo of the mdf jigsaw pieces" />
+</picture>
+</figure>
+<!-- this is for images - for gifs and videos something else will be needed -->
+<!-- TODO add a flag for different type images (size, look, crop etc...) -->
+<figure class="" markdown="1">
+<figcaption>Perspex Jigsaw</figcaption>
+<picture>
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/perspexjig.webp" type="image/webp" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:good/blog/perspexjig.png" type="image/png" media="(min-width: 660px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/perspexjig.webp" type="image/webp" media="(max-width: 659px)">
+	<source srcset="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/perspexjig.png" type="image/png" media="(max-width: 659px)">
+	<img src="https://res.cloudinary.com/rumyra/image/upload/ar_16:9,c_fill/c_scale,w_auto,dpr_auto,q_auto:eco/blog/perspexjig.png" alt="A photo of the perspex jigsaw completed" />
+</picture>
+</figure>
+<!-- this is for images - for gifs and videos something else will be needed -->
+<p>The first was made with MDF, this worked <em>really</em> well. The second I made with perspex, which is amazingly tactile, it just feels lovely, but the engrave doesn't work as well as the MDF so you may as well be doing a one colour jigsaw.</p>
+<p>Both of them suffered from quite a wobble when the jigsaw pieces were together. Where the laser cuts gives you about a gap of 0.25mm, which isn't noticeable on most things, but actually is on a jigsaw.</p>
+<p>But having said that they work so well as a nice 'cup of tea and jigsaw activity'. Especially considering there's not much else to do at the moment ☺️</p>
+]]></description><link>https://blog.rumyra.com/2021-01-30-laser-cutting-a-jigsaw-puzzle</link><guid isPermaLink="true">https://blog.rumyra.com/2021-01-30-laser-cutting-a-jigsaw-puzzle</guid><pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate></item><item><title><![CDATA[My first year in review: 2020]]></title><description><![CDATA[<p>One thing which was on my goal list for 2020 was to write more. I mean there is no post here from 2019, so it wasn't difficult to have a higher velocity than that. And I posted twice last year so thumbs-ups me 👍</p>
+<p>I've been thinking about dedicating some time to writing each week, we'll see how it goes. Most of the time I have loads of things I <em>want</em> to write about, but don't feel confident about sharing, what is, by and large, my opinion. I think I should address this.</p>
+<p>As it's customary on personal blog sites to write a year in review, I wrote an absurdly long post about last year. It would seem a lot happened even though it actually didn't 🤷🏻‍♀️. Rather than subject you, dear reader, to ramblings, here are some bullet points:</p>
+<ul>
+<li>Prominent year in modern history</li>
+<li>Started like any other, helped out on a project; <a href="https://alpha.stupidcities.com/">Stupid Cities</a> created by <a href="https://twitter.com/josephwilk">Joseph Wilk</a></li>
+<li>Started showing covid symptoms on 22nd March, one week before the UK entered it's first lockdown</li>
+<li>Got very sick for a very long time (still have long covid symptoms almost a year later)</li>
+<li>June onwards started a contract with Google DevRel team, to help them with the backlog of MDN docs that needed writing for new Web APIs: This was wonderful and I will do a proper run down in a separate post</li>
+<li>Pushed myself hard over the summer health wise. Big shout out to the ladies; Michelle, Tash and Amanda. Who not only supported me when I was super ill (thanks for the deliveries 💜), but also knew how important it was to be there socially too.</li>
+<li>Mozilla got in contact seeing if I could come on board and help with MDN tasks: Obviously a big yes, I love writing for MDN and long may it continue!</li>
+<li>Ran two 20hr week contracts from October until Christmas, which honestly was a <em>lot</em> considering my health, but also amazing so...</li>
+<li><a href="https://livejs.network/">Live JS</a> is very much alive and well. They all made some great things in lockdown and it's one of my fav monthly catch ups. I took a big ol' backseat and want to say thank you to all of them for being so understanding.</li>
+<li><a href="https://tholman.com/">Tim H</a> was incredibly supportive considering recording podcast episodes became difficult with my health. He <a href="https://generativeartistry.com/episodes/">released a couple</a> we thankfully had in the drawer and was super patient and now we're recording regularly again 🙌</li>
+<li>My sister had a baby girl and although I couldn't go and see them and it was difficult, they are both beautiful and healthy and send me pictures every 5 minutes 😆</li>
+</ul>
+]]></description><link>https://blog.rumyra.com/2021-01-14-my-first-year-in-review-2020</link><guid isPermaLink="true">https://blog.rumyra.com/2021-01-14-my-first-year-in-review-2020</guid><pubDate>Thu, 14 Jan 2021 00:00:00 GMT</pubDate></item><item><title><![CDATA[c-19: Long Hauling]]></title><description><![CDATA[<p>I've been considering a c-19 follow up post for a while. Around the end of May I felt my consciousness start to kick in again, at that point it had been around 70 days. June was spent coming to terms with the world around me, what had happened and how to best cope with something that would probably be ongoing for a while to come. My life now is planning every day to compensate for my new level of health, both physically and mentally.</p>
 <p>One of the most important things to present itself to me over the past few weeks (and pushed me to finally write) was I am not alone. Maybe the world wasn't aware of the post covid complications, maybe WHO kept it quiet to avoid more panic, maybe focussing on the current, still very dangerous situation, we find ourselves all in is more the priority (btw it is, wear a mask). But covid is not a two week illness <em>like the flu.</em> Sure everybody's experience with it is somewhat unique, but the growing number of people that are just <em>not well</em> after having it is finally being exposed. They call it <em>long-tail covid</em>, when you're not infectious anymore, but are still undergoing a plethora of health related issues, which last for months.</p>
 <p>I personally thought my ongoing post experience of organs not <em>feeling quite right</em> and severe lack of energy could have been related to something underlying which explained why I had it so bad to start with. I experienced brain fog regularly because of my migraines so assumed I was getting auras in my sleep again. I can feel my heavy lungs when I breath, I can't digest food and my heart has weird sporadic episodes of not pumping, or pumping hard.</p>
 <p>I didn't talk about it to a great number of people, those around me were so grateful I was ok, I was grateful for that and grateful I was ok, my GP was grateful I was ok, but a quick mention in a slack channel gave me a link to a great twitter thread (thank you <a href="https://twitter.com/kellective">Kelly</a>!) which then fortunately opened a world I didn't realise I needed.</p>
@@ -597,39 +655,4 @@ function drawCircles() {
 <p>However I think we should probably move into a better, more performant way of creating and manipulating DOM els for audio vis, don't you?</p>
 <p data-height="300" data-theme-id="1345" data-slug-hash="BQprdW" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #10" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/BQprdW/">Codevember AudioVis #10</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-]]></description><link>https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</guid><pubDate>Sat, 19 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Eight]]></title><description><![CDATA[<h3>Part Two: Random Cool New Features</h3>
-<p>So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM, but before I do that I want to introduce some new features we have in simple CSS that can really help our visuals later down the track. Our inspiration for this set is a little tumblr called <a href="http://intothecontinuum.tumblr.com/">Archery: Into the Continuum</a>. Here I want to take inspiration from some of these random gifs, not exactly replicate them.</p>
-<p>So first up, this gif:</p>
-<figure>
-  <img src="http://67.media.tumblr.com/e829a18961367c45baf1c2dcbcea47a0/tumblr_mr6p8hVjSQ1qfjvexo2_r1_500.gif" />
-</figure>
-<h3>Custom Properties</h3>
-<p><em>Or</em> JavaScript all up in your CSS</p>
-<p>And the much talked about CSS Custom properties. ✨💥💜 We can really use these to our advantage when doing audio vis work as we can reference them directly in our JavaScript and basically update our CSS in realtime.</p>
-<p>Custom properties are declared at the start of your CSS with a <code>:root</code> block and can be references throughout your CSS, much like (but not entirely) pre-processor variables. So instead of declaring properties that make sense as far as styling goes, I’m going to be changing them within my JavaScript, so it makes sense to name them something a little more explicit.</p>
-<p>For this we’ll create a <code>—level</code> property, and just grab one of the items of the <code>frequencyData</code> array and pipe it in. This is where the magic happens:</p>
-<pre><code class="language-css">:root {
-  --level: 1;
-}</code></pre>
-<pre><code class="language-javascript">document.documentElement.style.setProperty('--level', frequencyData[10]/255);
-</code></pre>
-<p>This —level property will now update <em><em>within our  css</em></em>. Oh. My. Gawd. I know right… 😱</p>
-<p>Magic!</p>
-<p>So if we use it on the opacity for instance:</p>
-<pre><code class="language-css">i {
-  opacity: var(--level);
-}</code></pre>
-<p>Boom! Opacity of <code>i</code> updated! In real time, in our CSS.</p>
-<p>I know - all the wows!</p>
-<p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/yVeoJo/">yVeoJo</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>]]></description><link>https://blog.rumyra.com/2016-11-10-codevember-number-eight</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-10-codevember-number-eight</guid><pubDate>Thu, 10 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Codevember Number Five]]></title><description><![CDATA[<p>Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow...</p>
-<p>Today is Bridget Riley's Static 4:</p>
-<figure>
-  <img src="/media/bridgetStatic.jpg" />
-  <figcaption>Bridget Riley : Static 4</figcaption>
-</figure>
-<p>This harks back to day three really, but it’s just a nice easy one. Albeit getting the circles to grow from the centre. Again nothing too special here, but it’ll look super good laid over a video I’m sure 😃</p>
-<p data-height="300" data-theme-id="1345" data-slug-hash="yVypOR" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #5" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/yVypOR/">Codevember AudioVis #5</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-<p>Let’s end on a classic: <a href="https://www.youtube.com/watch?v=KYSPfTMyJ2s">A to the K - Cyprus Hill</a>.</p>
-]]></description><link>https://blog.rumyra.com/2016-11-06-codevember-number-five</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-06-codevember-number-five</guid><pubDate>Sun, 06 Nov 2016 00:00:00 GMT</pubDate></item></channel></rss>
+]]></description><link>https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</link><guid isPermaLink="true">https://blog.rumyra.com/2016-11-19-codevember-number-nine-and-ten</guid><pubDate>Sat, 19 Nov 2016 00:00:00 GMT</pubDate></item></channel></rss>
