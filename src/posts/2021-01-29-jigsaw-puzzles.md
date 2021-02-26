@@ -13,9 +13,9 @@ tags:
 - hackday
 ---
 
-I took part in Remote Hack today, which is a monthly event where peeps get online and so some hacking together. No theme, no pressure, just whatever you want.
+I took part in [Remote Hack](https://remotehack.space/hacks/10.html) today, which is a monthly event where peeps get online and do some hacking together. No theme, no pressure, just whatever you want.
 
-Last week I did a jigsaw puzzle, I'm not into jigsaw puzzles, but someone lent me a 1000 piece and I thought I would give it a go. Seems lockdown appropriate. I ended up being pretty obsessed with finishing it - I'm not sure if that's because I wanted to or because it was taking up my entire kitchen table. But suffice to say it got me thinking about _making_ jigsaw puzzles. I really like the idea of an abstract design.
+Last week I did a jigsaw puzzle, I'm not into jigsaw puzzles, but someone lent me a 1000 piece and I thought I would give it a go. Seemed lockdown appropriate. I ended up being pretty obsessed with finishing it - I'm not sure if that's because I wanted to or because it was taking up my entire kitchen table. But suffice to say it got me thinking about _making_ jigsaw puzzles. I really like the idea of an abstract design.
 
 So I thought I would use the hackday to try the POC (Proof Of Concept) - is this viable? Could I laser cut a generative jigsaw?
 
@@ -47,7 +47,7 @@ The first was made with MDF, this worked _really_ well. The second I made with p
 
 Both of them suffered from quite a wobble when the jigsaw pieces were together. Where the laser cuts gives you about a gap of 0.25mm, which isn't noticeable on most things, but actually is on a jigsaw.
 
-But having said that they work so well as a nice 'cup of tea and jigsaw activity'. Especially considering there's not much else to do at the moment ☺️
+But having said that, they work so well as a nice 'cup of tea and jigsaw activity'. Especially considering there's not much else to do at the moment ☺️
 
 
 
